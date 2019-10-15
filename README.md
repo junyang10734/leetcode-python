@@ -4,7 +4,7 @@
 
 ### array（数组）
 
-### DaC（动态规划）
+### DaC（分治）
 * 53 Maximum Subarray [easy]
 * 169 Majority Element [easy] 
 
@@ -13,3 +13,7 @@
 * 70 Climbing Stairs [easy]
 * 121 Best Time to Buy and Sell Stock [easy]
 * 198 House Robber [easy]
+* 1130 Minimum Cost Tree From Leaf Values [medium]
+
+### Greedy（贪心算法）
+* 1130 Minimum Cost Tree From Leaf Values [medium]
