@@ -3,6 +3,10 @@
 ### Data-Structure（基本数据结构的实现）
 
 ### Array（数组）
+* 217 Contains Duplicate [easy]
+
+### Hash Table（哈希表）
+* 204 Count Primes [easy]
 
 ### DaC（分治）
 * 53 Maximum Subarray [easy]
@@ -17,4 +21,6 @@
 
 ### Greedy（贪心算法）
 * 122 Best Time to Buy and Sell Stock II [easy]
+* 406 Queue Reconstruction by Height [medium]
+* 763 Partition Labels [medium]
 * 1130 Minimum Cost Tree From Leaf Values [medium]

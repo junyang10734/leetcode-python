@@ -1,5 +1,5 @@
 # Best Time to Buy and Sell Stock II
-class Solution:
+class Solution1:
     def maxProfit(self, prices: List[int]) -> int:
         buy = 0
         profits = 0
@@ -18,4 +18,13 @@ class Solution:
                     profits = profits + prices[i] - buy
                     flag = 0
         
+        return profits
+
+
+class Solution2:
+    def maxProfit(self, prices: List[int]) -> int:
+        profits = 0
+        for i in range(1,len(prices)):
+            if prices[i] > prices[i-1]:
+                profits = profits + prices[i] - prices[i-1]
         return profits
