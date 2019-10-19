@@ -16,4 +16,5 @@
 * 1130 Minimum Cost Tree From Leaf Values [medium]
 
 ### Greedy（贪心算法）
+* 122 Best Time to Buy and Sell Stock II [easy]
 * 1130 Minimum Cost Tree From Leaf Values [medium]
