@@ -1,8 +1,8 @@
 # leetcode-python
 
-### data-structure（基本数据结构的实现）
+### Data-Structure（基本数据结构的实现）
 
-### array（数组）
+### Array（数组）
 
 ### DaC（分治）
 * 53 Maximum Subarray [easy]
