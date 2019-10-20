@@ -6,6 +6,7 @@
 * 38 Count and Say [easy]
 
 ### Array（数组）
+* 1 Two Sum [easy]
 * 217 Contains Duplicate [easy]
 
 ### Hash Table（哈希表）
@@ -18,6 +19,7 @@
 * 108 Convert Sorted Array to Binary Search Tree [easy]
 
 ### Math（数学）
+* 7 Reverse Integer [easy]
 * 171 Excel Sheet Column Number [easy]
 
 ### DaC（分治）
