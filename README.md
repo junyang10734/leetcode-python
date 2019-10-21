@@ -3,16 +3,26 @@
 ### Data-Structure（基本数据结构的实现）
 
 ### String（字符串）
+* 13 Roman to Integer [easy]
+* 14 Longest Common Prefix [easy]
+* 20 Valid Parentheses [easy]
+* 28 Implement strStr() [easy]
 * 38 Count and Say [easy]
 
 ### Array（数组）
 * 1 Two Sum [easy]
+* 26 Remove Duplicates from Sorted Array [easy]
+* 66 Plus One [easy]
 * 217 Contains Duplicate [easy]
+
+### Stack（栈）
+* 20 Valid Parentheses [easy]
 
 ### Hash Table（哈希表）
 * 204 Count Primes [easy]
 
 ### Linked List（链表）
+* 21 Merge Two Sorted Lists [easy]
 * 237 Delete Node in a Linked List [easy]
 
 ### Tree（树）
