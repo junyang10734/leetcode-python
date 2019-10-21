@@ -14,6 +14,7 @@
 * 26 Remove Duplicates from Sorted Array [easy]
 * 66 Plus One [easy]
 * 88 Merge Sorted Array [easy]
+* 118 Pascal's Triangle [easy]
 * 217 Contains Duplicate [easy]
 
 ### Stack（栈）
