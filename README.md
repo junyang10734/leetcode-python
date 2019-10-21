@@ -13,6 +13,7 @@
 * 1 Two Sum [easy]
 * 26 Remove Duplicates from Sorted Array [easy]
 * 66 Plus One [easy]
+* 88 Merge Sorted Array [easy]
 * 217 Contains Duplicate [easy]
 
 ### Stack（栈）
@@ -26,14 +27,19 @@
 * 237 Delete Node in a Linked List [easy]
 
 ### Tree（树）
+* 101 Symmetric Tree [easy]
+* 104  Maximum Depth of Binary Tree [easy]
 * 108 Convert Sorted Array to Binary Search Tree [easy]
 
 ### Math（数学）
 * 7 Reverse Integer [easy]
+* 69 Sqrt(x) [easy]
 * 171 Excel Sheet Column Number [easy]
+
 
 ### DaC（分治）
 * 53 Maximum Subarray [easy]
+* 101 Symmetric Tree [easy]
 * 169 Majority Element [easy] 
 * 108 Convert Sorted Array to Binary Search Tree [easy]
 
@@ -49,3 +55,6 @@
 * 406 Queue Reconstruction by Height [medium]
 * 763 Partition Labels [medium]
 * 1130 Minimum Cost Tree From Leaf Values [medium]
+
+### Binary Search（二分查找）
+* 69 Sqrt(x) [easy]
