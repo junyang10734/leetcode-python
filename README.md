@@ -8,6 +8,7 @@
 * 20 Valid Parentheses [easy]
 * 28 Implement strStr() [easy]
 * 38 Count and Say [easy]
+* 125 Valid Palindrome [easy]
 
 ### Array（数组）
 * 1 Two Sum [easy]
@@ -19,12 +20,16 @@
 
 ### Stack（栈）
 * 20 Valid Parentheses [easy]
+* 155 Min Stack [easy]
 
 ### Hash Table（哈希表）
+* 136 Single Number [easy]
 * 204 Count Primes [easy]
 
 ### Linked List（链表）
 * 21 Merge Two Sorted Lists [easy]
+* 141 Linked List Cycle [easy]
+* 160 Intersection of Two Linked Lists [easy]
 * 237 Delete Node in a Linked List [easy]
 
 ### Tree（树）
@@ -35,6 +40,7 @@
 ### Math（数学）
 * 7 Reverse Integer [easy]
 * 69 Sqrt(x) [easy]
+* 136 Single Number [easy]
 * 171 Excel Sheet Column Number [easy]
 
 
