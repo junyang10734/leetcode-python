@@ -16,6 +16,7 @@
 * 66 Plus One [easy]
 * 88 Merge Sorted Array [easy]
 * 118 Pascal's Triangle [easy]
+* 189 Rotate Array [easy]
 * 217 Contains Duplicate [easy]
 
 ### Stack（栈）
@@ -42,7 +43,7 @@
 * 69 Sqrt(x) [easy]
 * 136 Single Number [easy]
 * 171 Excel Sheet Column Number [easy]
-
+* 172 Factorial Trailing Zeroes [easy]
 
 ### DaC（分治）
 * 53 Maximum Subarray [easy]
