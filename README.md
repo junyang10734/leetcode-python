@@ -45,6 +45,9 @@
 * 171 Excel Sheet Column Number [easy]
 * 172 Factorial Trailing Zeroes [easy]
 
+### Bit Manipulation（位操作）
+* 190 Reverse Bits [easy]
+
 ### DaC（分治）
 * 53 Maximum Subarray [easy]
 * 101 Symmetric Tree [easy]
