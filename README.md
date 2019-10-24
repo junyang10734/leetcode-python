@@ -25,12 +25,16 @@
 
 ### Hash Table（哈希表）
 * 136 Single Number &bigstar;
+* 202 Happy Number &bigstar;
 * 204 Count Primes &bigstar;
+* 242 Valid Anagram &bigstar;
 
 ### Linked List（链表）
 * 21 Merge Two Sorted Lists &bigstar;
 * 141 Linked List Cycle &bigstar;
 * 160 Intersection of Two Linked Lists &bigstar;
+* 206 Reverse Linked List &bigstar;
+* 234 Palindrome Linked List &bigstar;
 * 237 Delete Node in a Linked List &bigstar;
 
 ### Tree（树）
