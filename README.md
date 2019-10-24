@@ -3,69 +3,70 @@
 ### Data-Structure（基本数据结构的实现）
 
 ### String（字符串）
-* 13 Roman to Integer [easy]
-* 14 Longest Common Prefix [easy]
-* 20 Valid Parentheses [easy]
-* 28 Implement strStr() [easy]
-* 38 Count and Say [easy]
-* 125 Valid Palindrome [easy]
+* 13 Roman to Integer &bigstar;
+* 14 Longest Common Prefix &bigstar;
+* 20 Valid Parentheses &bigstar;
+* 28 Implement strStr() &bigstar;
+* 38 Count and Say &bigstar;
+* 125 Valid Palindrome &bigstar;
 
 ### Array（数组）
-* 1 Two Sum [easy]
-* 26 Remove Duplicates from Sorted Array [easy]
-* 66 Plus One [easy]
-* 88 Merge Sorted Array [easy]
-* 118 Pascal's Triangle [easy]
-* 189 Rotate Array [easy]
-* 217 Contains Duplicate [easy]
+* 1 Two Sum &bigstar;
+* 26 Remove Duplicates from Sorted Array &bigstar;
+* 66 Plus One &bigstar;
+* 88 Merge Sorted Array &bigstar;
+* 118 Pascal's Triangle &bigstar;
+* 189 Rotate Array &bigstar;
+* 217 Contains Duplicate &bigstar;
 
 ### Stack（栈）
-* 20 Valid Parentheses [easy]
-* 155 Min Stack [easy]
+* 20 Valid Parentheses &bigstar;
+* 155 Min Stack &bigstar;
 
 ### Hash Table（哈希表）
-* 136 Single Number [easy]
-* 204 Count Primes [easy]
+* 136 Single Number &bigstar;
+* 204 Count Primes &bigstar;
 
 ### Linked List（链表）
-* 21 Merge Two Sorted Lists [easy]
-* 141 Linked List Cycle [easy]
-* 160 Intersection of Two Linked Lists [easy]
-* 237 Delete Node in a Linked List [easy]
+* 21 Merge Two Sorted Lists &bigstar;
+* 141 Linked List Cycle &bigstar;
+* 160 Intersection of Two Linked Lists &bigstar;
+* 237 Delete Node in a Linked List &bigstar;
 
 ### Tree（树）
-* 101 Symmetric Tree [easy]
-* 104  Maximum Depth of Binary Tree [easy]
-* 108 Convert Sorted Array to Binary Search Tree [easy]
+* 101 Symmetric Tree &bigstar;
+* 104  Maximum Depth of Binary Tree &bigstar;
+* 108 Convert Sorted Array to Binary Search Tree &bigstar;
 
 ### Math（数学）
-* 7 Reverse Integer [easy]
-* 69 Sqrt(x) [easy]
-* 136 Single Number [easy]
-* 171 Excel Sheet Column Number [easy]
-* 172 Factorial Trailing Zeroes [easy]
+* 7 Reverse Integer &bigstar;
+* 69 Sqrt(x) &bigstar;
+* 136 Single Number &bigstar;
+* 171 Excel Sheet Column Number &bigstar;
+* 172 Factorial Trailing Zeroes &bigstar;
 
 ### Bit Manipulation（位操作）
-* 190 Reverse Bits [easy]
+* 190 Reverse Bits &bigstar;
+* 191 Number of 1 Bits &bigstar;
 
 ### DaC（分治）
-* 53 Maximum Subarray [easy]
-* 101 Symmetric Tree [easy]
-* 169 Majority Element [easy] 
-* 108 Convert Sorted Array to Binary Search Tree [easy]
+* 53 Maximum Subarray &bigstar;
+* 101 Symmetric Tree &bigstar;
+* 169 Majority Element &bigstar;
+* 108 Convert Sorted Array to Binary Search Tree &bigstar;
 
 ### DP（动态规划）
-* 53 Maximum Subarray [easy]
-* 70 Climbing Stairs [easy]
-* 121 Best Time to Buy and Sell Stock [easy]
-* 198 House Robber [easy]
-* 1130 Minimum Cost Tree From Leaf Values [medium]
+* 53 Maximum Subarray &bigstar;
+* 70 Climbing Stairs &bigstar;
+* 121 Best Time to Buy and Sell Stock &bigstar;
+* 198 House Robber &bigstar;
+* 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 
 ### Greedy（贪心算法）
-* 122 Best Time to Buy and Sell Stock II [easy]
-* 406 Queue Reconstruction by Height [medium]
-* 763 Partition Labels [medium]
-* 1130 Minimum Cost Tree From Leaf Values [medium]
+* 122 Best Time to Buy and Sell Stock II &bigstar;
+* 406 Queue Reconstruction by Height &bigstar;&bigstar;
+* 763 Partition Labels &bigstar;&bigstar;
+* 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 
 ### Binary Search（二分查找）
-* 69 Sqrt(x) [easy]
+* 69 Sqrt(x) &bigstar;
