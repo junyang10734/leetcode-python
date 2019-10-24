@@ -18,6 +18,8 @@
 * 118 Pascal's Triangle &bigstar;
 * 189 Rotate Array &bigstar;
 * 217 Contains Duplicate &bigstar;
+* 268 Missing Number &bigstar;
+* 283 Move Zeroes &bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
