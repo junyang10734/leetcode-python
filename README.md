@@ -10,6 +10,7 @@
 * 38 Count and Say &bigstar;
 * 125 Valid Palindrome &bigstar;
 * 344 Reverse String &bigstar;
+* 387 First Unique Character in a String &bigstar;
 
 ### Array（数组）
 * 1 Two Sum &bigstar;
@@ -22,6 +23,7 @@
 * 268 Missing Number &bigstar;
 * 283 Move Zeroes &bigstar;
 * 350 Intersection of Two Arrays II &bigstar;
+* 412 Fizz Buzz &bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
@@ -57,6 +59,7 @@
 ### Bit Manipulation（位操作）
 * 190 Reverse Bits &bigstar;
 * 191 Number of 1 Bits &bigstar;
+* 371 Sum of Two Integers &bigstar;
 
 ### DaC（分治）
 * 53 Maximum Subarray &bigstar;
