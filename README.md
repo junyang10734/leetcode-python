@@ -9,6 +9,7 @@
 * 28 Implement strStr() &bigstar;
 * 38 Count and Say &bigstar;
 * 125 Valid Palindrome &bigstar;
+* 344 Reverse String &bigstar;
 
 ### Array（数组）
 * 1 Two Sum &bigstar;
@@ -20,6 +21,7 @@
 * 217 Contains Duplicate &bigstar;
 * 268 Missing Number &bigstar;
 * 283 Move Zeroes &bigstar;
+* 350 Intersection of Two Arrays II &bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
@@ -50,6 +52,7 @@
 * 136 Single Number &bigstar;
 * 171 Excel Sheet Column Number &bigstar;
 * 172 Factorial Trailing Zeroes &bigstar;
+* 326 Power of Three &bigstar;
 
 ### Bit Manipulation（位操作）
 * 190 Reverse Bits &bigstar;
