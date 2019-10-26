@@ -14,6 +14,7 @@
 
 ### Array（数组）
 * 1 Two Sum &bigstar;
+* 15 3Sum &bigstar;&bigstar;
 * 26 Remove Duplicates from Sorted Array &bigstar;
 * 66 Plus One &bigstar;
 * 88 Merge Sorted Array &bigstar;
