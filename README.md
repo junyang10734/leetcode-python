@@ -25,6 +25,7 @@
 * 283 Move Zeroes &bigstar;
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
+* 73 Set Matrix Zeroes &bigstar;&bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
