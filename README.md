@@ -11,6 +11,7 @@
 * 125 Valid Palindrome &bigstar;
 * 344 Reverse String &bigstar;
 * 387 First Unique Character in a String &bigstar;
+* 49 Group Anagrams &bigstar;&bigstar;
 
 ### Array（数组）
 * 1 Two Sum &bigstar;
@@ -36,6 +37,7 @@
 * 202 Happy Number &bigstar;
 * 204 Count Primes &bigstar;
 * 242 Valid Anagram &bigstar;
+* 49 Group Anagrams &bigstar;&bigstar;
 
 ### Linked List（链表）
 * 21 Merge Two Sorted Lists &bigstar;
