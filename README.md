@@ -50,6 +50,7 @@
 * 206 Reverse Linked List &bigstar;
 * 234 Palindrome Linked List &bigstar;
 * 237 Delete Node in a Linked List &bigstar;
+* 2 Add Two Numbers &bigstar;&bigstar;
 
 ### Tree（树）
 * 101 Symmetric Tree &bigstar;
