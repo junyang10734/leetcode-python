@@ -11,6 +11,8 @@
 * 125 Valid Palindrome &bigstar;
 * 344 Reverse String &bigstar;
 * 387 First Unique Character in a String &bigstar;
+* 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
+* 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 
 ### Array（数组）
@@ -27,6 +29,7 @@
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
+* 334 Increasing Triplet Subsequence &bigstar;&bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
@@ -37,6 +40,7 @@
 * 202 Happy Number &bigstar;
 * 204 Count Primes &bigstar;
 * 242 Valid Anagram &bigstar;
+* 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 
 ### Linked List（链表）
@@ -75,7 +79,8 @@
 * 53 Maximum Subarray &bigstar;
 * 70 Climbing Stairs &bigstar;
 * 121 Best Time to Buy and Sell Stock &bigstar;
-* 198 House Robber &bigstar;
+* 198 House Robber &bigstar &bigstar;
+* 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 
 ### Greedy（贪心算法）
