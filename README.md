@@ -34,6 +34,7 @@
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
 * 155 Min Stack &bigstar;
+* 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 
 ### Hash Table（哈希表）
 * 136 Single Number &bigstar;
@@ -51,11 +52,13 @@
 * 234 Palindrome Linked List &bigstar;
 * 237 Delete Node in a Linked List &bigstar;
 * 2 Add Two Numbers &bigstar;&bigstar;
+* 328 Odd Even Linked List &bigstar;&bigstar;
 
 ### Tree（树）
 * 101 Symmetric Tree &bigstar;
 * 104  Maximum Depth of Binary Tree &bigstar;
 * 108 Convert Sorted Array to Binary Search Tree &bigstar;
+* 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 
 ### Math（数学）
 * 7 Reverse Integer &bigstar;
