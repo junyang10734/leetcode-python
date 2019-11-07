@@ -59,6 +59,12 @@
 * 104  Maximum Depth of Binary Tree &bigstar;
 * 108 Convert Sorted Array to Binary Search Tree &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
+* 102 Binary Tree Level Order Traversal &bigstar;&bigstar;
+* 103 Binary Tree Zigzag Level Order Traversal &bigstar;&bigstar;
+* 105 Construct Binary Tree from Preorder and Inorder Traversal &bigstar;&bigstar;
+* 116 Populating Next Right Pointers in Each Node &bigstar;&bigstar;
+* 200 Number of Islands &bigstar;&bigstar;
+* 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 
 ### Math（数学）
 * 7 Reverse Integer &bigstar;
