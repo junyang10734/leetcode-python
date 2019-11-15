@@ -87,6 +87,7 @@
 * 101 Symmetric Tree &bigstar;
 * 169 Majority Element &bigstar;
 * 108 Convert Sorted Array to Binary Search Tree &bigstar;
+* 46 Permutations &bigstar;&bigstar;
 
 ### DP（动态规划）
 * 53 Maximum Subarray &bigstar;
@@ -104,3 +105,8 @@
 
 ### Binary Search（二分查找）
 * 69 Sqrt(x) &bigstar;
+
+
+
+### Amazon
+* 796 Rotate String &bigstar;
