@@ -1,5 +1,7 @@
 # Permutations
 
+# https://blog.csdn.net/fuxuemingzhu/article/details/79363903
+
 # recursive
 # runtime: faster than 99.90% 
 class Solution1:

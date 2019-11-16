@@ -82,12 +82,14 @@
 * 191 Number of 1 Bits &bigstar;
 * 371 Sum of Two Integers &bigstar;
 
-### DaC（分治）
+### DaC and Recursive（分治，递归）
 * 53 Maximum Subarray &bigstar;
 * 101 Symmetric Tree &bigstar;
 * 169 Majority Element &bigstar;
 * 108 Convert Sorted Array to Binary Search Tree &bigstar;
 * 46 Permutations &bigstar;&bigstar;
+* 78 Subsets &bigstar;&bigstar;
+* 79 Word Search &bigstar;&bigstar;
 
 ### DP（动态规划）
 * 53 Maximum Subarray &bigstar;
