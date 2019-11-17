@@ -31,6 +31,7 @@
 * 283 Move Zeroes &bigstar;
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
+* 56 Merge Intervals &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
 * 75 Sort Colors &bigstar;&bigstar;
 * 162 Find Peak Element &bigstar;&bigstar;
