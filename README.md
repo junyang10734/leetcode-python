@@ -32,6 +32,7 @@
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
+* 48 Rotate Image &bigstar;&bigstar;
 * 56 Merge Intervals &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
 * 75 Sort Colors &bigstar;&bigstar;
