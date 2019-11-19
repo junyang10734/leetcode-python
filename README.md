@@ -31,11 +31,13 @@
 * 283 Move Zeroes &bigstar;
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
+* 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 56 Merge Intervals &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
 * 75 Sort Colors &bigstar;&bigstar;
 * 162 Find Peak Element &bigstar;&bigstar;
 * 215 Kth Largest Element in an Array &bigstar;&bigstar;
+* 240 Search a 2D Matrix II &bigstar;&bigstar;
 * 334 Increasing Triplet Subsequence &bigstar;&bigstar;
 * 347 Top K Frequent Elements &bigstar;&bigstar;
 
@@ -102,18 +104,20 @@
 * 121 Best Time to Buy and Sell Stock &bigstar;
 * 198 House Robber &bigstar &bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
+* 62 Unique Paths
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 
 ### Greedy（贪心算法）
 * 122 Best Time to Buy and Sell Stock II &bigstar;
+* 55 Jump Game &bigstar;&bigstar;
 * 406 Queue Reconstruction by Height &bigstar;&bigstar;
 * 763 Partition Labels &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 
 ### Binary Search（二分查找）
 * 69 Sqrt(x) &bigstar;
-
-
+* 33 Search in Rotated Sorted Array &bigstar;&bigstar;
+* 240 Search a 2D Matrix II &bigstar;&bigstar;
 
 ### Amazon
 * 796 Rotate String &bigstar;
