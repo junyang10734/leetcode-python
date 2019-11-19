@@ -105,7 +105,9 @@
 * 121 Best Time to Buy and Sell Stock &bigstar;
 * 198 House Robber &bigstar &bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
-* 62 Unique Paths
+* 62 Unique Paths &bigstar;&bigstar;
+* 300 Longest Increasing Subsequence
+* 322 Coin Change &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 
 ### Greedy（贪心算法）
