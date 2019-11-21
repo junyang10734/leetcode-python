@@ -41,6 +41,7 @@
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
 * 334 Increasing Triplet Subsequence &bigstar;&bigstar;
 * 347 Top K Frequent Elements &bigstar;&bigstar;
+* 973 K Closest Points to Origin &bigstar;&bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
@@ -84,6 +85,8 @@
 * 171 Excel Sheet Column Number &bigstar;
 * 172 Factorial Trailing Zeroes &bigstar;
 * 326 Power of Three &bigstar;
+* 29 Divide Two Integers &bigstar;&bigstar;
+* 50 Pow(x, n) &bigstar;&bigstar;
 
 ### Bit Manipulation（位操作）
 * 190 Reverse Bits &bigstar;
@@ -124,3 +127,4 @@
 
 ### Amazon
 * 796 Rotate String &bigstar;
+* 973 K Closest Points to Origin &bigstar;&bigstar;

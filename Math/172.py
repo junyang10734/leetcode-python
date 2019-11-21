@@ -1,15 +1,20 @@
 # Factorial Trailing Zeroes
-class Solution(object):
-    def trailingZeroes(self, n):
-        """
-        :type n: int
-        :rtype: int
-        """
+
+
+# run time: 24 ms, faster than 98.28%
+class Solution1:
+    def trailingZeroes(self, n: int) -> int:
         num = 0
-        
-        while n>= 5:
-            a = n//5
-            num += a
-            n = a
-        
+        while n>=5:
+            n = n//5
+            num += n
         return num
+
+
+# run time: 24 ms, faster than 98.28%
+class Solution2:
+    def trailingZeroes(self, n: int) -> int:
+        if n<5:
+            return 0
+        else:
+            return n//5 + self.trailingZeroes(n//5)
