@@ -42,12 +42,14 @@
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
 * 334 Increasing Triplet Subsequence &bigstar;&bigstar;
 * 347 Top K Frequent Elements &bigstar;&bigstar;
+* 621 Task Scheduler &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
 * 155 Min Stack &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
+* 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
 
 ### Hash Table（哈希表）
 * 136 Single Number &bigstar;
