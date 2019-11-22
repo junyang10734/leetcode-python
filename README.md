@@ -11,6 +11,7 @@
 * 125 Valid Palindrome &bigstar;
 * 344 Reverse String &bigstar;
 * 387 First Unique Character in a String &bigstar;
+* 796 Rotate String &bigstar;
 * 819 Most Common Word &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
@@ -87,6 +88,7 @@
 * 326 Power of Three &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
+* 166 Fraction to Recurring Decimal &bigstar;&bigstar;
 
 ### Bit Manipulation（位操作）
 * 190 Reverse Bits &bigstar;
@@ -125,6 +127,15 @@
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
 
+### Design（设计）
+* 146 LRU Cache
+
 ### Amazon
-* 796 Rotate String &bigstar;
-* 973 K Closest Points to Origin &bigstar;&bigstar;
+* 48 rotate_matrix &bigstar;
+* 973 K_closest_points to Origin &bigstar;&bigstar;
+* BST_minimum_path_sum
+* insert_into_cycle_linked_list
+* LRU_cache
+* tree_amplitude
+* window_sum
+* 5 longest_palindromic_substring &bigstar;&bigstar;
