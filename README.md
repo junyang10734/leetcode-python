@@ -130,7 +130,9 @@
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
 
 ### Design（设计）
-* 146 LRU Cache
+* 146 LRU Cache &bigstar;&bigstar;
+* 380 Insert Delete GetRandom O(1) &bigstar;&bigstar;
+* 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
 
 ### Amazon
 * 48 rotate_matrix &bigstar;
