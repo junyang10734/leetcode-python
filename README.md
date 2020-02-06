@@ -67,6 +67,7 @@
 * 234 Palindrome Linked List &bigstar;
 * 237 Delete Node in a Linked List &bigstar;
 * 2 Add Two Numbers &bigstar;&bigstar;
+* 142 Linked List Cycle II &bigstar;&bigstar;
 * 328 Odd Even Linked List &bigstar;&bigstar;
 
 ### Tree and Graph（树）
@@ -115,7 +116,8 @@
 * 198 House Robber &bigstar &bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 62 Unique Paths &bigstar;&bigstar;
-* 300 Longest Increasing Subsequence
+* 139 Word Break &bigstar;&bigstar;
+* 300 Longest Increasing Subsequence &bigstar;&bigstar;
 * 322 Coin Change &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 
