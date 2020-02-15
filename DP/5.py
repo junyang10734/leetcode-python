@@ -1,7 +1,7 @@
 # Longest Palindromic Substring
 # runtime: faster than 73.24%
 # https://www.youtube.com/watch?v=nSFWpXuNfyw
-class Solution:
+class Solution1:
     def longestPalindrome(self, s: str) -> str:
         ans = ''
         for i in range(len(s)):
@@ -17,3 +17,26 @@ class Solution:
             l -= 1
             r += 1
         return s[l+1:r]
+
+
+# dp
+# runtime: faster than 36.26%
+# https://blog.csdn.net/fuxuemingzhu/article/details/79573621
+class Solution2:
+    def longestPalindrome(self, s: str) -> str:
+        n = len(s)
+        if n == 1:
+            return s
+        
+        dp = [[0] * n for _ in range(n)]
+        start, end, maxL = 0, 0, 0
+        for i in range(n):
+            for j in range(i):
+                if s[j] == s[i] and (j==i-1 or dp[j+1][i-1]==1):
+                    dp[j][i] = 1
+                if dp[j][i] == 1 and maxL < i-j+1:
+                    maxL = i-j+1
+                    start = j
+                    end = i
+            dp[i][i] = 1
+        return s[start:end+1]
