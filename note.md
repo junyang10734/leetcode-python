@@ -16,9 +16,15 @@
 <br />
 
 5. Longest Palindromic Substring
-* string / DP
+* string / DP (medium)
 * 维护一个二维数组dp， 若s[i]到s[j]是回文字符串，则dp[i][j]为1， 否则为0
 * i,j相同时，dp[i][i] = 1
 * i-j==1时，若s[i]==s[j]，则dp[i][j] = 1
 * i-j>1时，若 dp[i+1][j-1]==1 && s[i]==s[j]，则dp[i][j] = 1
-* 注意，因为dp[i][j]可能要根据dp[i+1][j-1]计算得出，所以应留意循环条件，将j作为外层循环，内部嵌套i的循环
+* 注意，因为dp[i][j]可能要根据dp[i+1][j-1]计算得出，所以应留意循环条件，将j作为外层循环，内部嵌套i的循环  
+<br />
+
+9. Palindrome Number
+* Math (easy)
+* 计算出原始数据的倒置数据，判断两者是否相等
+* eg. 123的倒置数据为321

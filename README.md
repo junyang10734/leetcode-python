@@ -85,6 +85,7 @@
 
 ### Math（数学）
 * 7 Reverse Integer &bigstar;
+* 9 Palindrome Number &bigstar;
 * 69 Sqrt(x) &bigstar;
 * 136 Single Number &bigstar;
 * 171 Excel Sheet Column Number &bigstar;
