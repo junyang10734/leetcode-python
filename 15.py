@@ -21,6 +21,7 @@ class Solution1:
 # two points
 # faster than 87.44%
 # detail: https://www.youtube.com/watch?v=CW6G30xQCbw
+# very good solution, notice it
 class Solution2:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         n = len(nums)

@@ -38,7 +38,7 @@ class Solution2(object):
             # If the character is an closing bracket
             if char in mapping:
 
-                # Pop the topmost element from the stack, if it is non empty
+                # Pop the topmost element from the stack, if it isrs non empty
                 # Otherwise assign a dummy value of '#' to the top_element variable
                 top_element = stack.pop() if stack else '#'
 
