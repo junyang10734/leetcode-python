@@ -3,7 +3,7 @@
 # Then the contiguous subsequence with maximum sum could be (1) in A1, (2) in A2 or (3) part of it in A1 and the other part in A2. 
 # We use recursive calls to deal with case (1) and case (2). 
 # For case (3), we can grow the subsequence from A[⌊n/2⌋] forward and backward and choose the one with maximum sum. 
-class Solution:
+class Solution1:
     def maxSubArray(self, nums: List[int]) -> int:
         return self.dac(nums, 0, len(nums)-1)
     
@@ -34,3 +34,20 @@ class Solution:
                 i = i + 1
 
             return max(sl,sr,sc1+sc2)
+
+
+# 动态规划
+# dp[i]表示包含nums[i]的最大子数组和
+# 迭代公式： dp[i] = max(nums[i], nums[i]+dp[i-1])
+class Solution2:
+    def maxSubArray(self, nums: List[int]) -> int:
+        sum = nums[0]
+        if len(nums) == 1:
+            return sum
+        else:
+            dp = [0]*len(nums)
+            dp[0] = nums[0]
+            for i in range(1,len(nums)):
+                dp[i] = max(nums[i], nums[i]+dp[i-1])
+
+            return max(dp)
