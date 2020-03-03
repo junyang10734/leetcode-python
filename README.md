@@ -45,6 +45,7 @@
 * 347 Top K Frequent Elements &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
+* 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
@@ -134,6 +135,7 @@
 * 69 Sqrt(x) &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
+* 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 
 ### Design（设计）
 * 146 LRU Cache &bigstar;&bigstar;
