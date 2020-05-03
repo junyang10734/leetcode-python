@@ -24,6 +24,7 @@
 * 11 Container With Most Water &bigstar;&bigstar;
 * 15 3Sum &bigstar;&bigstar;
 * 26 Remove Duplicates from Sorted Array &bigstar;
+* 27 Remove Element &bigstar;
 * 66 Plus One &bigstar;
 * 88 Merge Sorted Array &bigstar;
 * 118 Pascal's Triangle &bigstar;
@@ -34,6 +35,7 @@
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
+* 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 48 Rotate Image &bigstar;&bigstar;
 * 56 Merge Intervals &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
@@ -134,6 +136,7 @@
 ### Binary Search（二分查找）
 * 69 Sqrt(x) &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
+* 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 
