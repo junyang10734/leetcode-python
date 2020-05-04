@@ -20,6 +20,7 @@
 * 22 Generate Parentheses &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
+* 1268 Search Suggestions System &bigstar;&bigstar;
 
 ### Array（数组）
 * 1 Two Sum &bigstar;
@@ -36,6 +37,11 @@
 * 283 Move Zeroes &bigstar;
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
+* 1252 Cells with Odd Values in a Matrix &bigstar;
+* 1260 Shift 2D Grid &bigstar;
+* 1266 Minimum Time Visiting All Points &bigstar;
+* 1275 Find Winner on a Tic Tac Toe Game &bigstar;
+* 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 48 Rotate Image &bigstar;&bigstar;
@@ -51,7 +57,8 @@
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
-* 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
+* 1253. Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
+* 1267 Count Servers that Communicate &bigstar;&bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
@@ -97,6 +104,7 @@
 * 200 Number of Islands &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
+* 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
 
 ### Math（数学）
@@ -110,11 +118,13 @@
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
 * 166 Fraction to Recurring Decimal &bigstar;&bigstar;
+* 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 
 ### Bit Manipulation（位操作）
 * 190 Reverse Bits &bigstar;
 * 191 Number of 1 Bits &bigstar;
 * 371 Sum of Two Integers &bigstar;
+* 476 Number Complement &bigstar;
 * 201 Bitwise AND of Numbers Range &bigstar;&bigstar;
 
 ### DaC and Recursive（分治，递归）
@@ -150,6 +160,8 @@
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 763 Partition Labels &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
+* 1253. Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
+* 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 
 ### Binary Search（二分查找）
 * 69 Sqrt(x) &bigstar;
