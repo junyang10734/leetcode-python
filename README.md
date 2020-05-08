@@ -37,6 +37,7 @@
 * 283 Move Zeroes &bigstar;
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
+* 1232 Check If It Is a Straight Line &bigstar;
 * 1252 Cells with Odd Values in a Matrix &bigstar;
 * 1260 Shift 2D Grid &bigstar;
 * 1266 Minimum Time Visiting All Points &bigstar;
@@ -116,6 +117,7 @@
 * 171 Excel Sheet Column Number &bigstar;
 * 172 Factorial Trailing Zeroes &bigstar;
 * 326 Power of Three &bigstar;
+* 1232 Check If It Is a Straight Line &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
 * 166 Fraction to Recurring Decimal &bigstar;&bigstar;
