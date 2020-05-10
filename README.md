@@ -117,6 +117,7 @@
 * 171 Excel Sheet Column Number &bigstar;
 * 172 Factorial Trailing Zeroes &bigstar;
 * 326 Power of Three &bigstar;
+* 367 Valid Perfect Square &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
@@ -169,6 +170,7 @@
 ### Binary Search（二分查找）
 * 69 Sqrt(x) &bigstar;
 * 278 First Bad Version &bigstar;
+* 367 Valid Perfect Square &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
