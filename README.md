@@ -74,6 +74,7 @@
 * 202 Happy Number &bigstar;
 * 204 Count Primes &bigstar;
 * 242 Valid Anagram &bigstar;
+* 997 Find the Town Judge &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 * 525 Contiguous Array &bigstar;&bigstar;
@@ -98,6 +99,7 @@
 * 226 Invert Binary Tree &bigstar;
 * 543 Diameter of Binary Tree &bigstar;
 * 993 Cousins in Binary Tree &bigstar;
+* 997 Find the Town Judge &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 102 Binary Tree Level Order Traversal &bigstar;&bigstar;
 * 103 Binary Tree Zigzag Level Order Traversal &bigstar;&bigstar;
