@@ -56,6 +56,7 @@
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
 * 334 Increasing Triplet Subsequence &bigstar;&bigstar;
 * 347 Top K Frequent Elements &bigstar;&bigstar;
+* 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
@@ -177,6 +178,7 @@
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
+* 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 
 ### Design（设计）
