@@ -70,6 +70,7 @@
 * 1046 Last Stone Weight &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
+* 402 Remove K Digits &bigstar;&bigstar;
 
 ### Hash Table（哈希表）
 * 136 Single Number &bigstar;
