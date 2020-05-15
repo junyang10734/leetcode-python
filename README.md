@@ -59,6 +59,7 @@
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
+* 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
 * 1253. Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
