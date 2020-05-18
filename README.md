@@ -81,6 +81,7 @@
 * 997 Find the Town Judge &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
+* 438 Find All Anagrams in a String &bigstar;&bigstar;
 * 525 Contiguous Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 
