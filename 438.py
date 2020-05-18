@@ -1,5 +1,6 @@
 # Find All Anagrams in a String
 # Hash / Slide Window
+# same as 567
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/79184109
 # runtime: faster than 39.11%
