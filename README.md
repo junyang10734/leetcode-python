@@ -46,6 +46,7 @@
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
+* 39 Combination Sum &bigstar;&bigstar;
 * 48 Rotate Image &bigstar;&bigstar;
 * 56 Merge Intervals &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
@@ -95,6 +96,7 @@
 * 237 Delete Node in a Linked List &bigstar;
 * 876 Middle of the Linked List &bigstar;
 * 2 Add Two Numbers &bigstar;&bigstar;
+* 19 Remove Nth Node From End of List &bigstar;&bigstar;
 * 142 Linked List Cycle II &bigstar;&bigstar;
 * 328 Odd Even Linked List &bigstar;&bigstar;
 
@@ -107,6 +109,8 @@
 * 993 Cousins in Binary Tree &bigstar;
 * 997 Find the Town Judge &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
+* 96 Unique Binary Search Trees &bigstar;&bigstar;
+* 98 Validate Binary Search Tree &bigstar;&bigstar;
 * 102 Binary Tree Level Order Traversal &bigstar;&bigstar;
 * 103 Binary Tree Zigzag Level Order Traversal &bigstar;&bigstar;
 * 105 Construct Binary Tree from Preorder and Inorder Traversal &bigstar;&bigstar;
@@ -145,6 +149,7 @@
 * 169 Majority Element &bigstar;
 * 108 Convert Sorted Array to Binary Search Tree &bigstar;
 * 226 Invert Binary Tree &bigstar;
+* 39 Combination Sum &bigstar;&bigstar;
 * 46 Permutations &bigstar;&bigstar;
 * 78 Subsets &bigstar;&bigstar;
 * 79 Word Search &bigstar;&bigstar;
@@ -157,6 +162,7 @@
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 62 Unique Paths &bigstar;&bigstar;
 * 64 Minimum Path Sum &bigstar;&bigstar;
+* 96 Unique Binary Search Trees &bigstar;&bigstar;
 * 139 Word Break &bigstar;&bigstar;
 * 221 Maximal Square &bigstar;&bigstar;
 * 300 Longest Increasing Subsequence &bigstar;&bigstar;
