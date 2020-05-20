@@ -62,7 +62,7 @@
 * 621 Task Scheduler &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
-* 1253. Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
+* 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 
 ### Stack（栈）
@@ -73,6 +73,7 @@
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
 * 402 Remove K Digits &bigstar;&bigstar;
+* 901 Online Stock Span &bigstar;&bigstar;
 
 ### Hash Table（哈希表）
 * 136 Single Number &bigstar;
@@ -114,6 +115,7 @@
 * 102 Binary Tree Level Order Traversal &bigstar;&bigstar;
 * 103 Binary Tree Zigzag Level Order Traversal &bigstar;&bigstar;
 * 105 Construct Binary Tree from Preorder and Inorder Traversal &bigstar;&bigstar;
+* 114 Flatten Binary Tree to Linked List &bigstar;&bigstar;
 * 116 Populating Next Right Pointers in Each Node &bigstar;&bigstar;
 * 200 Number of Islands &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
@@ -178,7 +180,7 @@
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 763 Partition Labels &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
-* 1253. Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
+* 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 
 ### Binary Search（二分查找）
