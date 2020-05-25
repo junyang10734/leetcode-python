@@ -84,6 +84,7 @@
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 * 438 Find All Anagrams in a String &bigstar;&bigstar;
+* 451 Sort Characters By Frequency &bigstar;&bigstar;
 * 567 Permutation in String &bigstar;&bigstar;
 * 525 Contiguous Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
@@ -169,8 +170,10 @@
 * 221 Maximal Square &bigstar;&bigstar;
 * 300 Longest Increasing Subsequence &bigstar;&bigstar;
 * 322 Coin Change &bigstar;&bigstar;
+* 1035 Uncrossed Lines &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
+* 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
 
 ### Greedy（贪心算法）
 * 122 Best Time to Buy and Sell Stock II &bigstar;
