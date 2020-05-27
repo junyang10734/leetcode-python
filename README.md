@@ -51,6 +51,7 @@
 * 56 Merge Intervals &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
 * 75 Sort Colors &bigstar;&bigstar;
+* 152 Maximum Product Subarray &bigstar;&bigstar;
 * 162 Find Peak Element &bigstar;&bigstar;
 * 215 Kth Largest Element in an Array &bigstar;&bigstar;
 * 238 Product of Array Except Self &bigstar;&bigstar;
@@ -62,6 +63,7 @@
 * 621 Task Scheduler &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
+* 986 Interval List Intersections &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 
@@ -83,6 +85,7 @@
 * 997 Find the Town Judge &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
+* 138 Copy List with Random Pointer &bigstar;&bigstar;
 * 438 Find All Anagrams in a String &bigstar;&bigstar;
 * 451 Sort Characters By Frequency &bigstar;&bigstar;
 * 567 Permutation in String &bigstar;&bigstar;
@@ -99,6 +102,8 @@
 * 876 Middle of the Linked List &bigstar;
 * 2 Add Two Numbers &bigstar;&bigstar;
 * 19 Remove Nth Node From End of List &bigstar;&bigstar;
+* 138 Copy List with Random Pointer &bigstar;&bigstar;
+* 148 Sort List &bigstar;&bigstar;
 * 142 Linked List Cycle II &bigstar;&bigstar;
 * 328 Odd Even Linked List &bigstar;&bigstar;
 
@@ -119,6 +124,7 @@
 * 114 Flatten Binary Tree to Linked List &bigstar;&bigstar;
 * 116 Populating Next Right Pointers in Each Node &bigstar;&bigstar;
 * 200 Number of Islands &bigstar;&bigstar;
+* 207 Course Schedule &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
