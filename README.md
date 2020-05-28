@@ -37,6 +37,7 @@
 * 283 Move Zeroes &bigstar;
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
+* 448 Find All Numbers Disappeared in an Array &bigstar;
 * 733 Flood Fill &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 1252 Cells with Odd Values in a Matrix &bigstar;
@@ -75,6 +76,7 @@
 * 1046 Last Stone Weight &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
+* 394 Decode String &bigstar;&bigstar;
 * 402 Remove K Digits &bigstar;&bigstar;
 * 901 Online Stock Span &bigstar;&bigstar;
 
@@ -113,6 +115,7 @@
 * 104  Maximum Depth of Binary Tree &bigstar;
 * 108 Convert Sorted Array to Binary Search Tree &bigstar;
 * 226 Invert Binary Tree &bigstar;
+* 437 Path Sum III &bigstar;
 * 543 Diameter of Binary Tree &bigstar;
 * 993 Cousins in Binary Tree &bigstar;
 * 997 Find the Town Judge &bigstar;
@@ -128,6 +131,7 @@
 * 207 Course Schedule &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
+* 337 House Robber III &bigstar;&bigstar;
 * 886 Possible Bipartition &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
@@ -155,6 +159,7 @@
 * 371 Sum of Two Integers &bigstar;
 * 476 Number Complement &bigstar;
 * 201 Bitwise AND of Numbers Range &bigstar;&bigstar;
+* 338 Counting Bits &bigstar;&bigstar;
 
 ### DaC and Recursive（分治，递归）
 * 53 Maximum Subarray &bigstar;
@@ -181,6 +186,8 @@
 * 279 Perfect Squares &bigstar;&bigstar;
 * 300 Longest Increasing Subsequence &bigstar;&bigstar;
 * 322 Coin Change &bigstar;&bigstar;
+* 338 Counting Bits &bigstar;&bigstar;
+* 416 Partition Equal Subset Sum &bigstar;&bigstar;
 * 1035 Uncrossed Lines &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
