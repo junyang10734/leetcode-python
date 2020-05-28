@@ -56,6 +56,7 @@
 * 215 Kth Largest Element in an Array &bigstar;&bigstar;
 * 238 Product of Array Except Self &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
+* 287 Find the Duplicate Number &bigstar;&bigstar;
 * 334 Increasing Triplet Subsequence &bigstar;&bigstar;
 * 347 Top K Frequent Elements &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
@@ -126,6 +127,8 @@
 * 200 Number of Islands &bigstar;&bigstar;
 * 207 Course Schedule &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
+* 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
+* 886 Possible Bipartition &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
@@ -143,6 +146,7 @@
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
 * 166 Fraction to Recurring Decimal &bigstar;&bigstar;
+* 279 Perfect Squares &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 
 ### Bit Manipulation（位操作）
@@ -174,6 +178,7 @@
 * 96 Unique Binary Search Trees &bigstar;&bigstar;
 * 139 Word Break &bigstar;&bigstar;
 * 221 Maximal Square &bigstar;&bigstar;
+* 279 Perfect Squares &bigstar;&bigstar;
 * 300 Longest Increasing Subsequence &bigstar;&bigstar;
 * 322 Coin Change &bigstar;&bigstar;
 * 1035 Uncrossed Lines &bigstar;&bigstar;
