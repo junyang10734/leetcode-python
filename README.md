@@ -19,6 +19,7 @@
 * 17 Letter Combinations of a Phone Number &bigstar;&bigstar;
 * 22 Generate Parentheses &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
+* 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
 
@@ -38,6 +39,7 @@
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
 * 448 Find All Numbers Disappeared in an Array &bigstar;
+* 581 Shortest Unsorted Continuous Subarray &bigstar;
 * 733 Flood Fill &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 1252 Cells with Odd Values in a Matrix &bigstar;
@@ -78,6 +80,7 @@
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
 * 394 Decode String &bigstar;&bigstar;
 * 402 Remove K Digits &bigstar;&bigstar;
+* 739 Daily Temperatures &bigstar;&bigstar;
 * 901 Online Stock Span &bigstar;&bigstar;
 
 ### Hash Table（哈希表）
@@ -94,6 +97,7 @@
 * 567 Permutation in String &bigstar;&bigstar;
 * 525 Contiguous Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
+* 739 Daily Temperatures &bigstar;&bigstar;
 
 ### Linked List（链表）
 * 21 Merge Two Sorted Lists &bigstar;
@@ -117,6 +121,7 @@
 * 226 Invert Binary Tree &bigstar;
 * 437 Path Sum III &bigstar;
 * 543 Diameter of Binary Tree &bigstar;
+* 617 Merge Two Binary Trees &bigstar;
 * 993 Cousins in Binary Tree &bigstar;
 * 997 Find the Town Judge &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
@@ -188,10 +193,13 @@
 * 322 Coin Change &bigstar;&bigstar;
 * 338 Counting Bits &bigstar;&bigstar;
 * 416 Partition Equal Subset Sum &bigstar;&bigstar;
+* 494 Target Sum &bigstar;&bigstar;
+* 647 Palindromic Substrings &bigstar;&bigstar;
 * 1035 Uncrossed Lines &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
+* 72 Edit Distance &bigstar;&bigstar;&bigstar;
 
 ### Greedy（贪心算法）
 * 122 Best Time to Buy and Sell Stock II &bigstar;
