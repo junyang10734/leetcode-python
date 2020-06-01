@@ -149,6 +149,7 @@
 * 136 Single Number &bigstar;
 * 171 Excel Sheet Column Number &bigstar;
 * 172 Factorial Trailing Zeroes &bigstar;
+* 292 Nim Game &bigstar;
 * 326 Power of Three &bigstar;
 * 367 Valid Perfect Square &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
@@ -162,6 +163,7 @@
 * 190 Reverse Bits &bigstar;
 * 191 Number of 1 Bits &bigstar;
 * 371 Sum of Two Integers &bigstar;
+* 461 Hamming Distance &bigstar;
 * 476 Number Complement &bigstar;
 * 201 Bitwise AND of Numbers Range &bigstar;&bigstar;
 * 338 Counting Bits &bigstar;&bigstar;
@@ -227,6 +229,9 @@
 * 208 Implement Trie (Prefix Tree) &bigstar;&bigstar;
 * 380 Insert Delete GetRandom O(1) &bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
+
+### SQL (数据库)
+* 175 Combine Two Tables &bigstar;
 
 ### Amazon
 * 48 rotate_matrix &bigstar;
