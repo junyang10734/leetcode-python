@@ -16,6 +16,8 @@
 * 819 Most Common Word &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
+* 6 ZigZag Conversion &bigstar;&bigstar;
+* 12 Integer to Roman &bigstar;&bigstar;
 * 17 Letter Combinations of a Phone Number &bigstar;&bigstar;
 * 22 Generate Parentheses &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
@@ -232,6 +234,11 @@
 
 ### SQL (数据库)
 * 175 Combine Two Tables &bigstar;
+* 595 Big Countries &bigstar;
+
+### Shell
+* 195 Tenth Line &bigstar;
+
 
 ### Amazon
 * 48 rotate_matrix &bigstar;
