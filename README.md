@@ -21,6 +21,7 @@
 * 17 Letter Combinations of a Phone Number &bigstar;&bigstar;
 * 22 Generate Parentheses &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
+* 151 Reverse Words in a String &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
@@ -82,6 +83,7 @@
 * 1046 Last Stone Weight &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
+* 388 Longest Absolute File Path &bigstar;&bigstar;
 * 394 Decode String &bigstar;&bigstar;
 * 402 Remove K Digits &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
@@ -244,6 +246,8 @@
 ### Shell
 * 193 Valid Phone Numbers &bigstar;
 * 195 Tenth Line &bigstar;
+* 192 Word Frequency &bigstar;&bigstar;
+* 194 Transpose File &bigstar;&bigstar;
 
 
 ### Amazon
