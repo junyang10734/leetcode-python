@@ -12,11 +12,13 @@
 * 344 Reverse String &bigstar;
 * 383 Ransom Note &bigstar;
 * 387 First Unique Character in a String &bigstar;
+* 657 Robot Return to Origin &bigstar;
 * 796 Rotate String &bigstar;
 * 819 Most Common Word &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 6 ZigZag Conversion &bigstar;&bigstar;
+* 8 String to Integer (atoi)
 * 12 Integer to Roman &bigstar;&bigstar;
 * 17 Letter Combinations of a Phone Number &bigstar;&bigstar;
 * 22 Generate Parentheses &bigstar;&bigstar;
@@ -59,6 +61,7 @@
 * 56 Merge Intervals &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
 * 75 Sort Colors &bigstar;&bigstar;
+* 137 Single Number II &bigstar;&bigstar;
 * 152 Maximum Product Subarray &bigstar;&bigstar;
 * 162 Find Peak Element &bigstar;&bigstar;
 * 215 Kth Largest Element in an Array &bigstar;&bigstar;
