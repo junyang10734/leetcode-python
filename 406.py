@@ -1,11 +1,13 @@
 # Queue Reconstruction by Height
-class Solution:
+# Greedy
+
+# https://blog.csdn.net/fuxuemingzhu/article/details/68486884
+# runtime: faster than 36.46% 
+class Solution2:
     def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:
-        if len(people) == 0:
-            return []
-        
-        people.sort(key=lambda x:(-x[0],x[1]))
-        ans = []
+        people.sort(key=lambda x: (-x[0], x[1]))
+        res = []
         for p in people:
-            ans.insert(p[1],p)
-        return ans
+            res.insert(p[1],p)
+        return res
+        
