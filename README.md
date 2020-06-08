@@ -207,6 +207,7 @@
 * 338 Counting Bits &bigstar;&bigstar;
 * 416 Partition Equal Subset Sum &bigstar;&bigstar;
 * 494 Target Sum &bigstar;&bigstar;
+* 518 Coin Change 2 &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 1035 Uncrossed Lines &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
@@ -245,6 +246,7 @@
 
 ### SQL (数据库)
 * 175 Combine Two Tables &bigstar;
+* 197 Rising Temperature &bigstar;
 * 595 Big Countries &bigstar;
 
 ### Shell
