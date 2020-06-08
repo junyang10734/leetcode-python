@@ -39,12 +39,14 @@
 * 88 Merge Sorted Array &bigstar;
 * 118 Pascal's Triangle &bigstar;
 * 189 Rotate Array &bigstar;
+* 219 Contains Duplicate II &bigstar;
 * 217 Contains Duplicate &bigstar;
 * 268 Missing Number &bigstar;
 * 283 Move Zeroes &bigstar;
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
 * 448 Find All Numbers Disappeared in an Array &bigstar;
+* 463 Island Perimeter &bigstar;
 * 561 Array Partition I &bigstar;
 * 581 Shortest Unsorted Continuous Subarray &bigstar;
 * 733 Flood Fill &bigstar;
@@ -63,6 +65,7 @@
 * 75 Sort Colors &bigstar;&bigstar;
 * 137 Single Number II &bigstar;&bigstar;
 * 152 Maximum Product Subarray &bigstar;&bigstar;
+* 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
 * 162 Find Peak Element &bigstar;&bigstar;
 * 215 Kth Largest Element in an Array &bigstar;&bigstar;
 * 238 Product of Array Except Self &bigstar;&bigstar;
@@ -96,6 +99,7 @@
 * 136 Single Number &bigstar;
 * 202 Happy Number &bigstar;
 * 204 Count Primes &bigstar;
+* 219 Contains Duplicate II &bigstar;
 * 242 Valid Anagram &bigstar;
 * 997 Find the Town Judge &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
@@ -120,6 +124,7 @@
 * 2 Add Two Numbers &bigstar;&bigstar;
 * 19 Remove Nth Node From End of List &bigstar;&bigstar;
 * 138 Copy List with Random Pointer &bigstar;&bigstar;
+* 147 Insertion Sort List &bigstar;&bigstar;
 * 148 Sort List &bigstar;&bigstar;
 * 142 Linked List Cycle II &bigstar;&bigstar;
 * 328 Odd Even Linked List &bigstar;&bigstar;
@@ -159,6 +164,7 @@
 * 136 Single Number &bigstar;
 * 171 Excel Sheet Column Number &bigstar;
 * 172 Factorial Trailing Zeroes &bigstar;
+* 231 Power of Two &bigstar;
 * 258 Add Digits &bigstar;
 * 292 Nim Game &bigstar;
 * 326 Power of Three &bigstar;
@@ -168,11 +174,13 @@
 * 50 Pow(x, n) &bigstar;&bigstar;
 * 166 Fraction to Recurring Decimal &bigstar;&bigstar;
 * 279 Perfect Squares &bigstar;&bigstar;
+* 319 Bulb Switcher &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 
 ### Bit Manipulation（位操作）
 * 190 Reverse Bits &bigstar;
 * 191 Number of 1 Bits &bigstar;
+* 231 Power of Two &bigstar;
 * 371 Sum of Two Integers &bigstar;
 * 461 Hamming Distance &bigstar;
 * 476 Number Complement &bigstar;
@@ -233,6 +241,7 @@
 * 367 Valid Perfect Square &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
+* 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
 * 528 Random Pick with Weight &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
@@ -246,8 +255,10 @@
 
 ### SQL (数据库)
 * 175 Combine Two Tables &bigstar;
+* 176 Second Highest Salary &bigstar;
 * 197 Rising Temperature &bigstar;
 * 595 Big Countries &bigstar;
+* 627 Swap Salary &bigstar;
 
 ### Shell
 * 193 Valid Phone Numbers &bigstar;
