@@ -33,9 +33,9 @@
 ### Array（数组）
 * 1 Two Sum &bigstar;
 * 11 Container With Most Water &bigstar;&bigstar;
-* 15 3Sum &bigstar;&bigstar;
 * 26 Remove Duplicates from Sorted Array &bigstar;
 * 27 Remove Element &bigstar;
+* 35 Search Insert Position &bigstar;
 * 66 Plus One &bigstar;
 * 88 Merge Sorted Array &bigstar;
 * 118 Pascal's Triangle &bigstar;
@@ -57,6 +57,8 @@
 * 1266 Minimum Time Visiting All Points &bigstar;
 * 1275 Find Winner on a Tic Tac Toe Game &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
+* 15 3Sum &bigstar;&bigstar;
+* 16 3Sum Closest &bigstar;&bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 36 Valid Sudoku &bigstar;&bigstar;
@@ -75,6 +77,7 @@
 * 287 Find the Duplicate Number &bigstar;&bigstar;
 * 334 Increasing Triplet Subsequence &bigstar;&bigstar;
 * 347 Top K Frequent Elements &bigstar;&bigstar;
+* 384 Shuffle an Array &bigstar;&bigstar;
 * 419 Battleships in a Board &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
@@ -130,6 +133,7 @@
 * 147 Insertion Sort List &bigstar;&bigstar;
 * 148 Sort List &bigstar;&bigstar;
 * 142 Linked List Cycle II &bigstar;&bigstar;
+* 173 Binary Search Tree Iterator &bigstar;&bigstar;
 * 328 Odd Even Linked List &bigstar;&bigstar;
 
 ### Tree and Graph（树）
@@ -240,6 +244,7 @@
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 
 ### Binary Search（二分查找）
+* 35 Search Insert Position &bigstar;
 * 69 Sqrt(x) &bigstar;
 * 278 First Bad Version &bigstar;
 * 367 Valid Perfect Square &bigstar;
