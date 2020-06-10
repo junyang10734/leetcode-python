@@ -12,6 +12,7 @@
 * 344 Reverse String &bigstar;
 * 383 Ransom Note &bigstar;
 * 387 First Unique Character in a String &bigstar;
+* 392 Is Subsequence &bigstar;
 * 657 Robot Return to Origin &bigstar;
 * 796 Rotate String &bigstar;
 * 819 Most Common Word &bigstar;
@@ -58,6 +59,7 @@
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
+* 36 Valid Sudoku &bigstar;&bigstar;
 * 39 Combination Sum &bigstar;&bigstar;
 * 48 Rotate Image &bigstar;&bigstar;
 * 56 Merge Intervals &bigstar;&bigstar;
@@ -174,6 +176,7 @@
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
 * 166 Fraction to Recurring Decimal &bigstar;&bigstar;
+* 223 Rectangle Area &bigstar;&bigstar;
 * 279 Perfect Squares &bigstar;&bigstar;
 * 319 Bulb Switcher &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
