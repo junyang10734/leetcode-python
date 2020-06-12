@@ -64,6 +64,7 @@
 * 36 Valid Sudoku &bigstar;&bigstar;
 * 39 Combination Sum &bigstar;&bigstar;
 * 48 Rotate Image &bigstar;&bigstar;
+* 54 Spiral Matrix &bigstar;&bigstar;
 * 56 Merge Intervals &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
 * 75 Sort Colors &bigstar;&bigstar;
@@ -71,6 +72,7 @@
 * 152 Maximum Product Subarray &bigstar;&bigstar;
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
 * 162 Find Peak Element &bigstar;&bigstar;
+* 179 Largest Number &bigstar;&bigstar;
 * 215 Kth Largest Element in an Array &bigstar;&bigstar;
 * 238 Product of Array Except Self &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
@@ -140,7 +142,9 @@
 * 101 Symmetric Tree &bigstar;
 * 104  Maximum Depth of Binary Tree &bigstar;
 * 108 Convert Sorted Array to Binary Search Tree &bigstar;
+* 110 Balanced Binary Tree &bigstar;
 * 226 Invert Binary Tree &bigstar;
+* 235 Lowest Common Ancestor of a Binary Search Tree &bigstar;
 * 437 Path Sum III &bigstar;
 * 543 Diameter of Binary Tree &bigstar;
 * 617 Merge Two Binary Trees &bigstar;
@@ -265,6 +269,7 @@
 ### SQL (数据库)
 * 175 Combine Two Tables &bigstar;
 * 176 Second Highest Salary &bigstar;
+* 181 Employees Earning More Than Their Managers &bigstar;
 * 197 Rising Temperature &bigstar;
 * 595 Big Countries &bigstar;
 * 627 Swap Salary &bigstar;
