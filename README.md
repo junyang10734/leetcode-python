@@ -13,6 +13,7 @@
 * 383 Ransom Note &bigstar;
 * 387 First Unique Character in a String &bigstar;
 * 392 Is Subsequence &bigstar;
+* 557 Reverse Words in a String III &bigstar;
 * 657 Robot Return to Origin &bigstar;
 * 796 Rotate String &bigstar;
 * 819 Most Common Word &bigstar;
@@ -23,6 +24,7 @@
 * 12 Integer to Roman &bigstar;&bigstar;
 * 17 Letter Combinations of a Phone Number &bigstar;&bigstar;
 * 22 Generate Parentheses &bigstar;&bigstar;
+* 43 Multiply Strings &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 * 151 Reverse Words in a String &bigstar;&bigstar;
 * 433 Minimum Genetic Mutation &bigstar;&bigstar;
@@ -46,6 +48,7 @@
 * 217 Contains Duplicate &bigstar;
 * 268 Missing Number &bigstar;
 * 283 Move Zeroes &bigstar;
+* 349 Intersection of Two Arrays &bigstar;
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
 * 448 Find All Numbers Disappeared in an Array &bigstar;
@@ -76,6 +79,9 @@
 * 162 Find Peak Element &bigstar;&bigstar;
 * 179 Largest Number &bigstar;&bigstar;
 * 215 Kth Largest Element in an Array &bigstar;&bigstar;
+* 220 Contains Duplicate III &bigstar;&bigstar;
+* 228 Summary Ranges &bigstar;&bigstar;
+* 229 Majority Element II &bigstar;&bigstar;
 * 238 Product of Array Except Self &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
 * 287 Find the Duplicate Number &bigstar;&bigstar;
@@ -111,6 +117,7 @@
 * 204 Count Primes &bigstar;
 * 219 Contains Duplicate II &bigstar;
 * 242 Valid Anagram &bigstar;
+* 500 Keyboard Row &bigstar;
 * 997 Find the Town Judge &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
@@ -133,6 +140,7 @@
 * 876 Middle of the Linked List &bigstar;
 * 2 Add Two Numbers &bigstar;&bigstar;
 * 19 Remove Nth Node From End of List &bigstar;&bigstar;
+* 24 Swap Nodes in Pairs &bigstar;&bigstar;
 * 138 Copy List with Random Pointer &bigstar;&bigstar;
 * 147 Insertion Sort List &bigstar;&bigstar;
 * 148 Sort List &bigstar;&bigstar;
@@ -150,6 +158,7 @@
 * 437 Path Sum III &bigstar;
 * 543 Diameter of Binary Tree &bigstar;
 * 617 Merge Two Binary Trees &bigstar;
+* 700 Search in a Binary Search Tree &bigstar;
 * 993 Cousins in Binary Tree &bigstar;
 * 997 Find the Town Judge &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
@@ -183,6 +192,7 @@
 * 292 Nim Game &bigstar;
 * 326 Power of Three &bigstar;
 * 367 Valid Perfect Square &bigstar;
+* 728 Self Dividing Numbers &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
