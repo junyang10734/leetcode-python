@@ -12,7 +12,7 @@ class Solution1(object):
 # bit manipulation
 # https://blog.csdn.net/fuxuemingzhu/article/details/79379939
 # faster than 97.13%
-class Solution:
+class Solution2:
     def getSum(self, a: int, b: int) -> int:
         # 32 bits integer max
         MAX = 0x7FFFFFFF

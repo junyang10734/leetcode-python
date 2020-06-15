@@ -25,6 +25,7 @@
 * 22 Generate Parentheses &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 * 151 Reverse Words in a String &bigstar;&bigstar;
+* 433 Minimum Genetic Mutation &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
@@ -39,6 +40,7 @@
 * 66 Plus One &bigstar;
 * 88 Merge Sorted Array &bigstar;
 * 118 Pascal's Triangle &bigstar;
+* 167 Two Sum II - Input array is sorted &bigstar;
 * 189 Rotate Array &bigstar;
 * 219 Contains Duplicate II &bigstar;
 * 217 Contains Duplicate &bigstar;
@@ -163,6 +165,7 @@
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
 * 337 House Robber III &bigstar;&bigstar;
+* 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
 * 886 Possible Bipartition &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
@@ -225,6 +228,7 @@
 * 300 Longest Increasing Subsequence &bigstar;&bigstar;
 * 322 Coin Change &bigstar;&bigstar;
 * 338 Counting Bits &bigstar;&bigstar;
+* 368 Largest Divisible Subset &bigstar;&bigstar;
 * 416 Partition Equal Subset Sum &bigstar;&bigstar;
 * 494 Target Sum &bigstar;&bigstar;
 * 518 Coin Change 2 &bigstar;&bigstar;
