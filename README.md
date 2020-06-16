@@ -28,6 +28,7 @@
 * 49 Group Anagrams &bigstar;&bigstar;
 * 151 Reverse Words in a String &bigstar;&bigstar;
 * 433 Minimum Genetic Mutation &bigstar;&bigstar;
+* 468 Validate IP Address &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
@@ -122,6 +123,7 @@
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 * 138 Copy List with Random Pointer &bigstar;&bigstar;
+* 260 Single Number III &bigstar;&bigstar;
 * 438 Find All Anagrams in a String &bigstar;&bigstar;
 * 451 Sort Characters By Frequency &bigstar;&bigstar;
 * 567 Permutation in String &bigstar;&bigstar;
@@ -196,6 +198,7 @@
 * 1232 Check If It Is a Straight Line &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
+* 89 Gray Code &bigstar;&bigstar;
 * 166 Fraction to Recurring Decimal &bigstar;&bigstar;
 * 223 Rectangle Area &bigstar;&bigstar;
 * 279 Perfect Squares &bigstar;&bigstar;
@@ -210,6 +213,7 @@
 * 461 Hamming Distance &bigstar;
 * 476 Number Complement &bigstar;
 * 201 Bitwise AND of Numbers Range &bigstar;&bigstar;
+* 260 Single Number III &bigstar;&bigstar;
 * 338 Counting Bits &bigstar;&bigstar;
 
 ### DaC and Recursive（分治，递归）
@@ -222,6 +226,7 @@
 * 46 Permutations &bigstar;&bigstar;
 * 78 Subsets &bigstar;&bigstar;
 * 79 Word Search &bigstar;&bigstar;
+* 89 Gray Code &bigstar;&bigstar;
 
 ### DP（动态规划）
 * 53 Maximum Subarray &bigstar;
