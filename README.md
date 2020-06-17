@@ -65,6 +65,7 @@
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 * 15 3Sum &bigstar;&bigstar;
 * 16 3Sum Closest &bigstar;&bigstar;
+* 31 Next Permutation &bigstar;&bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 36 Valid Sudoku &bigstar;&bigstar;
