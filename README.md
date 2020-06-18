@@ -10,6 +10,7 @@
 * 38 Count and Say &bigstar;
 * 125 Valid Palindrome &bigstar;
 * 344 Reverse String &bigstar;
+* 345 Reverse Vowels of a String &bigstar;
 * 383 Ransom Note &bigstar;
 * 387 First Unique Character in a String &bigstar;
 * 392 Is Subsequence &bigstar;
@@ -27,6 +28,7 @@
 * 43 Multiply Strings &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 * 151 Reverse Words in a String &bigstar;&bigstar;
+* 187 Repeated DNA Sequences &bigstar;&bigstar;
 * 433 Minimum Genetic Mutation &bigstar;&bigstar;
 * 468 Validate IP Address &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
@@ -75,6 +77,7 @@
 * 56 Merge Intervals &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
 * 75 Sort Colors &bigstar;&bigstar;
+* 130 Surrounded Regions &bigstar;&bigstar;
 * 137 Single Number II &bigstar;&bigstar;
 * 152 Maximum Product Subarray &bigstar;&bigstar;
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
@@ -86,7 +89,9 @@
 * 229 Majority Element II &bigstar;&bigstar;
 * 238 Product of Array Except Self &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
+* 275 H-Index II &bigstar;&bigstar;
 * 287 Find the Duplicate Number &bigstar;&bigstar;
+* 289 Game of Life &bigstar;&bigstar;
 * 334 Increasing Triplet Subsequence &bigstar;&bigstar;
 * 347 Top K Frequent Elements &bigstar;&bigstar;
 * 384 Shuffle an Array &bigstar;&bigstar;
@@ -228,6 +233,7 @@
 * 78 Subsets &bigstar;&bigstar;
 * 79 Word Search &bigstar;&bigstar;
 * 89 Gray Code &bigstar;&bigstar;
+* 241 Different Ways to Add Parentheses &bigstar;&bigstar;
 
 ### DP（动态规划）
 * 53 Maximum Subarray &bigstar;
@@ -238,6 +244,7 @@
 * 62 Unique Paths &bigstar;&bigstar;
 * 64 Minimum Path Sum &bigstar;&bigstar;
 * 96 Unique Binary Search Trees &bigstar;&bigstar;
+* 120 Triangle &bigstar;&bigstar;
 * 139 Word Break &bigstar;&bigstar;
 * 221 Maximal Square &bigstar;&bigstar;
 * 279 Perfect Squares &bigstar;&bigstar;
@@ -293,6 +300,7 @@
 * 197 Rising Temperature &bigstar;
 * 595 Big Countries &bigstar;
 * 627 Swap Salary &bigstar;
+* 178 Rank Scores &bigstar;&bigstar;
 
 ### Shell
 * 193 Valid Phone Numbers &bigstar;
