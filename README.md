@@ -51,6 +51,7 @@
 * 217 Contains Duplicate &bigstar;
 * 268 Missing Number &bigstar;
 * 283 Move Zeroes &bigstar;
+* 303 Range Sum Query - Immutable &bigstar;
 * 349 Intersection of Two Arrays &bigstar;
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
@@ -96,6 +97,7 @@
 * 347 Top K Frequent Elements &bigstar;&bigstar;
 * 384 Shuffle an Array &bigstar;&bigstar;
 * 419 Battleships in a Board &bigstar;&bigstar;
+* 457 Circular Array Loop &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
@@ -150,6 +152,7 @@
 * 19 Remove Nth Node From End of List &bigstar;&bigstar;
 * 24 Swap Nodes in Pairs &bigstar;&bigstar;
 * 138 Copy List with Random Pointer &bigstar;&bigstar;
+* 143 Reorder List &bigstar;&bigstar;
 * 147 Insertion Sort List &bigstar;&bigstar;
 * 148 Sort List &bigstar;&bigstar;
 * 142 Linked List Cycle II &bigstar;&bigstar;
@@ -204,6 +207,7 @@
 * 1232 Check If It Is a Straight Line &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
+* 60 Permutation Sequence &bigstar;&bigstar;
 * 89 Gray Code &bigstar;&bigstar;
 * 166 Fraction to Recurring Decimal &bigstar;&bigstar;
 * 223 Rectangle Area &bigstar;&bigstar;
@@ -301,6 +305,7 @@
 * 595 Big Countries &bigstar;
 * 627 Swap Salary &bigstar;
 * 178 Rank Scores &bigstar;&bigstar;
+* 180 Consecutive Numbers &bigstar;&bigstar;
 
 ### Shell
 * 193 Valid Phone Numbers &bigstar;
