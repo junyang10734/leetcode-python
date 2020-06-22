@@ -79,6 +79,7 @@
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
 * 75 Sort Colors &bigstar;&bigstar;
 * 130 Surrounded Regions &bigstar;&bigstar;
+* 134 Gas Station &bigstar;&bigstar;
 * 137 Single Number II &bigstar;&bigstar;
 * 152 Maximum Product Subarray &bigstar;&bigstar;
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
@@ -101,6 +102,7 @@
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
+* 695 Max Area of Island &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
 * 986 Interval List Intersections &bigstar;&bigstar;
@@ -169,6 +171,7 @@
 * 437 Path Sum III &bigstar;
 * 543 Diameter of Binary Tree &bigstar;
 * 617 Merge Two Binary Trees &bigstar;
+* 669 Trim a Binary Search Tree &bigstar;
 * 700 Search in a Binary Search Tree &bigstar;
 * 993 Cousins in Binary Tree &bigstar;
 * 997 Find the Town Judge &bigstar;
@@ -185,6 +188,7 @@
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
 * 337 House Robber III &bigstar;&bigstar;
+* 654 Maximum Binary Tree &bigstar;&bigstar;
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
 * 886 Possible Bipartition &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
@@ -200,6 +204,7 @@
 * 172 Factorial Trailing Zeroes &bigstar;
 * 231 Power of Two &bigstar;
 * 258 Add Digits &bigstar;
+* 263 Ugly Number &bigstar;
 * 292 Nim Game &bigstar;
 * 326 Power of Three &bigstar;
 * 367 Valid Perfect Square &bigstar;
