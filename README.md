@@ -59,6 +59,7 @@
 * 463 Island Perimeter &bigstar;
 * 561 Array Partition I &bigstar;
 * 581 Shortest Unsorted Continuous Subarray &bigstar;
+* 717 1-bit and 2-bit Characters &bigstar;
 * 733 Flood Fill &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 1252 Cells with Odd Values in a Matrix &bigstar;
@@ -78,6 +79,7 @@
 * 56 Merge Intervals &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
 * 75 Sort Colors &bigstar;&bigstar;
+* 127 Word Ladder &bigstar;&bigstar;
 * 130 Surrounded Regions &bigstar;&bigstar;
 * 134 Gas Station &bigstar;&bigstar;
 * 137 Single Number II &bigstar;&bigstar;
@@ -98,6 +100,7 @@
 * 347 Top K Frequent Elements &bigstar;&bigstar;
 * 384 Shuffle an Array &bigstar;&bigstar;
 * 419 Battleships in a Board &bigstar;&bigstar;
+* 442 Find All Duplicates in an Array &bigstar;&bigstar;
 * 457 Circular Array Loop &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
@@ -126,6 +129,7 @@
 * 136 Single Number &bigstar;
 * 202 Happy Number &bigstar;
 * 204 Count Primes &bigstar;
+* 205 Isomorphic Strings &bigstar;
 * 219 Contains Duplicate II &bigstar;
 * 242 Valid Anagram &bigstar;
 * 500 Keyboard Row &bigstar;
@@ -218,6 +222,7 @@
 * 223 Rectangle Area &bigstar;&bigstar;
 * 279 Perfect Squares &bigstar;&bigstar;
 * 319 Bulb Switcher &bigstar;&bigstar;
+* 386 Lexicographical Numbers &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 
 ### Bit Manipulation（位操作）
@@ -230,6 +235,7 @@
 * 201 Bitwise AND of Numbers Range &bigstar;&bigstar;
 * 260 Single Number III &bigstar;&bigstar;
 * 338 Counting Bits &bigstar;&bigstar;
+* 421 Maximum XOR of Two Numbers in an Array &bigstar;&bigstar;
 
 ### DaC and Recursive（分治，递归）
 * 53 Maximum Subarray &bigstar;
