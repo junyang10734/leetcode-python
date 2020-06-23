@@ -17,6 +17,7 @@
 * 557 Reverse Words in a String III &bigstar;
 * 657 Robot Return to Origin &bigstar;
 * 796 Rotate String &bigstar;
+* 804 Unique Morse Code Words &bigstar;
 * 819 Most Common Word &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
@@ -29,6 +30,7 @@
 * 49 Group Anagrams &bigstar;&bigstar;
 * 151 Reverse Words in a String &bigstar;&bigstar;
 * 187 Repeated DNA Sequences &bigstar;&bigstar;
+* 306 Additive Number &bigstar;&bigstar;
 * 433 Minimum Genetic Mutation &bigstar;&bigstar;
 * 468 Validate IP Address &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
@@ -45,6 +47,7 @@
 * 66 Plus One &bigstar;
 * 88 Merge Sorted Array &bigstar;
 * 118 Pascal's Triangle &bigstar;
+* 119 Pascal's Triangle II &bigstar;
 * 167 Two Sum II - Input array is sorted &bigstar;
 * 189 Rotate Array &bigstar;
 * 219 Contains Duplicate II &bigstar;
@@ -59,6 +62,7 @@
 * 463 Island Perimeter &bigstar;
 * 561 Array Partition I &bigstar;
 * 581 Shortest Unsorted Continuous Subarray &bigstar;
+* 697 Degree of an Array &bigstar;
 * 717 1-bit and 2-bit Characters &bigstar;
 * 733 Flood Fill &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
@@ -69,6 +73,7 @@
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 * 15 3Sum &bigstar;&bigstar;
 * 16 3Sum Closest &bigstar;&bigstar;
+* 18 4Sum &bigstar;&bigstar;
 * 31 Next Permutation &bigstar;&bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
@@ -150,6 +155,7 @@
 * 21 Merge Two Sorted Lists &bigstar;
 * 141 Linked List Cycle &bigstar;
 * 160 Intersection of Two Linked Lists &bigstar;
+* 203 Remove Linked List Elements &bigstar;
 * 206 Reverse Linked List &bigstar;
 * 234 Palindrome Linked List &bigstar;
 * 237 Delete Node in a Linked List &bigstar;
@@ -164,6 +170,7 @@
 * 142 Linked List Cycle II &bigstar;&bigstar;
 * 173 Binary Search Tree Iterator &bigstar;&bigstar;
 * 328 Odd Even Linked List &bigstar;&bigstar;
+* 445 Add Two Numbers II &bigstar;&bigstar;
 
 ### Tree and Graph（树）
 * 101 Symmetric Tree &bigstar;
@@ -189,6 +196,7 @@
 * 116 Populating Next Right Pointers in Each Node &bigstar;&bigstar;
 * 200 Number of Islands &bigstar;&bigstar;
 * 207 Course Schedule &bigstar;&bigstar;
+* 222 Count Complete Tree Nodes &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
 * 337 House Robber III &bigstar;&bigstar;
@@ -204,6 +212,7 @@
 * 9 Palindrome Number &bigstar;
 * 69 Sqrt(x) &bigstar;
 * 136 Single Number &bigstar;
+* 168 Excel Sheet Column Title &bigstar;
 * 171 Excel Sheet Column Number &bigstar;
 * 172 Factorial Trailing Zeroes &bigstar;
 * 231 Power of Two &bigstar;
@@ -212,6 +221,7 @@
 * 292 Nim Game &bigstar;
 * 326 Power of Three &bigstar;
 * 367 Valid Perfect Square &bigstar;
+* 453 Minimum Moves to Equal Array Elements &bigstar;
 * 728 Self Dividing Numbers &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
@@ -249,6 +259,7 @@
 * 79 Word Search &bigstar;&bigstar;
 * 89 Gray Code &bigstar;&bigstar;
 * 241 Different Ways to Add Parentheses &bigstar;&bigstar;
+* 390 Elimination Game &bigstar;&bigstar;
 
 ### DP（动态规划）
 * 53 Maximum Subarray &bigstar;
@@ -303,6 +314,7 @@
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 
 ### Design（设计）
+* 232 Implement Queue using Stacks &bigstar;
 * 146 LRU Cache &bigstar;&bigstar;
 * 208 Implement Trie (Prefix Tree) &bigstar;&bigstar;
 * 380 Insert Delete GetRandom O(1) &bigstar;&bigstar;
@@ -312,6 +324,7 @@
 * 175 Combine Two Tables &bigstar;
 * 176 Second Highest Salary &bigstar;
 * 181 Employees Earning More Than Their Managers &bigstar;
+* 182 Duplicate Emails &bigstar;
 * 197 Rising Temperature &bigstar;
 * 595 Big Countries &bigstar;
 * 627 Swap Salary &bigstar;
