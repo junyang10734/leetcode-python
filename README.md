@@ -200,6 +200,7 @@
 * 222 Count Complete Tree Nodes &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
+* 332 Reconstruct Itinerary &bigstar;&bigstar;
 * 337 House Robber III &bigstar;&bigstar;
 * 654 Maximum Binary Tree &bigstar;&bigstar;
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
