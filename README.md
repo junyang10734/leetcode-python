@@ -223,6 +223,7 @@
 * 292 Nim Game &bigstar;
 * 326 Power of Three &bigstar;
 * 367 Valid Perfect Square &bigstar;
+* 441 Arranging Coins &bigstar;
 * 453 Minimum Moves to Equal Array Elements &bigstar;
 * 728 Self Dividing Numbers &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
@@ -307,6 +308,7 @@
 * 69 Sqrt(x) &bigstar;
 * 278 First Bad Version &bigstar;
 * 367 Valid Perfect Square &bigstar;
+* 441 Arranging Coins &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
