@@ -196,6 +196,8 @@
 * 114 Flatten Binary Tree to Linked List &bigstar;&bigstar;
 * 116 Populating Next Right Pointers in Each Node &bigstar;&bigstar;
 * 129 Sum Root to Leaf Numbers &bigstar;&bigstar;
+* 144 Binary Tree Preorder Traversal &bigstar;&bigstar;
+* 145 Binary Tree Postorder Traversal &bigstar;&bigstar;
 * 200 Number of Islands &bigstar;&bigstar;
 * 207 Course Schedule &bigstar;&bigstar;
 * 222 Count Complete Tree Nodes &bigstar;&bigstar;
