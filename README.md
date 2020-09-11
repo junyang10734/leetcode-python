@@ -116,6 +116,7 @@
 * 986 Interval List Intersections &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
+* 1302 Deepest Leaves Sum &bigstar;&bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
@@ -182,6 +183,8 @@
 * 235 Lowest Common Ancestor of a Binary Search Tree &bigstar;
 * 437 Path Sum III &bigstar;
 * 543 Diameter of Binary Tree &bigstar;
+* 589 N-ary Tree Preorder Traversal &bigstar;
+* 590 N-ary Tree Postorder Traversal &bigstar;
 * 617 Merge Two Binary Trees &bigstar;
 * 669 Trim a Binary Search Tree &bigstar;
 * 700 Search in a Binary Search Tree &bigstar;
@@ -205,9 +208,11 @@
 * 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
 * 332 Reconstruct Itinerary &bigstar;&bigstar;
 * 337 House Robber III &bigstar;&bigstar;
+* 429 N-ary Tree Level Order Traversal &bigstar;&bigstar;
 * 654 Maximum Binary Tree &bigstar;&bigstar;
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
 * 886 Possible Bipartition &bigstar;&bigstar;
+* 987 Vertical Order Traversal of a Binary Tree &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
