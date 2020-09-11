@@ -8,6 +8,7 @@ class TreeNode:
 
 
 #  DaC, recursions
+# faster than 63.86%
 class Solution1:
     def isSymmetric(self, root: TreeNode) -> bool:
         if not root:
