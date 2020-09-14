@@ -21,12 +21,36 @@ class Solution1:
                 l = []
                 ans.append(l)
             ans[d].append(node.val)
-            for n in node.children:
+            for n in node.children:r
                 helper(n, d+1, ans)
         
         
         helper(root, 0, ans)
-        return ans
+        return 
+
+# faster than 25.51%
+# https://blog.csdn.net/fuxuemingzhu/article/details/81022170r
+class Solution1:
+    def levelOrder(self, root: 'Node') -> List[List[int]]:
+        res = []
+        if not root:
+            return res
+        q = collections.deque()
+        q.append(root)
+        
+        while q:
+            level = []
+            size = len(q)
+            for i in range(size):
+                node = q.popleft()
+                if not node:
+                    continue
+                level.append(node.val)
+                for child in node.children:
+                    q.append(child)
+            if level:
+                res.append(level)
+        return res
 
 
 # DFS

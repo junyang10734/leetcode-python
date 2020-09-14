@@ -181,15 +181,19 @@
 * 108 Convert Sorted Array to Binary Search Tree &bigstar;
 * 110 Balanced Binary Tree &bigstar;
 * 111 Minimum Depth of Binary Tree &bigstar;
+* 112 Path Sum &bigstar;
 * 226 Invert Binary Tree &bigstar;
 * 235 Lowest Common Ancestor of a Binary Search Tree &bigstar;
 * 437 Path Sum III &bigstar;
 * 543 Diameter of Binary Tree &bigstar;
+* 572 Subtree of Another Tree &bigstar;
 * 589 N-ary Tree Preorder Traversal &bigstar;
 * 590 N-ary Tree Postorder Traversal &bigstar;
 * 617 Merge Two Binary Trees &bigstar;
 * 669 Trim a Binary Search Tree &bigstar;
 * 700 Search in a Binary Search Tree &bigstar;
+* 872 Leaf-Similar Trees &bigstar;
+* 965 Univalued Binary Tree &bigstar;
 * 993 Cousins in Binary Tree &bigstar;
 * 997 Find the Town Judge &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
@@ -213,10 +217,12 @@
 * 429 N-ary Tree Level Order Traversal &bigstar;&bigstar;
 * 654 Maximum Binary Tree &bigstar;&bigstar;
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
+* 814 Binary Tree Pruning &bigstar;&bigstar;
 * 886 Possible Bipartition &bigstar;&bigstar;
 * 987 Vertical Order Traversal of a Binary Tree &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
+* 1325 Delete Leaves With a Given Value &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
 
 ### Math（数学）

@@ -21,9 +21,35 @@ class Solution1:
         self.levelOrder(root.right, res, level + 1)
 
 
+# BFS
+# faster than 43.70%  
+class Solution2:
+    def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
+        res = []
+        if not root:
+            return res
+        
+        q = collections.deque()
+        q.append(root)
+        
+        while q:
+            level = []
+            size = len(q)
+            for i in range(size):
+                node = q.popleft()
+                level.append(node.val)
+                if node.left:
+                    q.append(node.left)
+                if node.right:
+                    q.append(node.right)
+            res.append(level)
+        
+        return res[::-1]
+
+
 # Iteration
 # runtime: faster than 7.08%
-class Solution2:
+class Solution3:
     def levelOrderBottom(self, root: TreeNode) -> List[List[int]]:
         res = []
         que = collections.deque()
