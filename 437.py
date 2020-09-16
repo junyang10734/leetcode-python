@@ -10,7 +10,7 @@
 #         self.left = None
 #         self.right = None
 
-# DFS
+# DFS + DFS
 # runtime: faster than 32.80% 
 class Solution1:
     def pathSum(self, root: TreeNode, sum: int) -> int:

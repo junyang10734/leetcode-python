@@ -9,9 +9,25 @@
 #         self.right = None
 
 
+# Recursion
+# faster than 94.86%
+# https://blog.csdn.net/fuxuemingzhu/article/details/80778001
+class Solution1:
+    def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
+        if not root or p == root or q == root:
+            return root
+        left = self.lowestCommonAncestor(root.left, p, q)
+        right = self.lowestCommonAncestor(root.right, p, q)
+        
+        if left and right:
+            return root
+        
+        return left if left else right
+
+
 # Recursive Approach
 # runtime: faster than 82.31% 
-class Solution1:
+class Solution2:
     def __init__(self):
         self.ans = None
         
@@ -38,7 +54,7 @@ class Solution1:
 
 # Iterative using parent pointers
 # runtime: faster than 82.31% 
-class Solution2:
+class Solution3:
     def lowestCommonAncestor(self, root: 'TreeNode', p: 'TreeNode', q: 'TreeNode') -> 'TreeNode':
         stack = [root] 
         parent = {root: None}
