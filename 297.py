@@ -7,6 +7,7 @@
 #         self.left = None
 #         self.right = None
 
+
 # https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/399712/Python-strings-and-dictionary
 # run time: faster than 36.27% 
 class Codec:
@@ -47,6 +48,48 @@ class Codec:
         
         return process('')
 
+
+
+# https://blog.csdn.net/fuxuemingzhu/article/details/79571892
+# faster than 56.55%
+class Codec:
+
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
+        vals = []
+        def preOrder(node):
+            if not node:
+                vals.append('#')
+            else:
+                vals.append(str(node.val))
+                preOrder(node.left)
+                preOrder(node.right)
+        
+        preOrder(root)
+        return ' '.join(vals)
+        
+
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+        
+        :type data: str
+        :rtype: TreeNode
+        """
+        vals = collections.deque(val for val in data.split())
+        def build():
+            if vals:
+                val = vals.popleft()
+                if val == '#':
+                    return None
+                node = TreeNode(int(val))
+                node.left = build()
+                node.right = build()
+                return node
+        return build()
 
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()

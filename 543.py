@@ -9,7 +9,10 @@
 #         self.left = None
 #         self.right = None
 
-class Solution:
+
+# DFS + Recursion
+# faster than 92.98%
+class Solution1:
     def diameterOfBinaryTree(self, root: TreeNode) -> int:
         self.ans = 1
         def depth(node):
