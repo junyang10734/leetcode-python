@@ -151,6 +151,7 @@
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
+* 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 
 ### Linked List（链表）
 * 21 Merge Two Sorted Lists &bigstar;
@@ -224,12 +225,14 @@
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
 * 814 Binary Tree Pruning &bigstar;&bigstar;
 * 886 Possible Bipartition &bigstar;&bigstar;
+* 979 Distribute Coins in Binary Tree &bigstar;&bigstar;
 * 987 Vertical Order Traversal of a Binary Tree &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1325 Delete Leaves With a Given Value &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
+* 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 
 ### Math（数学）
 * 7 Reverse Integer &bigstar;
@@ -283,8 +286,10 @@
 * 78 Subsets &bigstar;&bigstar;
 * 79 Word Search &bigstar;&bigstar;
 * 89 Gray Code &bigstar;&bigstar;
+* 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
 * 241 Different Ways to Add Parentheses &bigstar;&bigstar;
 * 390 Elimination Game &bigstar;&bigstar;
+* 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 
 ### DP（动态规划）
 * 53 Maximum Subarray &bigstar;
@@ -312,6 +317,7 @@
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
+* 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 
 ### Greedy（贪心算法）
 * 122 Best Time to Buy and Sell Stock II &bigstar;
@@ -324,6 +330,7 @@
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
+* 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 
 ### Binary Search（二分查找）
 * 35 Search Insert Position &bigstar;

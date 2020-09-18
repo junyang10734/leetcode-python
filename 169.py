@@ -1,3 +1,5 @@
+# Majority Element
+
 # Sort
 # 先对数组进行排序，因为多数元素一定存在，且个数超过总个数的一半，那么排序后最中间的那个元素一定是多数元素
 class Solution1:
@@ -26,3 +28,29 @@ class Solution2:
                 return majl
             else:
                 return majl if nums[left:right+1].count(majl) > nums[left:right+1].count(majr) else majr
+
+
+
+# HashMap
+# faster than 62.71%
+class Solution3:
+    def majorityElement(self, nums: List[int]) -> int:
+        counts = collections.Counter(nums)
+        return max(counts.keys(), key=counts.get)
+
+
+# 摩尔投票法 Moore Voting
+# faster than 62.71%
+class Solution4:
+    def majorityElement(self, nums: List[int]) -> int:
+        m = cm = 0
+        for num in nums:
+            if m == num:
+                cm += 1
+            elif cm == 0:
+                m = num
+                cm = 1
+            else:
+                cm -= 1
+        
+        return m

@@ -28,4 +28,26 @@ class Solution:
             return [norobcurr, robcurr]
         
         return dfs(root)[1]
+
+
+# DFS
+# faster than 43.77% 
+class Solution:
+    def rob(self, root: TreeNode) -> int:
+        self.d = {}
+        return self.helper(root, False)
+    
+    def helper(self, node, parentUsed):
+        if not node:
+            return 0
+        if (node, parentUsed) in self.d:
+            return self.d[(node, parentUsed)]
+        res = 0
+        if parentUsed:
+            res = self.helper(node.left, False) + self.helper(node.right, False)
+        else:
+            res = max(node.val + self.helper(node.left, True) + self.helper(node.right, True), self.helper(node.left, False) + self.helper(node.right, False))
+        
+        self.d[(node, parentUsed)] = res
+        return res
         
