@@ -232,6 +232,7 @@
 * 1325 Delete Leaves With a Given Value &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
+* 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 
 ### Math（数学）
@@ -289,7 +290,9 @@
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
 * 241 Different Ways to Add Parentheses &bigstar;&bigstar;
 * 390 Elimination Game &bigstar;&bigstar;
+* 912 Sort an Array (all sort algorithms) &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
+* 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 
 ### DP（动态规划）
 * 53 Maximum Subarray &bigstar;
@@ -338,13 +341,14 @@
 * 278 First Bad Version &bigstar;
 * 367 Valid Perfect Square &bigstar;
 * 441 Arranging Coins &bigstar;
+* 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
 * 528 Random Pick with Weight &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
-* 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
+* 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 
 ### Design（设计）
 * 232 Implement Queue using Stacks &bigstar;
