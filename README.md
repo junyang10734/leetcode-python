@@ -114,6 +114,7 @@
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
 * 986 Interval List Intersections &bigstar;&bigstar;
+* 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
@@ -125,6 +126,7 @@
 * 1046 Last Stone Weight &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
+* 378 Kth Smallest Element in a Sorted Matrix &bigstar;&bigstar;
 * 388 Longest Absolute File Path &bigstar;&bigstar;
 * 394 Decode String &bigstar;&bigstar;
 * 402 Remove K Digits &bigstar;&bigstar;
@@ -146,6 +148,7 @@
 * 260 Single Number III &bigstar;&bigstar;
 * 438 Find All Anagrams in a String &bigstar;&bigstar;
 * 451 Sort Characters By Frequency &bigstar;&bigstar;
+* 454 4Sum II &bigstar;&bigstar;
 * 567 Permutation in String &bigstar;&bigstar;
 * 525 Contiguous Array &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
@@ -330,6 +333,7 @@
 * 406 Queue Reconstruction by Height &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 763 Partition Labels &bigstar;&bigstar;
+* 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
@@ -346,6 +350,7 @@
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
+* 378 Kth Smallest Element in a Sorted Matrix &bigstar;&bigstar;
 * 528 Random Pick with Weight &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;

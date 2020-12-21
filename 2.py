@@ -45,3 +45,30 @@ class Solution2:
             l1 = l1.next if l1 else None
             l2 = l2.next if l2 else None
         return res.next
+
+
+# string
+# faster than 82.98%
+# https://blog.csdn.net/fuxuemingzhu/article/details/79379626
+class Solution3:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        num1 = ''
+        num2 = ''
+        
+        while l1:
+            num1 += str(l1.val)
+            l1 = l1.next
+        while l2:
+            num2 += str(l2.val)
+            l2 = l2.next
+        
+        sum = str(int(num1[::-1]) + int(num2[::-1]))[::-1]
+        print(sum)
+        head = ListNode(sum[0])
+        res = head
+        for i in range(1,len(sum)):
+            node = ListNode(sum[i])
+            head.next = node
+            head = head.next
+        
+        return res
