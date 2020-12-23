@@ -142,6 +142,7 @@
 * 242 Valid Anagram &bigstar;
 * 500 Keyboard Row &bigstar;
 * 997 Find the Town Judge &bigstar;
+* 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 * 138 Copy List with Random Pointer &bigstar;&bigstar;
@@ -345,6 +346,7 @@
 * 278 First Bad Version &bigstar;
 * 367 Valid Perfect Square &bigstar;
 * 441 Arranging Coins &bigstar;
+* 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
