@@ -149,6 +149,7 @@
 * 49 Group Anagrams &bigstar;&bigstar;
 * 138 Copy List with Random Pointer &bigstar;&bigstar;
 * 260 Single Number III &bigstar;&bigstar;
+* 299 Bulls and Cows &bigstar;&bigstar;
 * 438 Find All Anagrams in a String &bigstar;&bigstar;
 * 451 Sort Characters By Frequency &bigstar;&bigstar;
 * 454 4Sum II &bigstar;&bigstar;
@@ -228,6 +229,7 @@
 * 449 Serialize and Deserialize BST &bigstar;&bigstar;
 * 508 Most Frequent Subtree Sum &bigstar;&bigstar;
 * 654 Maximum Binary Tree &bigstar;&bigstar;
+* 743 Network Delay Time &bigstar;&bigstar;
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
 * 814 Binary Tree Pruning &bigstar;&bigstar;
 * 886 Possible Bipartition &bigstar;&bigstar;
@@ -366,6 +368,7 @@
 * 208 Implement Trie (Prefix Tree) &bigstar;&bigstar;
 * 380 Insert Delete GetRandom O(1) &bigstar;&bigstar;
 * 449 Serialize and Deserialize BST &bigstar;&bigstar;
+* 622 Design Circular Queue &bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
 
 ### SQL (数据库)
