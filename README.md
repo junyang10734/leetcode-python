@@ -14,6 +14,7 @@
 * 383 Ransom Note &bigstar;
 * 387 First Unique Character in a String &bigstar;
 * 392 Is Subsequence &bigstar;
+* 482 License Key Formatting &bigstar;
 * 557 Reverse Words in a String III &bigstar;
 * 657 Robot Return to Origin &bigstar;
 * 796 Rotate String &bigstar;
@@ -22,7 +23,7 @@
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 6 ZigZag Conversion &bigstar;&bigstar;
-* 8 String to Integer (atoi)
+* 8 String to Integer (atoi) &bigstar;&bigstar;
 * 12 Integer to Roman &bigstar;&bigstar;
 * 17 Letter Combinations of a Phone Number &bigstar;&bigstar;
 * 22 Generate Parentheses &bigstar;&bigstar;
@@ -36,6 +37,7 @@
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
+* 809 Expressive Words &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
 
 ### Array（数组）
@@ -319,6 +321,7 @@
 * 494 Target Sum &bigstar;&bigstar;
 * 518 Coin Change 2 &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
+* 837 New 21 Game &bigstar;&bigstar;
 * 1035 Uncrossed Lines &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
