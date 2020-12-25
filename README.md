@@ -158,6 +158,7 @@
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
+* 981 Time Based Key-Value Store &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 
 ### Linked List（链表）
@@ -236,6 +237,7 @@
 * 979 Distribute Coins in Binary Tree &bigstar;&bigstar;
 * 987 Vertical Order Traversal of a Binary Tree &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
+* 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1325 Delete Leaves With a Given Value &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
@@ -299,6 +301,7 @@
 * 241 Different Ways to Add Parentheses &bigstar;&bigstar;
 * 390 Elimination Game &bigstar;&bigstar;
 * 912 Sort an Array (all sort algorithms) &bigstar;&bigstar;
+* 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 
@@ -360,6 +363,8 @@
 * 378 Kth Smallest Element in a Sorted Matrix &bigstar;&bigstar;
 * 528 Random Pick with Weight &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
+* 981 Time Based Key-Value Store &bigstar;&bigstar;
+* 1011 Capacity To Ship Packages Within D Days &bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 
 ### Design（设计）
