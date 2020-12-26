@@ -15,6 +15,7 @@
 * 387 First Unique Character in a String &bigstar;
 * 392 Is Subsequence &bigstar;
 * 482 License Key Formatting &bigstar;
+* 551 Student Attendance Record I &bigstar;
 * 557 Reverse Words in a String III &bigstar;
 * 657 Robot Return to Origin &bigstar;
 * 796 Rotate String &bigstar;
@@ -158,6 +159,7 @@
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
+* 939 Minimum Area Rectangle &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 
@@ -340,6 +342,7 @@
 * 1046 Last Stone Weight &bigstar;
 * 55 Jump Game &bigstar;&bigstar;
 * 406 Queue Reconstruction by Height &bigstar;&bigstar;
+* 659 Split Array into Consecutive Subsequences &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 763 Partition Labels &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
