@@ -35,6 +35,7 @@
 * 306 Additive Number &bigstar;&bigstar;
 * 433 Minimum Genetic Mutation &bigstar;&bigstar;
 * 468 Validate IP Address &bigstar;&bigstar;
+* 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
@@ -67,6 +68,7 @@
 * 581 Shortest Unsorted Continuous Subarray &bigstar;
 * 697 Degree of an Array &bigstar;
 * 717 1-bit and 2-bit Characters &bigstar;
+* 720 Longest Word in Dictionary &bigstar;
 * 733 Flood Fill &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 1252 Cells with Odd Values in a Matrix &bigstar;
@@ -110,6 +112,7 @@
 * 419 Battleships in a Board &bigstar;&bigstar;
 * 442 Find All Duplicates in an Array &bigstar;&bigstar;
 * 457 Circular Array Loop &bigstar;&bigstar;
+* 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
@@ -158,6 +161,7 @@
 * 525 Contiguous Array &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
+* 676 Implement Magic Dictionary &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
 * 939 Minimum Area Rectangle &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
@@ -232,11 +236,13 @@
 * 449 Serialize and Deserialize BST &bigstar;&bigstar;
 * 508 Most Frequent Subtree Sum &bigstar;&bigstar;
 * 654 Maximum Binary Tree &bigstar;&bigstar;
+* 684 Redundant Connection &bigstar;&bigstar;
 * 743 Network Delay Time &bigstar;&bigstar;
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
 * 814 Binary Tree Pruning &bigstar;&bigstar;
 * 886 Possible Bipartition &bigstar;&bigstar;
 * 889 Construct Binary Tree from Preorder and Postorder Traversal &bigstar;&bigstar;
+* 947 Most Stones Removed with Same Row or Column &bigstar;&bigstar;
 * 979 Distribute Coins in Binary Tree &bigstar;&bigstar;
 * 987 Vertical Order Traversal of a Binary Tree &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
