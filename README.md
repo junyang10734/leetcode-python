@@ -40,6 +40,7 @@
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 809 Expressive Words &bigstar;&bigstar;
+* 833 Find And Replace in String &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
 
 ### Array（数组）
@@ -213,6 +214,7 @@
 * 993 Cousins in Binary Tree &bigstar;
 * 997 Find the Town Judge &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
+* 95 Unique Binary Search Trees II &bigstar;&bigstar;
 * 96 Unique Binary Search Trees &bigstar;&bigstar;
 * 98 Validate Binary Search Tree &bigstar;&bigstar;
 * 102 Binary Tree Level Order Traversal &bigstar;&bigstar;
@@ -306,6 +308,7 @@
 * 78 Subsets &bigstar;&bigstar;
 * 79 Word Search &bigstar;&bigstar;
 * 89 Gray Code &bigstar;&bigstar;
+* 95 Unique Binary Search Trees II &bigstar;&bigstar;
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
 * 241 Different Ways to Add Parentheses &bigstar;&bigstar;
 * 390 Elimination Game &bigstar;&bigstar;
