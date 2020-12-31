@@ -18,6 +18,7 @@
 * 551 Student Attendance Record I &bigstar;
 * 557 Reverse Words in a String III &bigstar;
 * 657 Robot Return to Origin &bigstar;
+* 788 Rotated Digits &bigstar;
 * 796 Rotate String &bigstar;
 * 804 Unique Morse Code Words &bigstar;
 * 819 Most Common Word &bigstar;
@@ -249,6 +250,7 @@
 * 987 Vertical Order Traversal of a Binary Tree &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
+* 1145 Binary Tree Coloring Game &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1325 Delete Leaves With a Given Value &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
@@ -283,6 +285,7 @@
 * 279 Perfect Squares &bigstar;&bigstar;
 * 319 Bulb Switcher &bigstar;&bigstar;
 * 386 Lexicographical Numbers &bigstar;&bigstar;
+* 963 Minimum Area Rectangle II &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 
 ### Bit Manipulation（位操作）
