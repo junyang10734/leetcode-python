@@ -40,6 +40,7 @@
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
+* 686 Repeated String Match &bigstar;&bigstar;
 * 809 Expressive Words &bigstar;&bigstar;
 * 833 Find And Replace in String &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
@@ -120,6 +121,7 @@
 * 621 Task Scheduler &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
+* 926 Flip String to Monotone Increasing &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
 * 986 Interval List Intersections &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
@@ -246,6 +248,7 @@
 * 886 Possible Bipartition &bigstar;&bigstar;
 * 889 Construct Binary Tree from Preorder and Postorder Traversal &bigstar;&bigstar;
 * 947 Most Stones Removed with Same Row or Column &bigstar;&bigstar;
+* 951 Flip Equivalent Binary Trees &bigstar;&bigstar;
 * 979 Distribute Coins in Binary Tree &bigstar;&bigstar;
 * 987 Vertical Order Traversal of a Binary Tree &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
@@ -317,6 +320,7 @@
 * 390 Elimination Game &bigstar;&bigstar;
 * 889 Construct Binary Tree from Preorder and Postorder Traversal &bigstar;&bigstar;
 * 912 Sort an Array (all sort algorithms) &bigstar;&bigstar;
+* 951 Flip Equivalent Binary Trees &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
@@ -342,7 +346,9 @@
 * 494 Target Sum &bigstar;&bigstar;
 * 518 Coin Change 2 &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
+* 801 Minimum Swaps To Make Sequences Increasing &bigstar;&bigstar;
 * 837 New 21 Game &bigstar;&bigstar;
+* 926 Flip String to Monotone Increasing &bigstar;&bigstar;
 * 1035 Uncrossed Lines &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
