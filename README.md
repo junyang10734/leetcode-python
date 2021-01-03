@@ -120,6 +120,9 @@
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
+* 729 My Calendar I &bigstar;&bigstar;
+* 792 Number of Matching Subsequences &bigstar;&bigstar;
+* 904 Fruit Into Baskets &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
@@ -243,8 +246,10 @@
 * 508 Most Frequent Subtree Sum &bigstar;&bigstar;
 * 654 Maximum Binary Tree &bigstar;&bigstar;
 * 684 Redundant Connection &bigstar;&bigstar;
+* 729 My Calendar I &bigstar;&bigstar;
 * 743 Network Delay Time &bigstar;&bigstar;
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
+* 802 Find Eventual Safe States &bigstar;&bigstar;
 * 814 Binary Tree Pruning &bigstar;&bigstar;
 * 886 Possible Bipartition &bigstar;&bigstar;
 * 889 Construct Binary Tree from Preorder and Postorder Traversal &bigstar;&bigstar;
