@@ -286,6 +286,7 @@
 * 166 Fraction to Recurring Decimal &bigstar;&bigstar;
 * 223 Rectangle Area &bigstar;&bigstar;
 * 279 Perfect Squares &bigstar;&bigstar;
+* 304 Range Sum Query 2D - Immutable &bigstar;&bigstar;
 * 319 Bulb Switcher &bigstar;&bigstar;
 * 386 Lexicographical Numbers &bigstar;&bigstar;
 * 963 Minimum Area Rectangle II &bigstar;&bigstar;
@@ -339,6 +340,7 @@
 * 221 Maximal Square &bigstar;&bigstar;
 * 279 Perfect Squares &bigstar;&bigstar;
 * 300 Longest Increasing Subsequence &bigstar;&bigstar;
+* 304 Range Sum Query 2D - Immutable &bigstar;&bigstar;
 * 322 Coin Change &bigstar;&bigstar;
 * 338 Counting Bits &bigstar;&bigstar;
 * 368 Largest Divisible Subset &bigstar;&bigstar;

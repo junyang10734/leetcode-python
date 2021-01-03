@@ -10,27 +10,28 @@
 # https://blog.csdn.net/fuxuemingzhu/article/details/87829987
 
 # DFS
-# runtime: faster than 45.51%
-class Solution:
+# runtime: faster than 93.61%
+class Solution1:
     def verticalTraversal(self, root: TreeNode) -> List[List[int]]:
         self.m = []
         self.dfs(root, 0, 0)
         self.m.sort()
+
         res = [[self.m[0][2]]]
         for i in range(1, len(self.m)):
             if self.m[i][0] == self.m[i-1][0]:
                 res[-1].append(self.m[i][2])
             else:
                 res.append([self.m[i][2]])
-                
+        
         return res
-    
-    def dfs(self, root, x, y):
-        if not root:
+           
+    def dfs(self, node, x, y):
+        if not node:
             return 
-        self.m.append((x, -y, root.val))
-        self.dfs(root.left, x-1, y-1)
-        self.dfs(root.right, x+1, y-1)
+        self.m.append((x, y, node.val))
+        self.dfs(node.left, x-1, y+1)
+        self.dfs(node.right, x+1, y+1)
 
 
 # BFS
