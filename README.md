@@ -169,6 +169,7 @@
 * 739 Daily Temperatures &bigstar;&bigstar;
 * 939 Minimum Area Rectangle &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
+* 1711 Count Good Meals &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 
 ### Linked List（链表）
@@ -362,6 +363,7 @@
 * 122 Best Time to Buy and Sell Stock II &bigstar;
 * 1029 Two City Scheduling &bigstar;
 * 1046 Last Stone Weight &bigstar;
+* 1710 Maximum Units on a Truck &bigstar;
 * 55 Jump Game &bigstar;&bigstar;
 * 406 Queue Reconstruction by Height &bigstar;&bigstar;
 * 659 Split Array into Consecutive Subsequences &bigstar;&bigstar;
