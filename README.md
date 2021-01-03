@@ -399,6 +399,7 @@
 * 380 Insert Delete GetRandom O(1) &bigstar;&bigstar;
 * 449 Serialize and Deserialize BST &bigstar;&bigstar;
 * 622 Design Circular Queue &bigstar;&bigstar;
+* 1146 Snapshot Array &bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
 
 ### SQL (数据库)

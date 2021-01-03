@@ -1,6 +1,6 @@
 # 1146. Snapshot Array
 
-# Array
+# Design
 
 # https://coordinate.wang/index.php/archives/2570/
 
