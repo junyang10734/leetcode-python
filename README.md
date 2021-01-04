@@ -122,6 +122,7 @@
 * 695 Max Area of Island &bigstar;&bigstar;
 * 729 My Calendar I &bigstar;&bigstar;
 * 792 Number of Matching Subsequences &bigstar;&bigstar;
+* 846 Hand of Straights &bigstar;&bigstar;
 * 904 Fruit Into Baskets &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
@@ -130,6 +131,7 @@
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
+* 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
 
 ### Stack（栈）
@@ -238,6 +240,7 @@
 * 222 Count Complete Tree Nodes &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
+* 310 Minimum Height Trees &bigstar;&bigstar;
 * 332 Reconstruct Itinerary &bigstar;&bigstar;
 * 337 House Robber III &bigstar;&bigstar;
 * 429 N-ary Tree Level Order Traversal &bigstar;&bigstar;
