@@ -131,6 +131,8 @@
 * 973 K Closest Points to Origin &bigstar;&bigstar;
 * 986 Interval List Intersections &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
+* 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
+* 1219 Path with Maximum Gold &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
@@ -149,6 +151,7 @@
 * 402 Remove K Digits &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
 * 901 Online Stock Span &bigstar;&bigstar;
+* 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
 
 ### Hash Table（哈希表）
 * 136 Single Number &bigstar;
