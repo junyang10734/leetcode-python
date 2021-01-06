@@ -41,6 +41,7 @@
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 686 Repeated String Match &bigstar;&bigstar;
+* 777 Swap Adjacent in LR String &bigstar;&bigstar;
 * 809 Expressive Words &bigstar;&bigstar;
 * 833 Find And Replace in String &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
@@ -123,6 +124,7 @@
 * 729 My Calendar I &bigstar;&bigstar;
 * 792 Number of Matching Subsequences &bigstar;&bigstar;
 * 846 Hand of Straights &bigstar;&bigstar;
+* 853 Car Fleet &bigstar;&bigstar;
 * 904 Fruit Into Baskets &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
