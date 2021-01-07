@@ -124,6 +124,7 @@
 * 729 My Calendar I &bigstar;&bigstar;
 * 792 Number of Matching Subsequences &bigstar;&bigstar;
 * 846 Hand of Straights &bigstar;&bigstar;
+* 849 Maximize Distance to Closest Person &bigstar;&bigstar;
 * 853 Car Fleet &bigstar;&bigstar;
 * 904 Fruit Into Baskets &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
@@ -143,6 +144,7 @@
 * 155 Min Stack &bigstar;
 * 844 Backspace String Compare &bigstar;
 * 1046 Last Stone Weight &bigstar;
+* 1047 Remove All Adjacent Duplicates In String &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
 * 378 Kth Smallest Element in a Sorted Matrix &bigstar;&bigstar;
