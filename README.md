@@ -129,6 +129,7 @@
 * 904 Fruit Into Baskets &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
+* 934 Shortest Bridge &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
 * 986 Interval List Intersections &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
@@ -181,6 +182,7 @@
 * 739 Daily Temperatures &bigstar;&bigstar;
 * 939 Minimum Area Rectangle &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
+* 1048 Longest String Chain &bigstar;&bigstar;
 * 1711 Count Good Meals &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 
@@ -239,6 +241,7 @@
 * 113 Path Sum II &bigstar;&bigstar;
 * 114 Flatten Binary Tree to Linked List &bigstar;&bigstar;
 * 116 Populating Next Right Pointers in Each Node &bigstar;&bigstar;
+* 117 Populating Next Right Pointers in Each Node II &bigstar;&bigstar;
 * 129 Sum Root to Leaf Numbers &bigstar;&bigstar;
 * 144 Binary Tree Preorder Traversal &bigstar;&bigstar;
 * 145 Binary Tree Postorder Traversal &bigstar;&bigstar;
@@ -368,6 +371,7 @@
 * 837 New 21 Game &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
 * 1035 Uncrossed Lines &bigstar;&bigstar;
+* 1048 Longest String Chain &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
