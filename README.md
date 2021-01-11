@@ -181,6 +181,7 @@
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 676 Implement Magic Dictionary &bigstar;&bigstar;
+* 692 Top K Frequent Words &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
 * 939 Minimum Area Rectangle &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
@@ -256,6 +257,7 @@
 * 310 Minimum Height Trees &bigstar;&bigstar;
 * 332 Reconstruct Itinerary &bigstar;&bigstar;
 * 337 House Robber III &bigstar;&bigstar;
+* 399 Evaluate Division &bigstar;&bigstar;
 * 429 N-ary Tree Level Order Traversal &bigstar;&bigstar;
 * 437 Path Sum III &bigstar;&bigstar;
 * 449 Serialize and Deserialize BST &bigstar;&bigstar;
@@ -340,6 +342,7 @@
 * 95 Unique Binary Search Trees II &bigstar;&bigstar;
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
 * 241 Different Ways to Add Parentheses &bigstar;&bigstar;
+* 375 Guess Number Higher or Lower II &bigstar;&bigstar;
 * 390 Elimination Game &bigstar;&bigstar;
 * 889 Construct Binary Tree from Preorder and Postorder Traversal &bigstar;&bigstar;
 * 912 Sort an Array (all sort algorithms) &bigstar;&bigstar;
@@ -366,6 +369,7 @@
 * 322 Coin Change &bigstar;&bigstar;
 * 338 Counting Bits &bigstar;&bigstar;
 * 368 Largest Divisible Subset &bigstar;&bigstar;
+* 375 Guess Number Higher or Lower II &bigstar;&bigstar;
 * 416 Partition Equal Subset Sum &bigstar;&bigstar;
 * 494 Target Sum &bigstar;&bigstar;
 * 518 Coin Change 2 &bigstar;&bigstar;
@@ -403,6 +407,7 @@
 * 69 Sqrt(x) &bigstar;
 * 278 First Bad Version &bigstar;
 * 367 Valid Perfect Square &bigstar;
+* 374 Guess Number Higher or Lower &bigstar;
 * 441 Arranging Coins &bigstar;
 * 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
