@@ -41,6 +41,7 @@
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 686 Repeated String Match &bigstar;&bigstar;
+* 767 Reorganize String &bigstar;&bigstar;
 * 777 Swap Adjacent in LR String &bigstar;&bigstar;
 * 809 Expressive Words &bigstar;&bigstar;
 * 833 Find And Replace in String &bigstar;&bigstar;
@@ -122,6 +123,7 @@
 * 621 Task Scheduler &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
 * 729 My Calendar I &bigstar;&bigstar;
+* 731 My Calendar II &bigstar;&bigstar;
 * 792 Number of Matching Subsequences &bigstar;&bigstar;
 * 846 Hand of Straights &bigstar;&bigstar;
 * 849 Maximize Distance to Closest Person &bigstar;&bigstar;
@@ -205,6 +207,7 @@
 * 142 Linked List Cycle II &bigstar;&bigstar;
 * 173 Binary Search Tree Iterator &bigstar;&bigstar;
 * 328 Odd Even Linked List &bigstar;&bigstar;
+* 382 Linked List Random Node &bigstar;&bigstar;
 * 445 Add Two Numbers II &bigstar;&bigstar;
 
 ### Tree and Graph（树）
@@ -388,6 +391,7 @@
 * 659 Split Array into Consecutive Subsequences &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 763 Partition Labels &bigstar;&bigstar;
+* 767 Reorganize String &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
