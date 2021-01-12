@@ -118,6 +118,7 @@
 * 442 Find All Duplicates in an Array &bigstar;&bigstar;
 * 457 Circular Array Loop &bigstar;&bigstar;
 * 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
+* 529 Minesweeper &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
@@ -132,6 +133,7 @@
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
 * 934 Shortest Bridge &bigstar;&bigstar;
+* 950 Reveal Cards In Increasing Order &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
 * 986 Interval List Intersections &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
