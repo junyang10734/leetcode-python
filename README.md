@@ -111,9 +111,11 @@
 * 275 H-Index II &bigstar;&bigstar;
 * 287 Find the Duplicate Number &bigstar;&bigstar;
 * 289 Game of Life &bigstar;&bigstar;
+* 307 Range Sum Query - Mutable &bigstar;&bigstar;
 * 334 Increasing Triplet Subsequence &bigstar;&bigstar;
 * 347 Top K Frequent Elements &bigstar;&bigstar;
 * 384 Shuffle an Array &bigstar;&bigstar;
+* 417 Pacific Atlantic Water Flow &bigstar;&bigstar;
 * 419 Battleships in a Board &bigstar;&bigstar;
 * 442 Find All Duplicates in an Array &bigstar;&bigstar;
 * 457 Circular Array Loop &bigstar;&bigstar;
@@ -129,6 +131,7 @@
 * 846 Hand of Straights &bigstar;&bigstar;
 * 849 Maximize Distance to Closest Person &bigstar;&bigstar;
 * 853 Car Fleet &bigstar;&bigstar;
+* 855 Exam Room &bigstar;&bigstar;
 * 904 Fruit Into Baskets &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
@@ -256,6 +259,7 @@
 * 222 Count Complete Tree Nodes &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
+* 307 Range Sum Query - Mutable &bigstar;&bigstar;
 * 310 Minimum Height Trees &bigstar;&bigstar;
 * 332 Reconstruct Itinerary &bigstar;&bigstar;
 * 337 House Robber III &bigstar;&bigstar;
@@ -300,6 +304,7 @@
 * 263 Ugly Number &bigstar;
 * 292 Nim Game &bigstar;
 * 326 Power of Three &bigstar;
+* 342 Power of Four &bigstar;
 * 367 Valid Perfect Square &bigstar;
 * 441 Arranging Coins &bigstar;
 * 453 Minimum Moves to Equal Array Elements &bigstar;

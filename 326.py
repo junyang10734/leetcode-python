@@ -1,4 +1,5 @@
-#Power of Three
+# Power of Three
+# Same as 231, 342
 
 # loop
 # faster than 30.01%
