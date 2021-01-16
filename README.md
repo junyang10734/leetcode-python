@@ -119,6 +119,7 @@
 * 419 Battleships in a Board &bigstar;&bigstar;
 * 442 Find All Duplicates in an Array &bigstar;&bigstar;
 * 457 Circular Array Loop &bigstar;&bigstar;
+* 498 Diagonal Traverse &bigstar;&bigstar;
 * 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
 * 529 Minesweeper &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
@@ -391,6 +392,7 @@
 * 1048 Longest String Chain &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
+* 1155 Number of Dice Rolls With Target Sum &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
@@ -419,6 +421,7 @@
 * 367 Valid Perfect Square &bigstar;
 * 374 Guess Number Higher or Lower &bigstar;
 * 441 Arranging Coins &bigstar;
+* 852 Peak Index in a Mountain Array &bigstar;
 * 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
