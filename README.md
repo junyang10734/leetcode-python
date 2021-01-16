@@ -125,6 +125,7 @@
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
+* 713 Subarray Product Less Than K &bigstar;&bigstar;
 * 729 My Calendar I &bigstar;&bigstar;
 * 731 My Calendar II &bigstar;&bigstar;
 * 792 Number of Matching Subsequences &bigstar;&bigstar;
@@ -343,6 +344,7 @@
 * 226 Invert Binary Tree &bigstar;
 * 39 Combination Sum &bigstar;&bigstar;
 * 46 Permutations &bigstar;&bigstar;
+* 77 Combinations &bigstar;&bigstar;
 * 78 Subsets &bigstar;&bigstar;
 * 79 Word Search &bigstar;&bigstar;
 * 89 Gray Code &bigstar;&bigstar;
@@ -362,13 +364,13 @@
 * 53 Maximum Subarray &bigstar;
 * 70 Climbing Stairs &bigstar;
 * 121 Best Time to Buy and Sell Stock &bigstar;
-* 198 House Robber &bigstar &bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 62 Unique Paths &bigstar;&bigstar;
 * 64 Minimum Path Sum &bigstar;&bigstar;
 * 96 Unique Binary Search Trees &bigstar;&bigstar;
 * 120 Triangle &bigstar;&bigstar;
 * 139 Word Break &bigstar;&bigstar;
+* 198 House Robber &bigstar &bigstar;&bigstar;
 * 221 Maximal Square &bigstar;&bigstar;
 * 279 Perfect Squares &bigstar;&bigstar;
 * 300 Longest Increasing Subsequence &bigstar;&bigstar;
@@ -381,6 +383,7 @@
 * 494 Target Sum &bigstar;&bigstar;
 * 518 Coin Change 2 &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
+* 714 Best Time to Buy and Sell Stock with Transaction Fee &bigstar;&bigstar;
 * 801 Minimum Swaps To Make Sequences Increasing &bigstar;&bigstar;
 * 837 New 21 Game &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
