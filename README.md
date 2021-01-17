@@ -277,6 +277,7 @@
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
 * 802 Find Eventual Safe States &bigstar;&bigstar;
 * 814 Binary Tree Pruning &bigstar;&bigstar;
+* 841 Keys and Rooms &bigstar;&bigstar;
 * 886 Possible Bipartition &bigstar;&bigstar;
 * 889 Construct Binary Tree from Preorder and Postorder Traversal &bigstar;&bigstar;
 * 947 Most Stones Removed with Same Row or Column &bigstar;&bigstar;
