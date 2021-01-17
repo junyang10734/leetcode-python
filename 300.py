@@ -1,5 +1,6 @@
 # Longest Increasing Subsequence
 
+# https://blog.csdn.net/fuxuemingzhu/article/details/79820919
 # runtime: faster than 16.23%
 class Solution:
     def lengthOfLIS(self, nums: List[int]) -> int:
