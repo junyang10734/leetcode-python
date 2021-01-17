@@ -148,6 +148,7 @@
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
+* 1726 Tuple with Same Product &bigstar;&bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
@@ -403,6 +404,7 @@
 * 1029 Two City Scheduling &bigstar;
 * 1046 Last Stone Weight &bigstar;
 * 1710 Maximum Units on a Truck &bigstar;
+* 1725 Number Of Rectangles That Can Form The Largest Square &bigstar;
 * 55 Jump Game &bigstar;&bigstar;
 * 406 Queue Reconstruction by Height &bigstar;&bigstar;
 * 659 Split Array into Consecutive Subsequences &bigstar;&bigstar;
