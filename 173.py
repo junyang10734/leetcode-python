@@ -57,3 +57,27 @@ class BSTIterator:
         @return whether we have a next smallest number
         """
         return len(self.stack) > 0
+
+
+# BST (inorder)
+# https://blog.csdn.net/fuxuemingzhu/article/details/79436947
+# Same as solution1, but with the descend order
+# running time: faster than 5.10% 
+class BSTIterator:
+
+    def __init__(self, root: TreeNode):
+        self.stack = []
+        self.inOrder(root)
+
+    def next(self) -> int:
+        return self.stack.pop()
+
+    def hasNext(self) -> bool:
+        return len(self.stack) > 0
+    
+    def inOrder(self, root):
+        if not root:
+            return
+        self.inOrder(root.right)
+        self.stack.append(root.val)
+        self.inOrder(root.left)

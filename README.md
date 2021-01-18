@@ -75,6 +75,7 @@
 * 717 1-bit and 2-bit Characters &bigstar;
 * 720 Longest Word in Dictionary &bigstar;
 * 733 Flood Fill &bigstar;
+* 766 Toeplitz Matrix &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 1252 Cells with Odd Values in a Matrix &bigstar;
 * 1260 Shift 2D Grid &bigstar;
@@ -256,6 +257,7 @@
 * 145 Binary Tree Postorder Traversal &bigstar;&bigstar;
 * 200 Number of Islands &bigstar;&bigstar;
 * 207 Course Schedule &bigstar;&bigstar;
+* 210 Course Schedule II &bigstar;&bigstar;
 * 222 Count Complete Tree Nodes &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
@@ -309,6 +311,7 @@
 * 441 Arranging Coins &bigstar;
 * 453 Minimum Moves to Equal Array Elements &bigstar;
 * 728 Self Dividing Numbers &bigstar;
+* 836 Rectangle Overlap &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;

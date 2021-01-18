@@ -32,7 +32,7 @@ class Solution1:
 
 
 # DFS
-# runtime: faster than 97.15% o
+# runtime: faster than 97.15%
 class Solution2:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         graph = collections.defaultdict(list)
