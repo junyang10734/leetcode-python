@@ -120,12 +120,14 @@
 * 419 Battleships in a Board &bigstar;&bigstar;
 * 442 Find All Duplicates in an Array &bigstar;&bigstar;
 * 457 Circular Array Loop &bigstar;&bigstar;
+* 498 Diagonal Traverse &bigstar;&bigstar;
 * 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
 * 529 Minesweeper &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
+* 713 Subarray Product Less Than K &bigstar;&bigstar;
 * 729 My Calendar I &bigstar;&bigstar;
 * 731 My Calendar II &bigstar;&bigstar;
 * 792 Number of Matching Subsequences &bigstar;&bigstar;
@@ -147,6 +149,7 @@
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
+* 1726 Tuple with Same Product &bigstar;&bigstar;
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
@@ -277,6 +280,7 @@
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
 * 802 Find Eventual Safe States &bigstar;&bigstar;
 * 814 Binary Tree Pruning &bigstar;&bigstar;
+* 841 Keys and Rooms &bigstar;&bigstar;
 * 886 Possible Bipartition &bigstar;&bigstar;
 * 889 Construct Binary Tree from Preorder and Postorder Traversal &bigstar;&bigstar;
 * 947 Most Stones Removed with Same Row or Column &bigstar;&bigstar;
@@ -346,6 +350,7 @@
 * 226 Invert Binary Tree &bigstar;
 * 39 Combination Sum &bigstar;&bigstar;
 * 46 Permutations &bigstar;&bigstar;
+* 77 Combinations &bigstar;&bigstar;
 * 78 Subsets &bigstar;&bigstar;
 * 79 Word Search &bigstar;&bigstar;
 * 89 Gray Code &bigstar;&bigstar;
@@ -365,17 +370,18 @@
 * 53 Maximum Subarray &bigstar;
 * 70 Climbing Stairs &bigstar;
 * 121 Best Time to Buy and Sell Stock &bigstar;
-* 198 House Robber &bigstar &bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 62 Unique Paths &bigstar;&bigstar;
 * 64 Minimum Path Sum &bigstar;&bigstar;
 * 96 Unique Binary Search Trees &bigstar;&bigstar;
 * 120 Triangle &bigstar;&bigstar;
 * 139 Word Break &bigstar;&bigstar;
+* 198 House Robber &bigstar &bigstar;&bigstar;
 * 221 Maximal Square &bigstar;&bigstar;
 * 279 Perfect Squares &bigstar;&bigstar;
 * 300 Longest Increasing Subsequence &bigstar;&bigstar;
 * 304 Range Sum Query 2D - Immutable &bigstar;&bigstar;
+* 309 Best Time to Buy and Sell Stock with Cooldown &bigstar;&bigstar;
 * 322 Coin Change &bigstar;&bigstar;
 * 338 Counting Bits &bigstar;&bigstar;
 * 368 Largest Divisible Subset &bigstar;&bigstar;
@@ -384,6 +390,7 @@
 * 494 Target Sum &bigstar;&bigstar;
 * 518 Coin Change 2 &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
+* 714 Best Time to Buy and Sell Stock with Transaction Fee &bigstar;&bigstar;
 * 801 Minimum Swaps To Make Sequences Increasing &bigstar;&bigstar;
 * 837 New 21 Game &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
@@ -391,6 +398,7 @@
 * 1048 Longest String Chain &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
+* 1155 Number of Dice Rolls With Target Sum &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
@@ -400,6 +408,7 @@
 * 1029 Two City Scheduling &bigstar;
 * 1046 Last Stone Weight &bigstar;
 * 1710 Maximum Units on a Truck &bigstar;
+* 1725 Number Of Rectangles That Can Form The Largest Square &bigstar;
 * 55 Jump Game &bigstar;&bigstar;
 * 406 Queue Reconstruction by Height &bigstar;&bigstar;
 * 659 Split Array into Consecutive Subsequences &bigstar;&bigstar;
@@ -419,6 +428,7 @@
 * 367 Valid Perfect Square &bigstar;
 * 374 Guess Number Higher or Lower &bigstar;
 * 441 Arranging Coins &bigstar;
+* 852 Peak Index in a Mountain Array &bigstar;
 * 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
