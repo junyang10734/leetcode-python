@@ -70,7 +70,6 @@
 * 448 Find All Numbers Disappeared in an Array &bigstar;
 * 463 Island Perimeter &bigstar;
 * 561 Array Partition I &bigstar;
-* 581 Shortest Unsorted Continuous Subarray &bigstar;
 * 697 Degree of an Array &bigstar;
 * 717 1-bit and 2-bit Characters &bigstar;
 * 720 Longest Word in Dictionary &bigstar;
@@ -125,6 +124,7 @@
 * 529 Minesweeper &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
+* 581 Shortest Unsorted Continuous Subarray &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
 * 713 Subarray Product Less Than K &bigstar;&bigstar;

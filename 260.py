@@ -33,3 +33,17 @@ class Solution2:
                 num2 ^= n
         
         return [num1, num2]
+
+
+# Hash Table
+# running time: faster than 66.76%
+class Solution3:
+    def singleNumber(self, nums: List[int]) -> List[int]:
+        d = {}
+        for i in nums:
+            if i not in d:
+                d[i] = 1
+            else:
+                d.pop(i)
+        
+        return  [i[0] for i in d.items()]

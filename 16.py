@@ -1,8 +1,9 @@
 # 3Sum Closest
 # Array / Two Pointers
 
-# Two Pointers
-# runtime: faster than 45.93%
+# https://leetcode.com/problems/3sum-closest/solution/
+# Two Pointers + Sort
+# runtime: faster than 76.57%
 class Solution1:
     def threeSumClosest(self, nums: List[int], target: int) -> int:
         diff = float('inf')

@@ -21,6 +21,8 @@ class Solution1:
         return profits
 
 
+# https://blog.csdn.net/fuxuemingzhu/article/details/70258549
+# running time: faster than 99.50%
 class Solution2:
     def maxProfit(self, prices: List[int]) -> int:
         profits = 0
