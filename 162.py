@@ -1,7 +1,9 @@
 # Find Peak Element
 
+
+# Iterate
 # runtime: faster than 97.09%
-class Solution:
+class Solution1:
     def findPeakElement(self, nums: List[int]) -> int:
         if len(nums) < 2:
             return 0
@@ -14,3 +16,25 @@ class Solution:
                 if nums[i] > nums[i-1] and nums[i] > nums[i+1]:
                     return i
         return None
+
+
+# return the index of the maximum
+# running time: faster than 77.12%
+class Solution:
+    def findPeakElement(self, nums: List[int]) -> int:
+        return nums.index(max(nums))
+
+
+# Binary Search
+# runtime: faster than 49.45%
+class Solution3:
+    def findPeakElement(self, nums: List[int]) -> int:
+        l, r = 0, len(nums)-1
+        while l < r:
+            mid1 = (l+r)//2
+            mid2 = mid1 + 1
+            if nums[mid1] < nums[mid2]:
+                l = mid2
+            else:
+                r = mid1
+        return l

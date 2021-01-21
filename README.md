@@ -218,6 +218,7 @@
 * 173 Binary Search Tree Iterator &bigstar;&bigstar;
 * 328 Odd Even Linked List &bigstar;&bigstar;
 * 382 Linked List Random Node &bigstar;&bigstar;
+* 430 Flatten a Multilevel Doubly Linked List &bigstar;&bigstar;
 * 445 Add Two Numbers II &bigstar;&bigstar;
 
 ### Tree and Graph（树）
@@ -285,6 +286,7 @@
 * 889 Construct Binary Tree from Preorder and Postorder Traversal &bigstar;&bigstar;
 * 947 Most Stones Removed with Same Row or Column &bigstar;&bigstar;
 * 951 Flip Equivalent Binary Trees &bigstar;&bigstar;
+* 958 Check Completeness of a Binary Tree &bigstar;&bigstar;
 * 979 Distribute Coins in Binary Tree &bigstar;&bigstar;
 * 987 Vertical Order Traversal of a Binary Tree &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
@@ -444,6 +446,8 @@
 
 ### Design（设计）
 * 232 Implement Queue using Stacks &bigstar;
+* 705 Design HashSet &bigstar;
+* 706 Design HashMap &bigstar;
 * 146 LRU Cache &bigstar;&bigstar;
 * 208 Implement Trie (Prefix Tree) &bigstar;&bigstar;
 * 380 Insert Delete GetRandom O(1) &bigstar;&bigstar;
