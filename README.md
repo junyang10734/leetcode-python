@@ -75,6 +75,7 @@
 * 720 Longest Word in Dictionary &bigstar;
 * 733 Flood Fill &bigstar;
 * 766 Toeplitz Matrix &bigstar;
+* 977 Squares of a Sorted Array &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 1252 Cells with Odd Values in a Matrix &bigstar;
 * 1260 Shift 2D Grid &bigstar;
@@ -252,6 +253,7 @@
 * 102 Binary Tree Level Order Traversal &bigstar;&bigstar;
 * 103 Binary Tree Zigzag Level Order Traversal &bigstar;&bigstar;
 * 105 Construct Binary Tree from Preorder and Inorder Traversal &bigstar;&bigstar;
+* 109 Convert Sorted List to Binary Search Tree &bigstar;&bigstar;
 * 113 Path Sum II &bigstar;&bigstar;
 * 114 Flatten Binary Tree to Linked List &bigstar;&bigstar;
 * 116 Populating Next Right Pointers in Each Node &bigstar;&bigstar;
@@ -375,10 +377,12 @@
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 62 Unique Paths &bigstar;&bigstar;
 * 64 Minimum Path Sum &bigstar;&bigstar;
+* 91 Decode Ways &bigstar;&bigstar;
 * 96 Unique Binary Search Trees &bigstar;&bigstar;
 * 120 Triangle &bigstar;&bigstar;
 * 139 Word Break &bigstar;&bigstar;
-* 198 House Robber &bigstar &bigstar;&bigstar;
+* 198 House Robber &bigstar;&bigstar;
+* 213 House Robber II &bigstar;&bigstar;
 * 221 Maximal Square &bigstar;&bigstar;
 * 279 Perfect Squares &bigstar;&bigstar;
 * 300 Longest Increasing Subsequence &bigstar;&bigstar;
@@ -396,6 +400,7 @@
 * 801 Minimum Swaps To Make Sequences Increasing &bigstar;&bigstar;
 * 837 New 21 Game &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
+* 1027 Longest Arithmetic Subsequence &bigstar;&bigstar;
 * 1035 Uncrossed Lines &bigstar;&bigstar;
 * 1048 Longest String Chain &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;

@@ -45,3 +45,28 @@ class Solution2:
         if node.val != val:
             return False
         return self.dfs(node.left, val) and self.dfs(node.right, val)
+
+
+# DFS + Set
+# runtime: faster than 63.83%
+class Solution3:
+    def isUnivalTree(self, root: TreeNode) -> bool:
+        vals = []
+        
+        def dfs(node):
+            if node:
+                vals.append(node.val)
+                dfs(node.left)
+                dfs(node.right)
+                
+        dfs(root)
+        return len(set(vals)) == 1
+
+
+# recursion
+# runtime: faster than 86.54%
+class Solution4:
+    def isUnivalTree(self, root: TreeNode) -> bool:
+        l = not root.left or root.val == root.left.val and self.isUnivalTree(root.left)
+        r = not root.right or root.val == root.right.val and self.isUnivalTree(root.right)
+        return l and r

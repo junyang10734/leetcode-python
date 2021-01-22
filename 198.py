@@ -1,3 +1,4 @@
+# 198. House Robber
 # 动态规划
 # dp[i]表示rob第i个房子的最大收益
 # dp[i] = max(nums[i]+dp[i-2],dp[i-1])
@@ -41,3 +42,15 @@ class Solution2:
                 first = second
                 second = maxsum
             return maxsum
+
+
+# 更简洁的写法
+# https://blog.csdn.net/fuxuemingzhu/article/details/51291936
+# runtime: faster than 85.83% 
+class Solution3:
+    def rob(self, nums: List[int]) -> int:
+            prev, curr = 0, 0
+            for n in nums:
+                prev, curr = curr, max(prev+n, curr)
+            
+            return curr
