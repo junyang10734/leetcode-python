@@ -10,7 +10,7 @@
 
 # https://zxi.mytechroad.com/blog/divide-and-conquer/leetcode-148-sort-list/
 # runtime: faster than 53.96%
-class Solution:
+class Solution1:
     def sortList(self, head: ListNode) -> ListNode:
         def merge(l1, l2):
             dummy = ListNode(0)
@@ -32,3 +32,29 @@ class Solution:
         mid = slow.next
         slow.next = None
         return merge(self.sortList(head), self.sortList(mid))
+
+
+# 先将node存入list，对list排序，最后将排序后的list构建链表
+# runtime: faster than 91.42%
+class Solution2:
+    def sortList(self, head: ListNode) -> ListNode:
+        if not head:
+            return None
+        
+        l = []    
+        while head:
+            l.append(head.val)
+            head = head.next
+        
+        l.sort()
+        head = node = ListNode(l[0])
+        if len(l) == 1:
+            node.next = None
+            return node
+        else:
+            for i in range(1, len(l)):
+                newNode = ListNode(l[i])
+                node.next = newNode
+                node = newNode
+            node.next = None
+            return head

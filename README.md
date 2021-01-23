@@ -280,6 +280,7 @@
 * 684 Redundant Connection &bigstar;&bigstar;
 * 729 My Calendar I &bigstar;&bigstar;
 * 743 Network Delay Time &bigstar;&bigstar;
+* 785 Is Graph Bipartite? &bigstar;&bigstar;
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
 * 802 Find Eventual Safe States &bigstar;&bigstar;
 * 814 Binary Tree Pruning &bigstar;&bigstar;
