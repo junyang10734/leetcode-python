@@ -1,5 +1,6 @@
 # Daily Temperatures
-# Hash Table / Stack
+# 503
+# Hash Table / Stack 单调递减栈
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/79285081
 # Hash Table
@@ -24,7 +25,7 @@ class Solution1:
 
 
 # https://blog.csdn.net/qq_17550379/article/details/86494645?utm_medium=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase&depth_1-utm_source=distribute.pc_relevant.none-task-blog-BlogCommendFromMachineLearnPai2-1.nonecase
-# Stack
+# Stack 单调递减栈
 # runtime: faster than 99.36%
 class Solution2:
     def dailyTemperatures(self, T: List[int]) -> List[int]:

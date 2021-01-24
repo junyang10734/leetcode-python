@@ -22,6 +22,8 @@
 * 796 Rotate String &bigstar;
 * 804 Unique Morse Code Words &bigstar;
 * 819 Most Common Word &bigstar;
+* 929 Unique Email Addresses &bigstar;
+* 1736 Latest Time by Replacing Hidden Digits &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 6 ZigZag Conversion &bigstar;&bigstar;
@@ -164,6 +166,7 @@
 * 388 Longest Absolute File Path &bigstar;&bigstar;
 * 394 Decode String &bigstar;&bigstar;
 * 402 Remove K Digits &bigstar;&bigstar;
+* 503 Next Greater Element II &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
 * 901 Online Stock Span &bigstar;&bigstar;
 * 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
@@ -395,7 +398,9 @@
 * 375 Guess Number Higher or Lower II &bigstar;&bigstar;
 * 416 Partition Equal Subset Sum &bigstar;&bigstar;
 * 494 Target Sum &bigstar;&bigstar;
+* 516 Longest Palindromic Subsequence &bigstar;&bigstar;
 * 518 Coin Change 2 &bigstar;&bigstar;
+* 583 Delete Operation for Two Strings &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 714 Best Time to Buy and Sell Stock with Transaction Fee &bigstar;&bigstar;
 * 801 Minimum Swaps To Make Sequences Increasing &bigstar;&bigstar;

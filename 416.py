@@ -4,7 +4,7 @@
 # acwing.com/solution/LeetCode/content/8588/
 # 0 - 1 backpack problem
 # runtime: faster than 30.52%
-class Solution:
+class Solution1:
     def canPartition(self, nums: List[int]) -> bool:
         all_sum = sum(nums)
         if all_sum % 2 == 1:
@@ -21,3 +21,25 @@ class Solution:
                     dp[j] = 1
         
         return dp[-1]
+
+
+# https://blog.csdn.net/fuxuemingzhu/article/details/79787425
+# runtime: TLE
+class Solution2:
+    def canPartition(self, nums: List[int]) -> bool:
+        _sum = sum(nums)
+        div, mod = divmod(_sum, 2)
+        if mod or max(nums) > div:
+            return False
+        nums.sort(reverse=True)
+        target = [div] * 2
+        return self.dfs(nums, 0, target)
+    
+    def dfs(self, nums, index, target):
+        for i in range(2):
+            if target[i] >= nums[index]:
+                target[i] -= nums[index]
+                if target[i] == 0 or self.dfs(nums, index+1, target):
+                    return True
+                target[i] += nums[index]
+        return False

@@ -1,5 +1,6 @@
 # Palindromic Substrings
 # String / DP
+# Compare with 516
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/79433960
 

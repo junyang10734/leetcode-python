@@ -1,4 +1,5 @@
 # Longest Common Subsequence
+# Compare with 516
 # DP
 
 # https://leetcode.com/problems/longest-common-subsequence/discuss/381651/Python-2d-dp-Onm

@@ -33,3 +33,18 @@ class Solution2:
 class Solution3:
     def numJewelsInStones(self, J: str, S: str) -> int:
         return sum(S.count(j) for j in J)
+
+
+# runtime: faster than 95.86% 
+class Solution4:
+    def numJewelsInStones(self, jewels: str, stones: str) -> int:
+        res = 0
+        d = collections.defaultdict(int)
+        for j in jewels:
+            d[j] = 1
+        
+        for s in stones:
+            if s in d:
+                res += 1
+        
+        return res
