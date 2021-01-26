@@ -43,9 +43,24 @@ class Solution2(object):
         return res
 
 
+# hash table / Counter
+class Solution3:
+    def intersect(self, nums1: List[int], nums2: List[int]) -> List[int]:
+        res = []
+        d1 = collections.Counter(nums1)
+        d2 = collections.Counter(nums2)
+        
+        for k,v in d1.items():
+            if k in d2:
+                res += [k] * (min(v, d2[k]))
+        
+        return res
+
+
+
 # sort and two points
 # faster than 58.11%
-class Solution3(object):
+class Solution4(object):
     def intersect(self, nums1, nums2):
         """
         :type nums1: List[int]

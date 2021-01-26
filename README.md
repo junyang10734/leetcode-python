@@ -8,6 +8,7 @@
 * 20 Valid Parentheses &bigstar;
 * 28 Implement strStr() &bigstar;
 * 38 Count and Say &bigstar;
+* 67 Add Binary &bigstar;
 * 125 Valid Palindrome &bigstar;
 * 344 Reverse String &bigstar;
 * 345 Reverse Vowels of a String &bigstar;
@@ -23,6 +24,7 @@
 * 804 Unique Morse Code Words &bigstar;
 * 819 Most Common Word &bigstar;
 * 929 Unique Email Addresses &bigstar;
+* 1108 Defanging an IP Address &bigstar;
 * 1736 Latest Time by Replacing Hidden Digits &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
@@ -309,6 +311,7 @@
 ### Math（数学）
 * 7 Reverse Integer &bigstar;
 * 9 Palindrome Number &bigstar;
+* 67 Add Binary &bigstar;
 * 69 Sqrt(x) &bigstar;
 * 136 Single Number &bigstar;
 * 168 Excel Sheet Column Title &bigstar;
@@ -373,6 +376,7 @@
 * 912 Sort an Array (all sort algorithms) &bigstar;&bigstar;
 * 951 Flip Equivalent Binary Trees &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
+* 140 Word Break II &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 

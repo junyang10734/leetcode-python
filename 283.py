@@ -29,3 +29,26 @@ class Solution2(object):
                 del nums[k]
                 k -= 1
             k += 1     
+
+
+# runtime: faster than 92.98%
+class Solution3:
+    def moveZeroes(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        nums.sort(key = lambda x:1 if x == 0 else 0)
+
+
+class Solution4:
+    def moveZeroes(self, nums: List[int]) -> None:
+        """
+        Do not return anything, modify nums in-place instead.
+        """
+        i = 0
+        for n in nums:
+            if n != 0:
+                nums[i] = n
+                i += 1
+        for j in range(i, len(nums)):
+            nums[j] = 0

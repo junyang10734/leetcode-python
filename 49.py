@@ -3,19 +3,13 @@
 # runtime： O(nk) faster than 84.76%
 class Solution:
     def groupAnagrams(self, strs: List[str]) -> List[List[str]]:
-        dic = {}
-        for x in strs:
-            s = list(x)
-            s.sort()
-            s = ''.join(s)
-            if s in dic:
-                l = dic[s]
-                l.append(x)
-                dic[s] = l
-            else:
-                l = [x]
-                dic[s] = l
+        d = collections.defaultdict(list)
+        for s in strs:
+            l = list(s)
+            l.sort()
+            d[''.join(l)].append(s)
+        
         res = []
-        for key in dic:
-            res.append(dic[key])
+        for k,v in d.items():
+            res.append(v)
         return res
