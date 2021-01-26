@@ -262,6 +262,7 @@
 * 116 Populating Next Right Pointers in Each Node &bigstar;&bigstar;
 * 117 Populating Next Right Pointers in Each Node II &bigstar;&bigstar;
 * 129 Sum Root to Leaf Numbers &bigstar;&bigstar;
+* 133 Clone Graph &bigstar;&bigstar;
 * 144 Binary Tree Preorder Traversal &bigstar;&bigstar;
 * 145 Binary Tree Postorder Traversal &bigstar;&bigstar;
 * 200 Number of Islands &bigstar;&bigstar;
@@ -324,6 +325,7 @@
 * 453 Minimum Moves to Equal Array Elements &bigstar;
 * 728 Self Dividing Numbers &bigstar;
 * 836 Rectangle Overlap &bigstar;
+* 1025 Divisor Game &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;

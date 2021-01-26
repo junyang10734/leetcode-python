@@ -19,3 +19,20 @@ class Solution:
             res = max(res, h[i])
     
         return res
+
+
+# Less space
+class Solution:
+    def maxProduct(self, nums: List[int]) -> int:
+        if not nums:
+            return 0
+        
+        minP = maxP = res = nums[0]
+        for i in range(1, len(nums)):
+            pre_minP, pre_maxP = minP, maxP
+            minP = min(pre_minP * nums[i], pre_maxP * nums[i], nums[i])
+            maxP = max(pre_minP * nums[i], pre_maxP * nums[i], nums[i])
+            res = max(res, maxP)
+        
+        return res
+

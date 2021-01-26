@@ -10,9 +10,7 @@ class Solution1(object):
         """
         a, b = 0, len(s)-1
         while a < b:
-            t = s[a]
-            s[a] = s[b]
-            s[b] = t
+            s[a], s[b] = s[b], s[a]
             a += 1
             b -= 1
 
