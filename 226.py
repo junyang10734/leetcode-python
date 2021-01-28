@@ -1,4 +1,6 @@
-# Definition for a binary tree node.
+# 226. Definition for a binary tree node.
+# Tree 递归
+
 # class TreeNode:
 #     def __init__(self, x):
 #         self.val = x
