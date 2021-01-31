@@ -9,7 +9,7 @@
 #         self.val = val
 #         self.left = left
 #         self.right = right
-class Solution:
+class Solution1:
     def isCompleteTree(self, root: TreeNode) -> bool:
         if not root:
             return True
@@ -43,3 +43,20 @@ class Solution:
             res[level].append(node.val)
             self.getLevel(res, level+1, node.left)
             self.getLevel(res, level+1, node.right)
+
+
+# BFS
+# https://leetcode.com/problems/check-completeness-of-a-binary-tree/solution/
+# runtime: faster than 27.49% 
+class Solution2:
+    def isCompleteTree(self, root: TreeNode) -> bool:
+        nodes = [(root,1)]
+        i = 0
+        while i < len(nodes):
+            node, v = nodes[i]
+            i += 1
+            if node:
+                nodes.append((node.left, 2*v))
+                nodes.append((node.right, 2*v + 1))
+        
+        return nodes[-1][1] == len(nodes)

@@ -1,4 +1,4 @@
-# Unique Binary Search Trees
+# 96. Unique Binary Search Trees
 # Tree / DP
 
 
@@ -23,9 +23,35 @@ class Solution1:
         
         return ans
 
+
+# https://mp.weixin.qq.com/s?__biz=MzAxODQxMDM0Mw==&mid=2247490696&idx=1&sn=798a350fcca16c89572caf65323dbec7&chksm=9bd7e280aca06b961613987e49b59cfc0faa67276b732c2ed664a8bb81daf8487a103ac0d0ce&cur_album_id=1318892385270808576&scene=189#rd
+# recursive
+# same as solution1, but easy to understand
+class Solution2:
+    def numTrees(self, n: int) -> int:
+        self.dp = [[0] * (n+1) for _ in range(n+1)]
+        return self.count(1, n)
+    
+    def count(self, lo, hi):
+        if lo > hi:
+            return 1
+        
+        if self.dp[lo][hi] != 0:
+            return self.dp[lo][hi]
+        
+        res = 0
+        for mid in range(lo, hi+1):
+            left = self.count(lo, mid-1)
+            right = self.count(mid+1, hi)
+            res += left * right
+        
+        self.dp[lo][hi] = res
+        
+        return res   
+
 # DP
 # runtime: faster than 7.80%
-class Solution2:
+class Solution3:
     def numTrees(self, n: int) -> int:
         dp = [1, 1]
         for i in range(2, n+1):

@@ -10,7 +10,7 @@
 
 # https://leetcode.com/problems/serialize-and-deserialize-binary-tree/discuss/399712/Python-strings-and-dictionary
 # run time: faster than 36.27% 
-class Codec:
+class Codec1:
 
     def serialize(self, root):
         """Encodes a tree to a single string.
@@ -52,7 +52,7 @@ class Codec:
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/79571892
 # faster than 56.55%
-class Codec:
+class Codec2:
 
     def serialize(self, root):
         """Encodes a tree to a single string.
@@ -90,6 +90,123 @@ class Codec:
                 node.right = build()
                 return node
         return build()
+
+
+
+# 先序遍历
+class Codec3:
+
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
+        self.s = ''
+        def preOrder(node):
+            self.s += ','
+            if not node:
+                self.s += '#'
+            else:
+                self.s += str(node.val)
+                preOrder(node.left)
+                preOrder(node.right)
+        
+        preOrder(root)
+        
+        return self.s
+
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+        
+        :type data: str
+        :rtype: TreeNode
+        """
+        def flatten(nodes):
+            if len(nodes) == 0:
+                return None
+                
+            val = nodes.pop(0)
+            if val == '#':
+                return None
+
+            root = TreeNode(int(val))
+            root.left = flatten(nodes)
+            root.right = flatten(nodes)
+            
+            return root
+        
+        return flatten(data.split(',')[1:])
+
+
+# https://mp.weixin.qq.com/s?__biz=MzAxODQxMDM0Mw==&mid=2247485871&idx=1&sn=bcb24ea8927995b585629a8b9caeed01&chksm=9bd7f7a7aca07eb1b4c330382a4e0b916ef5a82ca48db28908ab16563e28a376b5ca6805bec2&scene=21#wechat_redirect
+# 层级遍历
+# runtime: faster than 81.78%
+class Codec4:
+
+    def serialize(self, root):
+        """Encodes a tree to a single string.
+        
+        :type root: TreeNode
+        :rtype: str
+        """
+        if not root:
+            return 
+        
+        s = ''
+        q = collections.deque()
+        q.append(root)
+        
+        while q:
+            node = q.popleft()    
+            if not node:
+                s += '#,'
+                continue
+            
+            s += str(node.val)
+            s += ','
+            q.append(node.left)
+            q.append(node.right)
+            
+        return s
+
+    def deserialize(self, data):
+        """Decodes your encoded data to tree.
+        
+        :type data: str
+        :rtype: TreeNode
+        """
+        if not data:
+            return
+        nodes = data.split(',')[:-1]
+        root = TreeNode(int(nodes[0]))
+        q = collections.deque()
+        q.append(root)
+        
+        i = 1
+        while i < len(nodes):
+            node = q.popleft()
+            
+            left = nodes[i]
+            if left == '#':
+                node.left = None
+            else:
+                leftNode = TreeNode(int(left))
+                node.left = leftNode
+                q.append(leftNode)
+            i += 1
+            
+            right = nodes[i]
+            if right == '#':
+                node.right = None
+            else:
+                rightNode = TreeNode(int(right))
+                node.right = rightNode
+                q.append(rightNode)
+            i += 1
+              
+        return root
+
 
 # Your Codec object will be instantiated and called as such:
 # codec = Codec()

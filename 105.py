@@ -1,4 +1,6 @@
-# Construct Binary Tree from Preorder and Inorder Traversal
+# 105. Construct Binary Tree from Preorder and Inorder Traversal
+# Tree
+# 类比106
 
 # Definition for a binary tree node.
 class TreeNode:

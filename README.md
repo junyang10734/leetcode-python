@@ -164,6 +164,7 @@
 * 1047 Remove All Adjacent Duplicates In String &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
+* 341 Flatten Nested List Iterator &bigstar;&bigstar;
 * 378 Kth Smallest Element in a Sorted Matrix &bigstar;&bigstar;
 * 388 Longest Absolute File Path &bigstar;&bigstar;
 * 394 Decode String &bigstar;&bigstar;
@@ -258,6 +259,7 @@
 * 102 Binary Tree Level Order Traversal &bigstar;&bigstar;
 * 103 Binary Tree Zigzag Level Order Traversal &bigstar;&bigstar;
 * 105 Construct Binary Tree from Preorder and Inorder Traversal &bigstar;&bigstar;
+* 106 Construct Binary Tree from Inorder and Postorder Traversal &bigstar;&bigstar;
 * 109 Convert Sorted List to Binary Search Tree &bigstar;&bigstar;
 * 113 Path Sum II &bigstar;&bigstar;
 * 114 Flatten Binary Tree to Linked List &bigstar;&bigstar;
@@ -281,9 +283,13 @@
 * 429 N-ary Tree Level Order Traversal &bigstar;&bigstar;
 * 437 Path Sum III &bigstar;&bigstar;
 * 449 Serialize and Deserialize BST &bigstar;&bigstar;
+* 450 Delete Node in a BST &bigstar;&bigstar;
 * 508 Most Frequent Subtree Sum &bigstar;&bigstar;
+* 538 Convert BST to Greater Tree &bigstar;&bigstar;
+* 652 Find Duplicate Subtrees &bigstar;&bigstar;
 * 654 Maximum Binary Tree &bigstar;&bigstar;
 * 684 Redundant Connection &bigstar;&bigstar;
+* 701 Insert into a Binary Search Tree &bigstar;&bigstar;
 * 729 My Calendar I &bigstar;&bigstar;
 * 743 Network Delay Time &bigstar;&bigstar;
 * 785 Is Graph Bipartite? &bigstar;&bigstar;
@@ -467,6 +473,7 @@
 * 706 Design HashMap &bigstar;
 * 146 LRU Cache &bigstar;&bigstar;
 * 208 Implement Trie (Prefix Tree) &bigstar;&bigstar;
+* 341 Flatten Nested List Iterator &bigstar;&bigstar;
 * 380 Insert Delete GetRandom O(1) &bigstar;&bigstar;
 * 449 Serialize and Deserialize BST &bigstar;&bigstar;
 * 622 Design Circular Queue &bigstar;&bigstar;
