@@ -35,7 +35,7 @@ class Solution1:
 
 
 # BFS
-# faster than 91.46% 
+# runtime: faster than 91.46% 
 class Solution2:
     def verticalTraversal(self, root: TreeNode) -> List[List[int]]:
         q = collections.deque()

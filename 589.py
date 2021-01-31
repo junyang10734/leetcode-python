@@ -13,19 +13,18 @@ class Node:
 # https://zxi.mytechroad.com/blog/tree/leetcode-589-n-ary-tree-preorder-traversal/
 class Solution1:
     def preorder(self, root: 'Node') -> List[int]:
-        ans = []
-        
-        def helper(node, ans):
-            if node == None:
-                return
-            ans.append(node.val)
+        if not root:
+            return []
+    
+        res = []
+        def order(node):
+            res.append(node.val)
             for child in node.children:
-                helper(child, ans)
-            return ans
-            
+                order(child)
         
-        helper(root, ans)
-        return ans
+        order(root)
+        return res
+
 
 # runtime: faster than 56.91%
 # https://blog.csdn.net/fuxuemingzhu/article/details/81021950
@@ -51,8 +50,7 @@ class Solution2:
             return []
         
         ans = []
-        stack = []
-        stack.append(root)
+        stack = [root]
         
         while stack:
             node = stack.pop()

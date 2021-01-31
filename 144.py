@@ -8,6 +8,7 @@
 #         self.right = right
 
 
+# DFS
 # recursive
 # runtime: faster than 35.68%
 class Solution1:
@@ -27,6 +28,7 @@ class Solution1:
         return ans
 
 
+# BFS
 # stack, iterate
 # runtime: faster than 5.98% 
 class Solution:

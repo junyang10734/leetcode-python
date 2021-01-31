@@ -8,7 +8,7 @@ class Node:
         self.children = children
 """
 
-
+# DFS
 # Recursive
 # runtime: faster than 41.37% 
 # https://blog.csdn.net/fuxuemingzhu/article/details/81017965
@@ -40,7 +40,7 @@ class Solution1:
         return res
 
 
-
+# BFS
 # Iterative
 # runtime: faster than 57.57%
 # https://blog.csdn.net/fuxuemingzhu/article/details/81017965

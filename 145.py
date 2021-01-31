@@ -7,6 +7,7 @@
 #         self.left = left
 #         self.right = right
 
+# DFS
 # recursive
 # runtime: faster than 5.99%
 class Solution1:
@@ -25,6 +26,7 @@ class Solution1:
         helper(root)
         return ans
 
+# BFS
 # stack, iterate
 # runtime: faster than 9.76% 
 class Solution2:

@@ -7,6 +7,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
+# DFS
 # recursive
 # runtime: faster than 99.99% 
 # space: less than 100.00% 
@@ -14,19 +15,18 @@ class Solution1:
     def inorderTraversal(self, root: TreeNode) -> List[int]:
         res = []
         
-        def order(root):
-            if root == None:
+        def inOrder(node):
+            if not node:
                 return None
-            if root.left != None:
-                order(root.left)
-            res.append(root.val)
-            if root.right != None:
-                order(root.right)
+            inOrder(node.left)
+            res.append(node.val)
+            inOrder(node.right)
         
-        order(root)
+        inOrder(root)
         return res
 
 
+# BFS
 # stack, iterate
 # runtime: faster than 98.77% 
 # space: less than 100.00% 
