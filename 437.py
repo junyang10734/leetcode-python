@@ -35,6 +35,7 @@ class Solution1:
 
 # DFS + BFS
 # runtime: faster than 30.11%
+# res 使用数组：因为如果直接设置成0的话，为传值方式，在函数传参的时候是拷贝到函数里面的，在函数内部修改不会影响到函数外边的该变量的。设置成数组形式的话，是以传引用的方式传到函数的里面，函数内部修改会影响到函数外边的数组内容。
 class Solution2:
     def pathSum(self, root: TreeNode, sum: int) -> int:
         res = [0]

@@ -22,6 +22,7 @@ class Solution1:
             self.dfs(node.right, res, path + '->' + str(node.right.val))
 
 
+# BFS
 # Iteration + Stack
 # faster than 75.00%
 class Solution2:
