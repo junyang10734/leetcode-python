@@ -1,5 +1,6 @@
 # Distribute Coins in Binary Tree
 
+# https://leetcode.com/problems/distribute-coins-in-binary-tree/solution/
 # DFS + Recursion
 # faster than 79.35%
 class Solution:
