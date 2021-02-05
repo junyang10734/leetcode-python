@@ -30,6 +30,7 @@ class Solution:
         return self.ans
 
 
+# Same with dfs
 # faster than 34.86%
 class Solution:
     def longestUnivaluePath(self, root: TreeNode) -> int:
