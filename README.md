@@ -228,6 +228,7 @@
 * 382 Linked List Random Node &bigstar;&bigstar;
 * 430 Flatten a Multilevel Doubly Linked List &bigstar;&bigstar;
 * 445 Add Two Numbers II &bigstar;&bigstar;
+* 25 Reverse Nodes in k-Group &bigstar;&bigstar;&bigstar;
 
 ### Tree and Graph（树）
 * 100 Same Tree &bigstar;
