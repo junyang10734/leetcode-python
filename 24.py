@@ -1,19 +1,21 @@
 # Swap Nodes in Pairs
 # LinkedList
 
-# https://blog.csdn.net/fuxuemingzhu/article/details/77678543
-# runtime: faster than 59.77% 
 # Definition for singly-linked list.
 # class ListNode:
 #     def __init__(self, val=0, next=None):
 #         self.val = val
 #         self.next = next
+
+# https://maxming0.github.io/2020/12/28/Swap-Nodes-in-Pairs/
+# runtime: faster than 59.77% 
 class Solution:
     def swapPairs(self, head: ListNode) -> ListNode:
-        root, root.next = self, head
-        while root.next and root.next.next:
-            a = root.next
+        dummy, dummy.next = ListNode(), head
+        res = dummy
+        while dummy.next and dummy.next.next:
+            a = dummy.next
             b = a.next
-            root.next, a.next, b.next = b, b.next, a
-            root = a
-        return self.next
+            dummy.next, b.next, a.next = b, a, b.next
+            dummy = a
+        return res.next
