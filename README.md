@@ -50,6 +50,7 @@
 * 809 Expressive Words &bigstar;&bigstar;
 * 833 Find And Replace in String &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
+* 1754 Largest Merge Of Two Strings &bigstar;&bigstar;
 
 ### Array（数组）
 * 1 Two Sum &bigstar;
@@ -86,6 +87,7 @@
 * 1266 Minimum Time Visiting All Points &bigstar;
 * 1275 Find Winner on a Tic Tac Toe Game &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
+* 1752 Check if Array Is Sorted and Rotated &bigstar;
 * 15 3Sum &bigstar;&bigstar;
 * 16 3Sum Closest &bigstar;&bigstar;
 * 18 4Sum &bigstar;&bigstar;
@@ -350,6 +352,7 @@
 * 386 Lexicographical Numbers &bigstar;&bigstar;
 * 963 Minimum Area Rectangle II &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
+* 1753 Maximum Score From Removing Stones &bigstar;&bigstar;
 
 ### Bit Manipulation（位操作）
 * 190 Reverse Bits &bigstar;
@@ -384,7 +387,7 @@
 * 912 Sort an Array (all sort algorithms) &bigstar;&bigstar;
 * 951 Flip Equivalent Binary Trees &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
-* 140 Word Break II &bigstar;&bigstar;
+* 140 Word Break II &bigstar;&bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 
