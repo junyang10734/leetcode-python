@@ -230,6 +230,8 @@
 * 382 Linked List Random Node &bigstar;&bigstar;
 * 430 Flatten a Multilevel Doubly Linked List &bigstar;&bigstar;
 * 445 Add Two Numbers II &bigstar;&bigstar;
+* 707 Design Linked List &bigstar;&bigstar;
+* 23 Merge k Sorted Lists &bigstar;&bigstar;&bigstar;
 * 25 Reverse Nodes in k-Group &bigstar;&bigstar;&bigstar;
 
 ### Tree and Graph（树）
@@ -482,6 +484,7 @@
 * 380 Insert Delete GetRandom O(1) &bigstar;&bigstar;
 * 449 Serialize and Deserialize BST &bigstar;&bigstar;
 * 622 Design Circular Queue &bigstar;&bigstar;
+* 707 Design Linked List &bigstar;&bigstar;
 * 1146 Snapshot Array &bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
 
