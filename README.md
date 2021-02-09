@@ -470,6 +470,7 @@
 * 378 Kth Smallest Element in a Sorted Matrix &bigstar;&bigstar;
 * 528 Random Pick with Weight &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
+* 875 Koko Eating Bananas &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
 * 1011 Capacity To Ship Packages Within D Days &bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
