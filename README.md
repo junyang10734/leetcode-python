@@ -51,6 +51,7 @@
 * 833 Find And Replace in String &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
 * 1754 Largest Merge Of Two Strings &bigstar;&bigstar;
+* 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
 
 ### Array（数组）
 * 1 Two Sum &bigstar;
@@ -157,6 +158,7 @@
 * 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
 * 1726 Tuple with Same Product &bigstar;&bigstar;
+
 
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;

@@ -1,7 +1,29 @@
-# Longest Substring Without Repeating Characters
+# 3. Longest Substring Without Repeating Characters
+
+# Sliding Window 模板
+# https://labuladong.gitbook.io/algo/shu-ju-jie-gou-xi-lie/shou-ba-shou-shua-shu-zu-ti-mu/hua-dong-chuang-kou-ji-qiao-jin-jie
+# runtime: faster than 52.66%
+class Solution1:
+    def lengthOfLongestSubstring(self, s: str) -> int:
+        window = collections.defaultdict(int)
+        left, right = 0, 0
+        res = 0
+        
+        while right < len(s):
+            c = s[right]
+            right += 1
+            window[c] += 1
+            while window[c] > 1:
+                d = s[left]
+                left += 1
+                window[d] -= 1
+            res = max(res, right-left)
+            
+        return res
+
 
 # runtime: faster than 20.85% 
-class Solution1:
+class Solution2:
     def lengthOfLongestSubstring(self, s: str) -> int:
         dict = {}
         maxlen = start = 0
@@ -25,7 +47,7 @@ class Solution1:
 
 # https://www.youtube.com/watch?v=COVvQ9I7XyI
 # runtime: faster than 85.79%
-class Solution2:
+class Solution3:
     def lengthOfLongestSubstring(self, s: str) -> int:
         start = 0
         maxlen = 0
@@ -44,7 +66,7 @@ class Solution2:
 # two points
 # run time: faster than 31.48%
 # https://blog.csdn.net/fuxuemingzhu/article/details/82022530
-class Solution3:
+class Solution4:
     def lengthOfLongestSubstring(self, s: str) -> int:
         left, right = 0, 0
         c = set()
@@ -66,7 +88,7 @@ class Solution3:
 # hash table
 # run time: faster than 85.03%
 # https://blog.csdn.net/fuxuemingzhu/article/details/82022530
-class Solution:
+class Solution5:
     def lengthOfLongestSubstring(self, s: str) -> int:
         left, right = 0, 0
         d = {}
