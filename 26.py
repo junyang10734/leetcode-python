@@ -1,5 +1,7 @@
-# Remove Duplicates from Sorted Array
+# 26. Remove Duplicates from Sorted Array
 # note: do not allocate extra space for another array
+# Compare with 17, 83, 238
+
 class Solution:
     def removeDuplicates(self, nums: List[int]) -> int:
         if len(nums) == 0:

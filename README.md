@@ -38,6 +38,7 @@
 * 151 Reverse Words in a String &bigstar;&bigstar;
 * 187 Repeated DNA Sequences &bigstar;&bigstar;
 * 306 Additive Number &bigstar;&bigstar;
+* 316 Remove Duplicate Letters &bigstar;&bigstar;
 * 433 Minimum Genetic Mutation &bigstar;&bigstar;
 * 468 Validate IP Address &bigstar;&bigstar;
 * 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
@@ -49,6 +50,7 @@
 * 777 Swap Adjacent in LR String &bigstar;&bigstar;
 * 809 Expressive Words &bigstar;&bigstar;
 * 833 Find And Replace in String &bigstar;&bigstar;
+* 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
 * 1754 Largest Merge Of Two Strings &bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
@@ -168,6 +170,7 @@
 * 1047 Remove All Adjacent Duplicates In String &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
+* 316 Remove Duplicate Letters &bigstar;&bigstar;
 * 341 Flatten Nested List Iterator &bigstar;&bigstar;
 * 378 Kth Smallest Element in a Sorted Matrix &bigstar;&bigstar;
 * 388 Longest Absolute File Path &bigstar;&bigstar;
@@ -176,6 +179,7 @@
 * 503 Next Greater Element II &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
 * 901 Online Stock Span &bigstar;&bigstar;
+* 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
 * 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
 
 ### Hash Table（哈希表）
@@ -208,6 +212,7 @@
 * 1048 Longest String Chain &bigstar;&bigstar;
 * 1711 Count Good Meals &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
+* 710 Random Pick with Blacklist &bigstar;&bigstar;&bigstar;
 
 ### Linked List（链表）
 * 21 Merge Two Sorted Lists &bigstar;
@@ -221,6 +226,7 @@
 * 2 Add Two Numbers &bigstar;&bigstar;
 * 19 Remove Nth Node From End of List &bigstar;&bigstar;
 * 24 Swap Nodes in Pairs &bigstar;&bigstar;
+* 83 Remove Duplicates from Sorted List &bigstar;&bigstar;
 * 92 Reverse Linked List II &bigstar;&bigstar;
 * 138 Copy List with Random Pointer &bigstar;&bigstar;
 * 143 Reorder List &bigstar;&bigstar;
@@ -490,6 +496,7 @@
 * 707 Design Linked List &bigstar;&bigstar;
 * 1146 Snapshot Array &bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
+* 710 Random Pick with Blacklist &bigstar;&bigstar;&bigstar;
 
 ### SQL (数据库)
 * 175 Combine Two Tables &bigstar;
