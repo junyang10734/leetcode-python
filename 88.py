@@ -1,4 +1,4 @@
-# Merge Sorted Array
+# 88. Merge Sorted Array
 
 # easier to understand and run faster
 class Solution1:
