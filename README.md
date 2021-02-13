@@ -75,6 +75,7 @@
 * 349 Intersection of Two Arrays &bigstar;
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
+* 414 Third Maximum Number &bigstar;
 * 448 Find All Numbers Disappeared in an Array &bigstar;
 * 463 Island Perimeter &bigstar;
 * 485 Max Consecutive Ones &bigstar;
@@ -87,6 +88,7 @@
 * 905 Sort Array By Parity &bigstar;
 * 941 Valid Mountain Array &bigstar;
 * 977 Squares of a Sorted Array &bigstar;
+* 1051 Height Checker &bigstar;
 * 1089 Duplicate Zeros &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 1252 Cells with Odd Values in a Matrix &bigstar;
