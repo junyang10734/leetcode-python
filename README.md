@@ -26,6 +26,7 @@
 * 929 Unique Email Addresses &bigstar;
 * 1108 Defanging an IP Address &bigstar;
 * 1736 Latest Time by Replacing Hidden Digits &bigstar;
+* 1758 Minimum Changes To Make Alternating Binary String &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 6 ZigZag Conversion &bigstar;&bigstar;
@@ -392,6 +393,7 @@
 * 169 Majority Element &bigstar;
 * 108 Convert Sorted Array to Binary Search Tree &bigstar;
 * 226 Invert Binary Tree &bigstar;
+* 509 Fibonacci Number &bigstar;
 * 39 Combination Sum &bigstar;&bigstar;
 * 46 Permutations &bigstar;&bigstar;
 * 77 Combinations &bigstar;&bigstar;
@@ -415,6 +417,7 @@
 * 53 Maximum Subarray &bigstar;
 * 70 Climbing Stairs &bigstar;
 * 121 Best Time to Buy and Sell Stock &bigstar;
+* 509 Fibonacci Number &bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 62 Unique Paths &bigstar;&bigstar;
 * 64 Minimum Path Sum &bigstar;&bigstar;
