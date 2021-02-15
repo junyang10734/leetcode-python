@@ -2,6 +2,7 @@
 # DP
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/84935585
+# https://labuladong.github.io/algo/%E5%8A%A8%E6%80%81%E8%A7%84%E5%88%92%E7%B3%BB%E5%88%97/%E7%BC%96%E8%BE%91%E8%B7%9D%E7%A6%BB.html
 # runtime: faster than 70.79%
 class Solution:
     def minDistance(self, word1: str, word2: str) -> int:
