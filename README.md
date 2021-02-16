@@ -442,6 +442,7 @@
 * 518 Coin Change 2 &bigstar;&bigstar;
 * 583 Delete Operation for Two Strings &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
+* 712 Minimum ASCII Delete Sum for Two Strings &bigstar;&bigstar;
 * 714 Best Time to Buy and Sell Stock with Transaction Fee &bigstar;&bigstar;
 * 801 Minimum Swaps To Make Sequences Increasing &bigstar;&bigstar;
 * 837 New 21 Game &bigstar;&bigstar;
