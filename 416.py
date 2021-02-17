@@ -1,5 +1,5 @@
 # Partition Equal Subset Sum
-# DP
+# DP 背包问题
 
 # acwing.com/solution/LeetCode/content/8588/
 # 0 - 1 backpack problem

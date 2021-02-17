@@ -1,5 +1,5 @@
 # Target Sum
-# DP
+# DP 背包问题
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/80484450
 # runtime: faster than 79.06%
