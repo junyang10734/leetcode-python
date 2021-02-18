@@ -409,6 +409,7 @@
 * 912 Sort an Array (all sort algorithms) &bigstar;&bigstar;
 * 951 Flip Equivalent Binary Trees &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
+* 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
 * 140 Word Break II &bigstar;&bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
@@ -455,6 +456,7 @@
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
 * 1155 Number of Dice Rolls With Target Sum &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
+* 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
 * 354 Russian Doll Envelopes &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
@@ -467,6 +469,8 @@
 * 1725 Number Of Rectangles That Can Form The Largest Square &bigstar;
 * 55 Jump Game &bigstar;&bigstar;
 * 406 Queue Reconstruction by Height &bigstar;&bigstar;
+* 435 Non-overlapping Intervals &bigstar;&bigstar;
+* 452 Minimum Number of Arrows to Burst Balloons &bigstar;&bigstar;
 * 659 Split Array into Consecutive Subsequences &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 763 Partition Labels &bigstar;&bigstar;
@@ -475,6 +479,7 @@
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
+* 45 Jump Game II &bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 
 ### Binary Search（二分查找）
