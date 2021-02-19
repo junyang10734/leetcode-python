@@ -448,6 +448,7 @@
 * 714 Best Time to Buy and Sell Stock with Transaction Fee &bigstar;&bigstar;
 * 801 Minimum Swaps To Make Sequences Increasing &bigstar;&bigstar;
 * 837 New 21 Game &bigstar;&bigstar;
+* 877 Stone Game &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
 * 1027 Longest Arithmetic Subsequence &bigstar;&bigstar;
 * 1035 Uncrossed Lines &bigstar;&bigstar;
@@ -458,7 +459,9 @@
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
+* 312 Burst Balloons &bigstar;&bigstar;&bigstar;
 * 354 Russian Doll Envelopes &bigstar;&bigstar;&bigstar;
+* 887 Super Egg Drop &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 
 ### Greedy（贪心算法）
