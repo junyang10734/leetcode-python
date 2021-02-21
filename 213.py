@@ -1,5 +1,5 @@
 # 213. House Robber II
-
+# 打家劫舍问题：198, 213, 337
 # DP
 # https://blog.csdn.net/fuxuemingzhu/article/details/82982325
 
@@ -51,3 +51,23 @@ class Solution2:
         for n in nums:
             prev, curr = curr, max(prev+n, curr)
         return curr
+
+
+# labuladong
+# Compare with 198
+# runtime: faster than 87.18%
+class Solution3:
+    def rob(self, nums: List[int]) -> int:
+        N = len(nums)
+        if N == 1:
+            return nums[0]
+        else:
+            return max(self.helper(nums[1:]), self.helper(nums[:N-1]))
+        
+    def helper(self, nums: List[int]) -> int:
+        dp_i1, dp_i2 = 0, 0
+        dp_i = 0
+        for i in range(len(nums)-1, -1, -1):
+            dp_i = max(dp_i1, nums[i]+dp_i2)
+            dp_i1, dp_i2 = dp_i, dp_i1
+        return dp_i

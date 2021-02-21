@@ -1,4 +1,5 @@
 # House Robber III
+# 打家劫舍问题：198, 213, 337
 # Tree / DFS
 
 # Definition for a binary tree node.
@@ -13,7 +14,7 @@
 
 # DFS
 # runtime: faster than 96.84%
-class Solution:
+class Solution1:
     def rob(self, root: TreeNode) -> int:
         
         def dfs(root):
@@ -32,7 +33,7 @@ class Solution:
 
 # DFS
 # faster than 43.77% 
-class Solution:
+class Solution2:
     def rob(self, root: TreeNode) -> int:
         self.d = {}
         return self.helper(root, False)
@@ -51,3 +52,23 @@ class Solution:
         self.d[(node, parentUsed)] = res
         return res
         
+
+
+# labuladong
+# DP
+# runtime: faster than 76.40%
+class Solution3:
+    d = {}
+    def rob(self, root: TreeNode) -> int:
+        if not root:
+            return 0
+
+        if root in self.d:
+            return self.d[root]
+        
+        robcurr = root.val + (0 if not root.left else (self.rob(root.left.left) + self.rob(root.left.right))) + (0 if not root.right else (self.rob(root.right.left) + self.rob(root.right.right)))
+        norobcurr = self.rob(root.left) + self.rob(root.right)
+        res = max(robcurr, norobcurr)
+        self.d[root] = res
+        
+        return res

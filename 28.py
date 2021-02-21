@@ -1,4 +1,5 @@
 # Implement strStr()
+
 # solution1 is easier and more efficient than solution2
 class Solution1:
     def strStr(self, haystack: str, needle: str) -> int:

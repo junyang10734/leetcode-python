@@ -1,4 +1,5 @@
 # 198. House Robber
+# 打家劫舍问题：198, 213, 337
 # 动态规划
 # dp[i]表示rob第i个房子的最大收益
 # dp[i] = max(nums[i]+dp[i-2],dp[i-1])
@@ -54,3 +55,26 @@ class Solution3:
                 prev, curr = curr, max(prev+n, curr)
             
             return curr
+
+
+# labuladong
+# runtime: faster than 66.00%
+class Solution4:
+    def rob(self, nums: List[int]) -> int:
+        N = len(nums)
+        dp = [0] * (N+2)
+        for i in range(N-1, -1, -1):
+            dp[i] = max(dp[i+1], nums[i]+dp[i+2])
+        return dp[0]
+
+# labuladong
+# same with Solution4, with less space
+# runtime: faster than 66.00%
+class Solution5:
+    def rob(self, nums: List[int]) -> int:
+        dp_i1, dp_i2 = 0, 0
+        dp_i = 0
+        for i in range(len(nums)-1, -1, -1):
+            dp_i = max(dp_i1, nums[i]+dp_i2)
+            dp_i1, dp_i2 = dp_i, dp_i1
+        return dp_i

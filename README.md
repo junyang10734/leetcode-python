@@ -465,6 +465,7 @@
 * 354 Russian Doll Envelopes &bigstar;&bigstar;&bigstar;
 * 887 Super Egg Drop &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
+* 1312 Minimum Insertion Steps to Make a String Palindrome &bigstar;&bigstar;&bigstar;
 
 ### Greedy（贪心算法）
 * 122 Best Time to Buy and Sell Stock II &bigstar;
