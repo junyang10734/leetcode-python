@@ -459,6 +459,8 @@
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
+* 123 Best Time to Buy and Sell Stock III &bigstar;&bigstar;&bigstar;
+* 188 Best Time to Buy and Sell Stock IV &bigstar;&bigstar;&bigstar;
 * 312 Burst Balloons &bigstar;&bigstar;&bigstar;
 * 354 Russian Doll Envelopes &bigstar;&bigstar;&bigstar;
 * 887 Super Egg Drop &bigstar;&bigstar;&bigstar;
