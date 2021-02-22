@@ -419,6 +419,8 @@
 * 70 Climbing Stairs &bigstar;
 * 121 Best Time to Buy and Sell Stock &bigstar;
 * 509 Fibonacci Number &bigstar;
+* 746 Min Cost Climbing Stairs &bigstar;
+* 1137 N-th Tribonacci Number &bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 62 Unique Paths &bigstar;&bigstar;
 * 64 Minimum Path Sum &bigstar;&bigstar;
@@ -456,6 +458,7 @@
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
 * 1155 Number of Dice Rolls With Target Sum &bigstar;&bigstar;
+* 1218 Longest Arithmetic Subsequence of Given Difference &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
