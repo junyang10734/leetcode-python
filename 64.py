@@ -1,5 +1,6 @@
-# Minimum Path Sum
+# 64. Minimum Path Sum
 # Array / DP
+# Compare with 62, 63
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/82620422
 # runtime: faster than 92.03%

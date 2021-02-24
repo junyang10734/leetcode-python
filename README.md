@@ -423,6 +423,7 @@
 * 1137 N-th Tribonacci Number &bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 62 Unique Paths &bigstar;&bigstar;
+* 63 Unique Paths II &bigstar;&bigstar;
 * 64 Minimum Path Sum &bigstar;&bigstar;
 * 91 Decode Ways &bigstar;&bigstar;
 * 96 Unique Binary Search Trees &bigstar;&bigstar;
@@ -463,6 +464,7 @@
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
 * 123 Best Time to Buy and Sell Stock III &bigstar;&bigstar;&bigstar;
+* 174 Dungeon Game &bigstar;&bigstar;&bigstar;
 * 188 Best Time to Buy and Sell Stock IV &bigstar;&bigstar;&bigstar;
 * 312 Burst Balloons &bigstar;&bigstar;&bigstar;
 * 354 Russian Doll Envelopes &bigstar;&bigstar;&bigstar;
