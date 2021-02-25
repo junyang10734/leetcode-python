@@ -1,4 +1,6 @@
-# Longest Increasing Subsequence
+# 300. Longest Increasing Subsequence
+# compare: 673, 1048
+# DP
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/79820919
 # runtime: faster than 16.23%

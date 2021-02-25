@@ -2,7 +2,6 @@
 # Math / DP
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/51284292
-
 # math
 # runtime: faster than 92.18% 
 class Solution1:
@@ -47,3 +46,20 @@ class Solution2:
             i += 1
         
         return dp[n]   
+
+
+# DP
+# clearer than solution2
+# runtime: faster than 26.14%
+class Solution3:
+    def numSquares(self, n: int) -> int:
+        dp = [float('inf')] * (n+1)
+        dp[0], dp[1] = 0, 1
+
+        for i in range(1, n+1):
+            j = 1
+            while j*j <= i:
+                dp[i] = min(dp[i], dp[i-j*j]+1)
+                j += 1
+
+        return dp[n]

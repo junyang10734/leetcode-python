@@ -447,6 +447,7 @@
 * 518 Coin Change 2 &bigstar;&bigstar;
 * 583 Delete Operation for Two Strings &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
+* 673 Number of Longest Increasing Subsequence &bigstar;&bigstar;
 * 712 Minimum ASCII Delete Sum for Two Strings &bigstar;&bigstar;
 * 714 Best Time to Buy and Sell Stock with Transaction Fee &bigstar;&bigstar;
 * 801 Minimum Swaps To Make Sequences Increasing &bigstar;&bigstar;
@@ -470,6 +471,7 @@
 * 188 Best Time to Buy and Sell Stock IV &bigstar;&bigstar;&bigstar;
 * 312 Burst Balloons &bigstar;&bigstar;&bigstar;
 * 354 Russian Doll Envelopes &bigstar;&bigstar;&bigstar;
+* 818 Race Car &bigstar;&bigstar;&bigstar;
 * 887 Super Egg Drop &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1312 Minimum Insertion Steps to Make a String Palindrome &bigstar;&bigstar;&bigstar;

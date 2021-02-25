@@ -1,4 +1,5 @@
 # 1048. Longest String Chain
+# compare: 300, 673
 # Hash Table / DP
 
 # https://xingxingpark.com/Leetcode-1048-Longest-String-Chain/
