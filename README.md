@@ -453,6 +453,7 @@
 * 837 New 21 Game &bigstar;&bigstar;
 * 877 Stone Game &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
+* 931 Minimum Falling Path Sum &bigstar;&bigstar;
 * 1027 Longest Arithmetic Subsequence &bigstar;&bigstar;
 * 1035 Uncrossed Lines &bigstar;&bigstar;
 * 1048 Longest String Chain &bigstar;&bigstar;
@@ -463,6 +464,7 @@
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
+* 85 Maximal Rectangle &bigstar;&bigstar;&bigstar;
 * 123 Best Time to Buy and Sell Stock III &bigstar;&bigstar;&bigstar;
 * 174 Dungeon Game &bigstar;&bigstar;&bigstar;
 * 188 Best Time to Buy and Sell Stock IV &bigstar;&bigstar;&bigstar;
