@@ -1,4 +1,4 @@
-# Copy List with Random Pointer
+# 138. Copy List with Random Pointer
 # Hash Table / Linked List
 
 """
@@ -10,6 +10,7 @@ class Node:
         self.random = random
 """
 
+# https://blog.csdn.net/fuxuemingzhu/article/details/80787528
 # runtime: faster than 69.85% 
 class Solution:
     def copyRandomList(self, head: 'Node') -> 'Node':

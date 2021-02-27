@@ -53,6 +53,7 @@
 * 833 Find And Replace in String &bigstar;&bigstar;
 * 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
+* 1328 Break a Palindrome &bigstar;&bigstar;
 * 1754 Largest Merge Of Two Strings &bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
 
@@ -220,6 +221,7 @@
 * 739 Daily Temperatures &bigstar;&bigstar;
 * 939 Minimum Area Rectangle &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
+* 1010 Pairs of Songs With Total Durations Divisible by 60 &bigstar;&bigstar;
 * 1048 Longest String Chain &bigstar;&bigstar;
 * 1711 Count Good Meals &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
@@ -475,6 +477,7 @@
 * 887 Super Egg Drop &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1312 Minimum Insertion Steps to Make a String Palindrome &bigstar;&bigstar;&bigstar;
+* 1335 Minimum Difficulty of a Job Schedule &bigstar;&bigstar;&bigstar;
 
 ### Greedy（贪心算法）
 * 122 Best Time to Buy and Sell Stock II &bigstar;
