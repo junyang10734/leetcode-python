@@ -15,6 +15,7 @@
 * 383 Ransom Note &bigstar;
 * 387 First Unique Character in a String &bigstar;
 * 392 Is Subsequence &bigstar;
+* 459 Repeated Substring Pattern &bigstar;
 * 482 License Key Formatting &bigstar;
 * 551 Student Attendance Record I &bigstar;
 * 557 Reverse Words in a String III &bigstar;
