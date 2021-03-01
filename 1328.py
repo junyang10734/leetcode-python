@@ -2,7 +2,7 @@
 # String
 
 # runtime: faster than 98.85%
-class Solution:
+class Solution1:
     def breakPalindrome(self, palindrome: str) -> str:
         if len(palindrome) == 1:
             return ''
@@ -19,3 +19,16 @@ class Solution:
             return palindrome[:-1] + 'b'
         
         return palindrome[:-1] + 'a'
+
+
+
+# runtime: faster than 80.04%
+class Solution2:
+    def breakPalindrome(self, palindrome: str) -> str:
+        n = len(palindrome)
+        if n == 1:
+            return ''
+        for i in range(n // 2):
+            if palindrome[i] != 'a':
+                return palindrome[:i] + 'a' + palindrome[i + 1:]
+        return palindrome[:-1] + 'b'

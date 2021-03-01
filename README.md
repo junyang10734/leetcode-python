@@ -314,6 +314,7 @@
 * 450 Delete Node in a BST &bigstar;&bigstar;
 * 508 Most Frequent Subtree Sum &bigstar;&bigstar;
 * 538 Convert BST to Greater Tree &bigstar;&bigstar;
+* 547 Number of Provinces &bigstar;&bigstar;
 * 652 Find Duplicate Subtrees &bigstar;&bigstar;
 * 654 Maximum Binary Tree &bigstar;&bigstar;
 * 684 Redundant Connection &bigstar;&bigstar;

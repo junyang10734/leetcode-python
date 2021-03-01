@@ -5,42 +5,42 @@ class Node:
         self.right = right
 
 
-# def findDistance(root, p, q):
-#     if not root or p == q:
-#         return 0
+def findDistance(root, p, q):
+    if not root or p == q:
+        return 0
 
-#     leftD = findDistance(root.left, p, q)
-#     rightD = findDistance(root.right, p, q)
+    leftD = findDistance(root.left, p, q)
+    rightD = findDistance(root.right, p, q)
 
-#     if leftD > 0 and rightD > 0:
-#         return leftD + rightD
-#     elif leftD > 0 and (root == p or root == q):
-#         return leftD
-#     elif rightD > 0 and (root == p or root == q):
-#         return rightD
-#     elif leftD == 0 and rightD == 0:
-#         return 0 if (root != p or root != q) else 1
-#     else:
-#         return max(leftD, rightD) + 1
+    if leftD > 0 and rightD > 0:
+        return leftD + rightD
+    elif leftD > 0 and (root == p or root == q):
+        return leftD
+    elif rightD > 0 and (root == p or root == q):
+        return rightD
+    elif leftD == 0 and rightD == 0:
+        return 0 if (root != p or root != q) else 1
+    else:
+        return max(leftD, rightD) + 1
 
 
-# def distance_in_bst(root, p, q):
-#     def depth(root, node, d=0):
-#         if not root:
-#             return 
-#         if node.val == root.val:
-#             return d
-#         return depth(root.left, node, d+1) or depth(root.right, node, d+1)
+def distance_in_bst(root, p, q):
+    def depth(root, node, d=0):
+        if not root:
+            return 
+        if node.val == root.val:
+            return d
+        return depth(root.left, node, d+1) or depth(root.right, node, d+1)
 
-#     def lca(root, p, q):
-#         if root.val < p.val:
-#             return lca(root.right, p, q)
-#         elif root.val > q.val:
-#             return lca(root.left, p, q)
-#         else:
-#             return root
+    def lca(root, p, q):
+        if root.val < p.val:
+            return lca(root.right, p, q)
+        elif root.val > q.val:
+            return lca(root.left, p, q)
+        else:
+            return root
 
-#     return depth(root, p) + depth(root, q) - 2 * depth(root, lca(root, p, q).val)
+    return depth(root, p) + depth(root, q) - 2 * depth(root, lca(root, p, q).val)
 
 
 

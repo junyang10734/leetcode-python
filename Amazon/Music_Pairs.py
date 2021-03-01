@@ -39,6 +39,7 @@ class Solution2:
 
 # O(n)
 # runtime: faster than 74.48%
+import collections
 class Solution3:
     def numPairsDivisibleBy60(self, time: List[int]) -> int:
         remainders = collections.defaultdict(int)
