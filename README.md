@@ -102,6 +102,7 @@
 * 1299 Replace Elements with Greatest Element on Right Side &bigstar;
 * 1346 Check If N and Its Double Exist &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
+* 1629 Slowest Key &bigstar;
 * 1752 Check if Array Is Sorted and Rotated &bigstar;
 * 15 3Sum &bigstar;&bigstar;
 * 16 3Sum Closest &bigstar;&bigstar;
@@ -376,6 +377,7 @@
 * 319 Bulb Switcher &bigstar;&bigstar;
 * 386 Lexicographical Numbers &bigstar;&bigstar;
 * 963 Minimum Area Rectangle II &bigstar;&bigstar;
+* 1041 Robot Bounded In Circle &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 * 1753 Maximum Score From Removing Stones &bigstar;&bigstar;
 
