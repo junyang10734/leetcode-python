@@ -55,6 +55,7 @@
 * 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
 * 1328 Break a Palindrome &bigstar;&bigstar;
+* 1487 Making File Names Unique &bigstar;&bigstar;
 * 1754 Largest Merge Of Two Strings &bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
 
@@ -225,6 +226,7 @@
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
 * 1010 Pairs of Songs With Total Durations Divisible by 60 &bigstar;&bigstar;
 * 1048 Longest String Chain &bigstar;&bigstar;
+* 1487 Making File Names Unique &bigstar;&bigstar;
 * 1711 Count Good Meals &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 * 710 Random Pick with Blacklist &bigstar;&bigstar;&bigstar;
@@ -343,6 +345,7 @@
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
+* 1192 Critical Connections in a Network &bigstar;&bigstar;&bigstar;
 
 ### Math（数学）
 * 7 Reverse Integer &bigstar;
