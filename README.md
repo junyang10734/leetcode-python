@@ -336,6 +336,7 @@
 * 958 Check Completeness of a Binary Tree &bigstar;&bigstar;
 * 979 Distribute Coins in Binary Tree &bigstar;&bigstar;
 * 987 Vertical Order Traversal of a Binary Tree &bigstar;&bigstar;
+* 990 Satisfiability of Equality Equations &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
 * 1145 Binary Tree Coloring Game &bigstar;&bigstar;
