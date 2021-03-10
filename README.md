@@ -340,11 +340,13 @@
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
 * 1145 Binary Tree Coloring Game &bigstar;&bigstar;
+* 1162 As Far from Land as Possible &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1325 Delete Leaves With a Given Value &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
+* 827 Making A Large Island &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1192 Critical Connections in a Network &bigstar;&bigstar;&bigstar;
 
