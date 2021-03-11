@@ -7,7 +7,7 @@
 class Solution1:
     def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
         visited = [0] * len(rooms)
-        self.dfs(rooms, 0, visited);
+        self.dfs(rooms, 0, visited)
         return sum(visited) == len(rooms)
     
     def dfs(self, rooms, index, visited):

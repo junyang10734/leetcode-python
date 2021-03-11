@@ -1,7 +1,8 @@
 # 802. Find Eventual Safe States
+# compare: 207, 210
 # Graph / DFS
 
-# https://blog.csdn.net/fuxuemingzhu/article/details/82749341
+# https://blog.csdn.net/fuxuemingzhu/articler/details/82749341
 # running time: faster than 96.89%
 class Solution1:
     def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:

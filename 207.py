@@ -1,4 +1,5 @@
 # Course Schedule
+# compare: 210, 802
 # Graph
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/82951771
@@ -33,6 +34,9 @@ class Solution1:
 
 # DFS
 # runtime: faster than 97.15%
+# visited[i] == 0，还没判断这个点；
+# visited[i] == 1，当前的循环正在判断这个点；
+# visited[i] == 2，已经判断过这个点，含义是从这个点往后的所有路径都没有环，认为这个点是安全的
 class Solution2:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         graph = collections.defaultdict(list)
