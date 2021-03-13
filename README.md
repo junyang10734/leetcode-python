@@ -348,6 +348,8 @@
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 * 827 Making A Large Island &bigstar;&bigstar;&bigstar;
+* 839 Similar String Groups &bigstar;&bigstar;&bigstar;
+* 952 Largest Component Size by Common Factor &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1192 Critical Connections in a Network &bigstar;&bigstar;&bigstar;
 
