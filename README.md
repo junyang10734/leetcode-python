@@ -28,6 +28,7 @@
 * 1108 Defanging an IP Address &bigstar;
 * 1736 Latest Time by Replacing Hidden Digits &bigstar;
 * 1758 Minimum Changes To Make Alternating Binary String &bigstar;
+* 1790 Check if One String Swap Can Make Strings Equal &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 5 Longest Palindromic Substring &bigstar;&bigstar;
 * 6 ZigZag Conversion &bigstar;&bigstar;
@@ -56,6 +57,7 @@
 * 1268 Search Suggestions System &bigstar;&bigstar;
 * 1328 Break a Palindrome &bigstar;&bigstar;
 * 1487 Making File Names Unique &bigstar;&bigstar;
+* 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
 * 1754 Largest Merge Of Two Strings &bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
 
@@ -173,7 +175,10 @@
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
+* 1465 Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts &bigstar;&bigstar;
 * 1726 Tuple with Same Product &bigstar;&bigstar;
+* 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
+* 1793 Maximum Score of a Good Subarray &bigstar;&bigstar;&bigstar;
 
 
 ### Stack（栈）
@@ -207,6 +212,7 @@
 * 997 Find the Town Judge &bigstar;
 * 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 1346 Check If N and Its Double Exist &bigstar;
+* 1791 Find Center of Star Graph &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 * 138 Copy List with Random Pointer &bigstar;&bigstar;
@@ -322,6 +328,7 @@
 * 654 Maximum Binary Tree &bigstar;&bigstar;
 * 684 Redundant Connection &bigstar;&bigstar;
 * 701 Insert into a Binary Search Tree &bigstar;&bigstar;
+* 721 Accounts Merge &bigstar;&bigstar;
 * 729 My Calendar I &bigstar;&bigstar;
 * 743 Network Delay Time &bigstar;&bigstar;
 * 785 Is Graph Bipartite? &bigstar;&bigstar;
@@ -498,6 +505,7 @@
 * 1046 Last Stone Weight &bigstar;
 * 1710 Maximum Units on a Truck &bigstar;
 * 1725 Number Of Rectangles That Can Form The Largest Square &bigstar;
+* 45 Jump Game II &bigstar;&bigstar;
 * 55 Jump Game &bigstar;&bigstar;
 * 406 Queue Reconstruction by Height &bigstar;&bigstar;
 * 435 Non-overlapping Intervals &bigstar;&bigstar;
@@ -510,7 +518,7 @@
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
-* 45 Jump Game II &bigstar;&bigstar;
+* 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 
 ### Binary Search（二分查找）
@@ -566,14 +574,3 @@
 * 195 Tenth Line &bigstar;
 * 192 Word Frequency &bigstar;&bigstar;
 * 194 Transpose File &bigstar;&bigstar;
-
-
-### Amazon
-* 48 rotate_matrix &bigstar;
-* 973 K_closest_points to Origin &bigstar;&bigstar;
-* BST_minimum_path_sum
-* insert_into_cycle_linked_list
-* LRU_cache
-* tree_amplitude
-* window_sum
-* 5 longest_palindromic_substring &bigstar;&bigstar;
