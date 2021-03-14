@@ -58,6 +58,7 @@
 * 1328 Break a Palindrome &bigstar;&bigstar;
 * 1487 Making File Names Unique &bigstar;&bigstar;
 * 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
+* 1737 Change Minimum Characters to Satisfy One of Three Conditions &bigstar;&bigstar;
 * 1754 Largest Merge Of Two Strings &bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
 
@@ -177,6 +178,7 @@
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
 * 1465 Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts &bigstar;&bigstar;
 * 1726 Tuple with Same Product &bigstar;&bigstar;
+* 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
 * 1793 Maximum Score of a Good Subarray &bigstar;&bigstar;&bigstar;
 
@@ -345,6 +347,7 @@
 * 987 Vertical Order Traversal of a Binary Tree &bigstar;&bigstar;
 * 990 Satisfiability of Equality Equations &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
+* 1042 Flower Planting With No Adjacent &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
 * 1145 Binary Tree Coloring Game &bigstar;&bigstar;
 * 1162 As Far from Land as Possible &bigstar;&bigstar;
@@ -519,6 +522,7 @@
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 * 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
+* 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 
 ### Binary Search（二分查找）
