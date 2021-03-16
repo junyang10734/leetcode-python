@@ -30,18 +30,18 @@ class Solution1:
         return -1
 
 
-# graph
-# https://blog.csdn.net/fuxuemingzhu/article/details/87903828
-# runtime: faster than 13.49%
+# graph 
+# in/out degree
+# runtime: faster than 87.04%
 class Solution2:
     def findJudge(self, N: int, trust: List[List[int]]) -> int:
-        l = [0 for _ in range(N+1)]
-        for i in trust:
-            l[i[0]] -= 1
-            l[i[1]] += 1
-        
-        for i in range(1,N+1):
-            if l[i] == N-1:
-                return i
-        
-        return -1
+        res = -1
+        d = [0]*(N+1)
+        for item in trust:
+            d[item[1]] += 1
+            d[item[0]] -= 1
+            
+        for i in range(N+1):
+            if d[i] == N-1:
+                res = i 
+        return res
