@@ -3,7 +3,7 @@
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/82903720
 # BFS
-# runtime: faster than 19.32% 
+# runtime: faster than 96.27% 
 class Solution:
     def minMutation(self, start: str, end: str, bank: List[str]) -> int:
         bfs = collections.deque()
