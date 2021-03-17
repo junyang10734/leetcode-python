@@ -350,6 +350,7 @@
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
 * 1042 Flower Planting With No Adjacent &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
+* 1129 Shortest Path with Alternating Colors &bigstar;&bigstar;
 * 1145 Binary Tree Coloring Game &bigstar;&bigstar;
 * 1162 As Far from Land as Possible &bigstar;&bigstar;
 * 1202 Smallest String With Swaps &bigstar;&bigstar;
@@ -364,6 +365,7 @@
 * 952 Largest Component Size by Common Factor &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1192 Critical Connections in a Network &bigstar;&bigstar;&bigstar;
+* 1263 Minimum Moves to Move a Box to Their Target Location &bigstar;&bigstar;&bigstar;
 
 ### Math（数学）
 * 7 Reverse Integer &bigstar;
