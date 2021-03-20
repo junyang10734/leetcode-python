@@ -88,6 +88,7 @@
 * 485 Max Consecutive Ones &bigstar;
 * 561 Array Partition I &bigstar;
 * 697 Degree of an Array &bigstar;
+* 704 Binary Search &bigstar;
 * 717 1-bit and 2-bit Characters &bigstar;
 * 720 Longest Word in Dictionary &bigstar;
 * 733 Flood Fill &bigstar;
@@ -121,6 +122,7 @@
 * 56 Merge Intervals &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
 * 75 Sort Colors &bigstar;&bigstar;
+* 81 Search in Rotated Sorted Array II &bigstar;&bigstar;
 * 127 Word Ladder &bigstar;&bigstar;
 * 130 Surrounded Regions &bigstar;&bigstar;
 * 134 Gas Station &bigstar;&bigstar;

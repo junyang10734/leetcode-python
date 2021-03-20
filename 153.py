@@ -1,9 +1,9 @@
 # Find Minimum in Rotated Sorted Array
-# Array / Binary Search
+# Array
 
-# BS
-# runtime: faster than 37.69% 
-class Solution:
+# Binary Search
+# runtime: faster than 90.69% 
+class Solution1:
     def findMin(self, nums: List[int]) -> int:
         if len(nums) == 1:
             return nums[0]
@@ -24,6 +24,18 @@ class Solution:
             else:
                 right = mid - 1
 
+# runtime: faster than 71.63%
+class Solution1:
+    def findMin(self, nums: List[int]) -> int:
+        left, right = 0, len(nums)-1
+        while left < right:
+            mid = (left + right) // 2
+            if nums[mid] > nums[right]:
+                left = mid + 1
+            else:
+                right = mid
+        return nums[left]
+
 
 # DaC
 # https://zxi.mytechroad.com/blog/leetcode/leetcode-153-find-minimum-in-rotated-sorted-array/
@@ -40,3 +52,9 @@ class Solution2:
             return min(dac(nums, l, mid), dac(nums, mid+1, r))
         
         return dac(nums, 0, len(nums)-1)
+
+
+# runtime: faster than 71.63%
+class Solution3:
+    def findMin(self, nums: List[int]) -> int:
+        return min(nums)

@@ -2,7 +2,7 @@
 
 
 # Iterate
-# runtime: faster than 97.09%
+# runtime: faster than 77.09%
 class Solution1:
     def findPeakElement(self, nums: List[int]) -> int:
         if len(nums) < 2:
@@ -26,7 +26,7 @@ class Solution:
 
 
 # Binary Search
-# runtime: faster than 49.45%
+# runtime: faster than 92.79%
 class Solution3:
     def findPeakElement(self, nums: List[int]) -> int:
         l, r = 0, len(nums)-1
