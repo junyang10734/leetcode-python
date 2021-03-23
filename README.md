@@ -233,9 +233,12 @@
 * 692 Top K Frequent Words &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
 * 939 Minimum Area Rectangle &bigstar;&bigstar;
+* 966 Vowel Spellchecker &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
 * 1010 Pairs of Songs With Total Durations Divisible by 60 &bigstar;&bigstar;
 * 1048 Longest String Chain &bigstar;&bigstar;
+* 1124 Longest Well-Performing Interval &bigstar;&bigstar;
+* 1198 Find Smallest Common Element in All Rows &bigstar;&bigstar;
 * 1487 Making File Names Unique &bigstar;&bigstar;
 * 1711 Count Good Meals &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
@@ -401,6 +404,7 @@
 * 304 Range Sum Query 2D - Immutable &bigstar;&bigstar;
 * 319 Bulb Switcher &bigstar;&bigstar;
 * 386 Lexicographical Numbers &bigstar;&bigstar;
+* 869 Reordered Power of 2 &bigstar;&bigstar;
 * 963 Minimum Area Rectangle II &bigstar;&bigstar;
 * 1041 Robot Bounded In Circle &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
