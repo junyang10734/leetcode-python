@@ -1,36 +1,59 @@
 # 417. Pacific Atlantic Water Flow
-# Array / DFS
+# Array / DFS / BFS
 
-# https://blog.csdn.net/fuxuemingzhu/article/details/82917037
-# running time: faster than 65.24%
+# https://leetcode.com/problems/pacific-atlantic-water-flow/solution/
+# DFS
+# running time: faster than 84.24%
 class Solution:
     def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:
         if not matrix or not matrix[0]:
             return []
-        
         m, n = len(matrix), len(matrix[0])
-        p_visited, a_visited = [[False]*n for _ in range(m)], [[False]*n for _ in range(m)]
+        pr, ar = set(), set()
+        
+        def dfs(i, j, r):
+            r.add((i,j))
+            for x, y in [(-1, 0), (0, -1), (0, 1), (1, 0)]:
+                new_i, new_j = i+x, j+y
+                if 0 <= new_i < m and 0 <= new_j < n and (new_i, new_j) not in r and matrix[new_i][new_j] >= matrix[i][j]:
+                    dfs(new_i, new_j, r)
         
         for i in range(m):
-            self.dfs(p_visited, matrix, m, n, i, 0)
-            self.dfs(a_visited, matrix, m, n, i, n-1)
+            dfs(i, 0, pr)
+            dfs(i, n-1, ar)
         for j in range(n):
-            self.dfs(p_visited, matrix, m, n, 0, j)
-            self.dfs(a_visited, matrix, m, n, m-1, j)
-        
-        res = []
+            dfs(0, j, pr)
+            dfs(m-1, j, ar)
+        return list(pr.intersection(ar))
+
+
+# BFS
+# runtime: faster than 39.64%
+class Solution2:
+    def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:
+        if not matrix or not matrix[0]:
+            return []
+        m, n = len(matrix), len(matrix[0])
+        pq, aq = deque(), deque()
         for i in range(m):
-            for j in range(n):
-                if p_visited[i][j] and a_visited[i][j]:
-                    res.append([i,j])
-        return res
-            
-    
-    def dfs(self, visited, matrix, m, n, i, j):
-        visited[i][j] = True
-        dirs = [(-1,0),(1,0),(0,-1),(0,1)]
-        for d in dirs:
-            x, y = i + d[0], j + d[1]
-            if x < 0 or x >= m or y < 0 or y >= n or visited[x][y] or matrix[x][y] < matrix[i][j]:
-                continue
-            self.dfs(visited, matrix, m, n, x, y)
+            pq.append((i,0))
+            aq.append((i,n-1))
+        for j in range(n):
+            pq.append((0, j))
+            aq.append((m-1,j))
+        
+        
+        def bfs(queue):
+            r = set()
+            while queue:
+                i, j = queue.popleft()
+                r.add((i, j))
+                for x, y in [(-1, 0), (0, -1), (0, 1), (1, 0)]:
+                    new_i, new_j = i+x, j+y
+                    if 0 <= new_i < m and 0 <= new_j < n and (new_i, new_j) not in r and matrix[new_i][new_j] >= matrix[i][j]:
+                        queue.append((new_i, new_j))
+            return r
+        
+        pr = bfs(pq)
+        ar = bfs(aq)
+        return list(pr.intersection(ar))

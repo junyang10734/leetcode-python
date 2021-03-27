@@ -1,7 +1,5 @@
 # leetcode-python
 
-### Data-Structure（基本数据结构的实现）
-
 ### String（字符串）
 * 13 Roman to Integer &bigstar;
 * 14 Longest Common Prefix &bigstar;
@@ -53,6 +51,7 @@
 * 777 Swap Adjacent in LR String &bigstar;&bigstar;
 * 809 Expressive Words &bigstar;&bigstar;
 * 833 Find And Replace in String &bigstar;&bigstar;
+* 916 Word Subsets &bigstar;&bigstar;
 * 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
 * 1328 Break a Palindrome &bigstar;&bigstar;
@@ -60,6 +59,7 @@
 * 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
 * 1737 Change Minimum Characters to Satisfy One of Three Conditions &bigstar;&bigstar;
 * 1754 Largest Merge Of Two Strings &bigstar;&bigstar;
+* 32 Longest Valid Parentheses &bigstar;&bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
 
 ### Array（数组）
@@ -148,6 +148,7 @@
 * 419 Battleships in a Board &bigstar;&bigstar;
 * 442 Find All Duplicates in an Array &bigstar;&bigstar;
 * 457 Circular Array Loop &bigstar;&bigstar;
+* 487 Max Consecutive Ones II &bigstar;&bigstar;
 * 498 Diagonal Traverse &bigstar;&bigstar;
 * 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
 * 529 Minesweeper &bigstar;&bigstar;
@@ -164,6 +165,7 @@
 * 849 Maximize Distance to Closest Person &bigstar;&bigstar;
 * 853 Car Fleet &bigstar;&bigstar;
 * 855 Exam Room &bigstar;&bigstar;
+* 870 Advantage Shuffle &bigstar;&bigstar;
 * 904 Fruit Into Baskets &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 923 3Sum With Multiplicity &bigstar;&bigstar;
@@ -183,6 +185,7 @@
 * 1726 Tuple with Same Product &bigstar;&bigstar;
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
+* 41 First Missing Positive &bigstar;&bigstar;&bigstar;
 * 1793 Maximum Score of a Good Subarray &bigstar;&bigstar;&bigstar;
 
 
@@ -205,6 +208,8 @@
 * 901 Online Stock Span &bigstar;&bigstar;
 * 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
 * 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
+* 32 Longest Valid Parentheses &bigstar;&bigstar;&bigstar;
+* 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 
 ### Hash Table（哈希表）
 * 136 Single Number &bigstar;
@@ -359,10 +364,12 @@
 * 1129 Shortest Path with Alternating Colors &bigstar;&bigstar;
 * 1145 Binary Tree Coloring Game &bigstar;&bigstar;
 * 1162 As Far from Land as Possible &bigstar;&bigstar;
+* 1197 Minimum Knight Moves &bigstar;&bigstar;
 * 1202 Smallest String With Swaps &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1325 Delete Leaves With a Given Value &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
+* 269 Alien Dictionary &bigstar;&bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 * 815 Bus Routes &bigstar;&bigstar;&bigstar;
@@ -410,6 +417,7 @@
 * 1041 Robot Bounded In Circle &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 * 1753 Maximum Score From Removing Stones &bigstar;&bigstar;
+* 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 
 ### Bit Manipulation（位操作）
 * 190 Reverse Bits &bigstar;
@@ -529,6 +537,7 @@
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 763 Partition Labels &bigstar;&bigstar;
 * 767 Reorganize String &bigstar;&bigstar;
+* 870 Advantage Shuffle &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
@@ -566,6 +575,8 @@
 * 146 LRU Cache &bigstar;&bigstar;
 * 208 Implement Trie (Prefix Tree) &bigstar;&bigstar;
 * 341 Flatten Nested List Iterator &bigstar;&bigstar;
+* 348 Design Tic-Tac-Toe &bigstar;&bigstar;
+* 362 Design Hit Counter &bigstar;&bigstar;
 * 380 Insert Delete GetRandom O(1) &bigstar;&bigstar;
 * 449 Serialize and Deserialize BST &bigstar;&bigstar;
 * 622 Design Circular Queue &bigstar;&bigstar;
