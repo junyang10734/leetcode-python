@@ -35,7 +35,6 @@ class Solution2:
     def countSubstrings(self, s: str) -> int:
         n = len(s)
         count = 0
-        start, end, maxL = 0, 0, 0
         dp = [ [0] * n for _ in range(n)]
         
         for i in range(n):

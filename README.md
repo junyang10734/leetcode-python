@@ -584,6 +584,7 @@
 * 1146 Snapshot Array &bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
 * 588 Design In-Memory File System &bigstar;&bigstar;&bigstar;
+* 642 Design Search Autocomplete System &bigstar;&bigstar;&bigstar;
 * 710 Random Pick with Blacklist &bigstar;&bigstar;&bigstar;
 
 ### SQL (数据库)
