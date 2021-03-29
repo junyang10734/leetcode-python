@@ -362,6 +362,7 @@
 * 1042 Flower Planting With No Adjacent &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
 * 1129 Shortest Path with Alternating Colors &bigstar;&bigstar;
+* 1136 Parallel Courses &bigstar;&bigstar;
 * 1145 Binary Tree Coloring Game &bigstar;&bigstar;
 * 1162 As Far from Land as Possible &bigstar;&bigstar;
 * 1197 Minimum Knight Moves &bigstar;&bigstar;
@@ -412,6 +413,7 @@
 * 304 Range Sum Query 2D - Immutable &bigstar;&bigstar;
 * 319 Bulb Switcher &bigstar;&bigstar;
 * 386 Lexicographical Numbers &bigstar;&bigstar;
+* 423 Reconstruct Original Digits from English &bigstar;&bigstar;
 * 869 Reordered Power of 2 &bigstar;&bigstar;
 * 963 Minimum Area Rectangle II &bigstar;&bigstar;
 * 1041 Robot Bounded In Circle &bigstar;&bigstar;
@@ -508,6 +510,7 @@
 * 1218 Longest Arithmetic Subsequence of Given Difference &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
+* 44 Wildcard Matching &bigstar;&bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
 * 85 Maximal Rectangle &bigstar;&bigstar;&bigstar;
 * 123 Best Time to Buy and Sell Stock III &bigstar;&bigstar;&bigstar;
@@ -542,6 +545,8 @@
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
+* 1353 Maximum Number of Events That Can Be Attended &bigstar;&bigstar;
+* 1405 Longest Happy String &bigstar;&bigstar;
 * 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
