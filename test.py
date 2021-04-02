@@ -12,12 +12,3 @@
 #         else:
 #             break
 #     print("Case #{}: {}".format((t+1), res), flush = True)
-
-# import numpy as np
-# c = np.array([
-#     [ [ 1, 2, 3], [1, 2, 3] ],
-#     [ [-1, 1, 4], [-1, 1, 5]]
-#     ])
-# print(np.linalg.norm(c, axis=0))
-# print(np.linalg.norm(c, axis=1))
-# print(np.linalg.norm(c, axis=2))

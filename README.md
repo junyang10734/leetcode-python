@@ -13,6 +13,7 @@
 * 383 Ransom Note &bigstar;
 * 387 First Unique Character in a String &bigstar;
 * 392 Is Subsequence &bigstar;
+* 415 Add Strings &bigstar;
 * 459 Repeated Substring Pattern &bigstar;
 * 482 License Key Formatting &bigstar;
 * 551 Student Attendance Record I &bigstar;
@@ -40,6 +41,7 @@
 * 187 Repeated DNA Sequences &bigstar;&bigstar;
 * 306 Additive Number &bigstar;&bigstar;
 * 316 Remove Duplicate Letters &bigstar;&bigstar;
+* 388 Longest Absolute File Path &bigstar;&bigstar;
 * 433 Minimum Genetic Mutation &bigstar;&bigstar;
 * 468 Validate IP Address &bigstar;&bigstar;
 * 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
@@ -61,6 +63,8 @@
 * 1754 Largest Merge Of Two Strings &bigstar;&bigstar;
 * 32 Longest Valid Parentheses &bigstar;&bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
+* 273 Integer to English Words &bigstar;&bigstar;&bigstar;
+* 336 Palindrome Pairs &bigstar;&bigstar;&bigstar;
 
 ### Array（数组）
 * 1 Two Sum &bigstar;
@@ -96,8 +100,10 @@
 * 905 Sort Array By Parity &bigstar;
 * 941 Valid Mountain Array &bigstar;
 * 977 Squares of a Sorted Array &bigstar;
+* 999 Available Captures for Rook &bigstar;
 * 1051 Height Checker &bigstar;
 * 1089 Duplicate Zeros &bigstar;
+* 1133 Largest Unique Number &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 1252 Cells with Odd Values in a Matrix &bigstar;
 * 1260 Shift 2D Grid &bigstar;
@@ -200,7 +206,6 @@
 * 316 Remove Duplicate Letters &bigstar;&bigstar;
 * 341 Flatten Nested List Iterator &bigstar;&bigstar;
 * 378 Kth Smallest Element in a Sorted Matrix &bigstar;&bigstar;
-* 388 Longest Absolute File Path &bigstar;&bigstar;
 * 394 Decode String &bigstar;&bigstar;
 * 402 Remove K Digits &bigstar;&bigstar;
 * 503 Next Greater Element II &bigstar;&bigstar;

@@ -1,23 +1,18 @@
-# Longest Absolute File Path
-# Stack
+# 388. Longest Absolute File Path
+# String
 
-# https://blog.csdn.net/fuxuemingzhu/article/details/82841402
-# runtime: faster than 70.36% 
+# https://leetcode.com/problems/longest-absolute-file-path/discuss/86619/Simple-Python-solution
+# runtime: faster than 76.43%
 class Solution:
     def lengthLongestPath(self, input: str) -> int:
-        stack = [(-1,0)]
-        max_len = 0
-        
-        for p in input.split('\n'):
-            depth = p.count('\t')
-            p = p.replace('\t','')
-            
-            while stack and depth <= stack[-1][0]:
-                stack.pop()
-            
-            if '.' not in p:
-                stack.append((depth, len(p) + stack[-1][1] + 1))
+        res = 0
+        path = {0: 0}
+        print(input.split('\n'))
+        for line in input.split('\n'):
+            name = line.lstrip('\t')
+            depth = len(line) - len(name)
+            if '.' in name:
+                res = max(res, path[depth] + len(name))
             else:
-                max_len = max(max_len, len(p) + stack[-1][1])
-        
-        return max_len
+                path[depth+1] = path[depth] + len(name) + 1
+        return res

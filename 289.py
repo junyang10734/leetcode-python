@@ -3,6 +3,7 @@
 
 
 # runtime: faster than 49.89% 
+# Sapce: O(mn)
 class Solution1:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
@@ -31,6 +32,7 @@ class Solution1:
 
 
 # runtime: faster than 92.78%
+# Space: O(1)
 class Solution2:
     def gameOfLife(self, board: List[List[int]]) -> None:
         """
