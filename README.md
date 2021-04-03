@@ -62,6 +62,7 @@
 * 1737 Change Minimum Characters to Satisfy One of Three Conditions &bigstar;&bigstar;
 * 1754 Largest Merge Of Two Strings &bigstar;&bigstar;
 * 32 Longest Valid Parentheses &bigstar;&bigstar;&bigstar;
+* 68 Text Justification &bigstar;&bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
 * 273 Integer to English Words &bigstar;&bigstar;&bigstar;
 * 336 Palindrome Pairs &bigstar;&bigstar;&bigstar;
@@ -187,6 +188,7 @@
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
+* 1424 Diagonal Traverse II &bigstar;&bigstar;
 * 1465 Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts &bigstar;&bigstar;
 * 1726 Tuple with Same Product &bigstar;&bigstar;
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
