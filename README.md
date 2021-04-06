@@ -55,6 +55,7 @@
 * 833 Find And Replace in String &bigstar;&bigstar;
 * 916 Word Subsets &bigstar;&bigstar;
 * 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
+* 1169 Invalid Transactions &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
 * 1328 Break a Palindrome &bigstar;&bigstar;
 * 1487 Making File Names Unique &bigstar;&bigstar;
@@ -64,6 +65,7 @@
 * 32 Longest Valid Parentheses &bigstar;&bigstar;&bigstar;
 * 68 Text Justification &bigstar;&bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
+* 158 Read N Characters Given Read4 II - Call multiple times &bigstar;&bigstar;&bigstar;
 * 273 Integer to English Words &bigstar;&bigstar;&bigstar;
 * 336 Palindrome Pairs &bigstar;&bigstar;&bigstar;
 
@@ -166,8 +168,10 @@
 * 621 Task Scheduler &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
 * 713 Subarray Product Less Than K &bigstar;&bigstar;
+* 723 Candy Crush &bigstar;&bigstar;
 * 729 My Calendar I &bigstar;&bigstar;
 * 731 My Calendar II &bigstar;&bigstar;
+* 775 Global and Local Inversions &bigstar;&bigstar;
 * 792 Number of Matching Subsequences &bigstar;&bigstar;
 * 846 Hand of Straights &bigstar;&bigstar;
 * 849 Maximize Distance to Closest Person &bigstar;&bigstar;
@@ -184,6 +188,7 @@
 * 986 Interval List Intersections &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
 * 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
+* 1169 Invalid Transactions &bigstar;&bigstar;
 * 1219 Path with Maximum Gold &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
@@ -216,6 +221,7 @@
 * 901 Online Stock Span &bigstar;&bigstar;
 * 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
 * 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
+* 1209 Remove All Adjacent Duplicates in String II &bigstar;&bigstar;
 * 32 Longest Valid Parentheses &bigstar;&bigstar;&bigstar;
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 
@@ -254,6 +260,7 @@
 * 1048 Longest String Chain &bigstar;&bigstar;
 * 1124 Longest Well-Performing Interval &bigstar;&bigstar;
 * 1198 Find Smallest Common Element in All Rows &bigstar;&bigstar;
+* 1396 Design Underground System &bigstar;&bigstar;
 * 1487 Making File Names Unique &bigstar;&bigstar;
 * 1711 Count Good Meals &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
@@ -424,6 +431,7 @@
 * 319 Bulb Switcher &bigstar;&bigstar;
 * 386 Lexicographical Numbers &bigstar;&bigstar;
 * 423 Reconstruct Original Digits from English &bigstar;&bigstar;
+* 775 Global and Local Inversions &bigstar;&bigstar;
 * 869 Reordered Power of 2 &bigstar;&bigstar;
 * 963 Minimum Area Rectangle II &bigstar;&bigstar;
 * 1041 Robot Bounded In Circle &bigstar;&bigstar;
@@ -598,6 +606,8 @@
 * 622 Design Circular Queue &bigstar;&bigstar;
 * 707 Design Linked List &bigstar;&bigstar;
 * 1146 Snapshot Array &bigstar;&bigstar;
+* 1396 Design Underground System &bigstar;&bigstar;
+* 1472 Design Browser History &bigstar;&bigstar;
 * 295 Find Median from Data Stream &bigstar;&bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
 * 588 Design In-Memory File System &bigstar;&bigstar;&bigstar;
