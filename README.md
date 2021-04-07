@@ -206,6 +206,7 @@
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
 * 155 Min Stack &bigstar;
+* 716 Max Stack &bigstar;
 * 844 Backspace String Compare &bigstar;
 * 1046 Last Stone Weight &bigstar;
 * 1047 Remove All Adjacent Duplicates In String &bigstar;
@@ -363,6 +364,7 @@
 * 743 Network Delay Time &bigstar;&bigstar;
 * 785 Is Graph Bipartite? &bigstar;&bigstar;
 * 787 Cheapest Flights Within K Stops &bigstar;&bigstar;
+* 797 All Paths From Source to Target &bigstar;&bigstar;
 * 802 Find Eventual Safe States &bigstar;&bigstar;
 * 814 Binary Tree Pruning &bigstar;&bigstar;
 * 841 Keys and Rooms &bigstar;&bigstar;
@@ -436,6 +438,7 @@
 * 963 Minimum Area Rectangle II &bigstar;&bigstar;
 * 1041 Robot Bounded In Circle &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
+* 1551 Minimum Operations to Make Array Equal &bigstar;&bigstar;
 * 1753 Maximum Score From Removing Stones &bigstar;&bigstar;
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 
@@ -606,6 +609,7 @@
 * 622 Design Circular Queue &bigstar;&bigstar;
 * 707 Design Linked List &bigstar;&bigstar;
 * 1146 Snapshot Array &bigstar;&bigstar;
+* 1244 Design A Leaderboard &bigstar;&bigstar;
 * 1396 Design Underground System &bigstar;&bigstar;
 * 1472 Design Browser History &bigstar;&bigstar;
 * 295 Find Median from Data Stream &bigstar;&bigstar;&bigstar;
