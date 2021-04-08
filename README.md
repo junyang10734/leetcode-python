@@ -25,6 +25,7 @@
 * 819 Most Common Word &bigstar;
 * 929 Unique Email Addresses &bigstar;
 * 1108 Defanging an IP Address &bigstar;
+* 1704 Determine if String Halves Are Alike &bigstar;
 * 1736 Latest Time by Replacing Hidden Digits &bigstar;
 * 1758 Minimum Changes To Make Alternating Binary String &bigstar;
 * 1790 Check if One String Swap Can Make Strings Equal &bigstar;
@@ -58,6 +59,7 @@
 * 1169 Invalid Transactions &bigstar;&bigstar;
 * 1268 Search Suggestions System &bigstar;&bigstar;
 * 1328 Break a Palindrome &bigstar;&bigstar;
+* 1347 Minimum Number of Steps to Make Two Strings Anagram &bigstar;&bigstar;
 * 1487 Making File Names Unique &bigstar;&bigstar;
 * 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
 * 1737 Change Minimum Characters to Satisfy One of Three Conditions &bigstar;&bigstar;
@@ -244,6 +246,7 @@
 * 244 Shortest Word Distance II &bigstar;&bigstar;
 * 260 Single Number III &bigstar;&bigstar;
 * 299 Bulls and Cows &bigstar;&bigstar;
+* 398 Random Pick Index &bigstar;&bigstar;
 * 438 Find All Anagrams in a String &bigstar;&bigstar;
 * 451 Sort Characters By Frequency &bigstar;&bigstar;
 * 454 4Sum II &bigstar;&bigstar;
@@ -342,6 +345,7 @@
 * 222 Count Complete Tree Nodes &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
+* 285 Inorder Successor in BST &bigstar;&bigstar;
 * 307 Range Sum Query - Mutable &bigstar;&bigstar;
 * 310 Minimum Height Trees &bigstar;&bigstar;
 * 332 Reconstruct Itinerary &bigstar;&bigstar;
@@ -418,6 +422,7 @@
 * 367 Valid Perfect Square &bigstar;
 * 441 Arranging Coins &bigstar;
 * 453 Minimum Moves to Equal Array Elements &bigstar;
+* 504 Base 7 &bigstar;
 * 728 Self Dividing Numbers &bigstar;
 * 836 Rectangle Overlap &bigstar;
 * 1025 Divisor Game &bigstar;
@@ -605,6 +610,7 @@
 * 348 Design Tic-Tac-Toe &bigstar;&bigstar;
 * 362 Design Hit Counter &bigstar;&bigstar;
 * 380 Insert Delete GetRandom O(1) &bigstar;&bigstar;
+* 398 Random Pick Index &bigstar;&bigstar;
 * 449 Serialize and Deserialize BST &bigstar;&bigstar;
 * 622 Design Circular Queue &bigstar;&bigstar;
 * 707 Design Linked List &bigstar;&bigstar;

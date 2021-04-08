@@ -9,8 +9,8 @@
 #         self.left = left
 #         self.right = right
 
-# faster than 90.70%
-class Solution:
+# runtime: faster than 37.45%
+class Solution1:
     def minDepth(self, root: TreeNode) -> int:
         if not root:
             return 0 
@@ -26,3 +26,22 @@ class Solution:
             return 1 + l
         
         return 1 + min(l, r)
+
+
+# runtime: faster than 59%
+class Solution2:
+    def minDepth(self, root: TreeNode) -> int:
+        if not root:
+            return 0
+        self.res = float('inf')
+        
+        def dfs(node, depth):
+            if node.left:
+                dfs(node.left, depth+1)
+            if node.right:
+                dfs(node.right, depth+1)
+            if not node.left and not node.right:
+                self.res = min(self.res, depth)
+        
+        dfs(root, 1)
+        return self.res

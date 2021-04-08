@@ -1,7 +1,7 @@
 # 797. All Paths From Source to Target
 # BFS
 
-# runtime: faster than 39.86%
+# runtime: faster than 96.27%
 class Solution:
     def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
         end = len(graph) - 1
@@ -13,7 +13,8 @@ class Solution:
             for nx in graph[node]:
                 if nx == end:
                     res.append(path+[nx])
-                stack.append([nx, path + [nx]])
+                else:
+                    stack.append([nx, path + [nx]])
         
         return res
                 

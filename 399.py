@@ -28,11 +28,47 @@ class Solution1:
         return -1.0
 
 
+# BFS
+# runtime: faster than 95.98% 
+class Solution2:
+    def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
+        d = collections.defaultdict(dict)
+        for i in range(len(values)):
+            a, b, v = equations[i][0], equations[i][1], values[i]
+            d[a][b] = v
+            d[b][a] = 1.0/v
+        
+        res = []
+        for A,B in queries:
+            if A not in d or B not in d:
+                res.append(-1.0) 
+                continue
+            if A == B:
+                res.append(1.0) 
+                continue
+                
+            found = False
+            stack = [(A, 1)]
+            seen = set([A])
+            while stack and not found:
+                node, val = stack.pop(0)
+                for nx,v in d[node].items():
+                    if nx == B:
+                        res.append(val*v)
+                        found = True
+                        break
+                    if nx not in seen:
+                        stack.append((nx, val*v))
+                        seen.add(nx)
+            if not found:
+                res.append(-1.0)
+        return res
+
 
 # Union-Find
 # https://zxi.mytechroad.com/blog/graph/leetcode-399-evaluate-division/
 # runtime: faster than 88.07%
-class Solution2:
+class Solution3:
     def calcEquation(self, equations: List[List[str]], values: List[float], queries: List[List[str]]) -> List[float]:
         
         def find(x):
