@@ -150,6 +150,7 @@
 * 238 Product of Array Except Self &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
 * 275 H-Index II &bigstar;&bigstar;
+* 277 Find the Celebrity &bigstar;&bigstar;
 * 287 Find the Duplicate Number &bigstar;&bigstar;
 * 289 Game of Life &bigstar;&bigstar;
 * 307 Range Sum Query - Mutable &bigstar;&bigstar;
@@ -166,6 +167,7 @@
 * 529 Minesweeper &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
+* 562 Longest Line of Consecutive One in Matrix &bigstar;&bigstar;
 * 581 Shortest Unsorted Continuous Subarray &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
@@ -427,6 +429,7 @@
 * 836 Rectangle Overlap &bigstar;
 * 1025 Divisor Game &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
+* 1688 Count of Matches in Tournament &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
 * 60 Permutation Sequence &bigstar;&bigstar;
@@ -452,6 +455,7 @@
 * 191 Number of 1 Bits &bigstar;
 * 231 Power of Two &bigstar;
 * 371 Sum of Two Integers &bigstar;
+* 401 Binary Watch &bigstar;
 * 461 Hamming Distance &bigstar;
 * 476 Number Complement &bigstar;
 * 201 Bitwise AND of Numbers Range &bigstar;&bigstar;
