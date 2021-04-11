@@ -121,6 +121,7 @@
 * 1629 Slowest Key &bigstar;
 * 1636 Sort Array by Increasing Frequency &bigstar;
 * 1752 Check if Array Is Sorted and Rotated &bigstar;
+* 1822 Sign of the Product of an Array &bigstar;
 * 15 3Sum &bigstar;&bigstar;
 * 16 3Sum Closest &bigstar;&bigstar;
 * 18 4Sum &bigstar;&bigstar;
@@ -203,6 +204,7 @@
 * 1726 Tuple with Same Product &bigstar;&bigstar;
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
+* 1823 Find the Winner of the Circular Game &bigstar;&bigstar;
 * 41 First Missing Positive &bigstar;&bigstar;&bigstar;
 * 1793 Maximum Score of a Good Subarray &bigstar;&bigstar;&bigstar;
 
@@ -398,6 +400,7 @@
 * 269 Alien Dictionary &bigstar;&bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
+* 329 Longest Increasing Path in a Matrix &bigstar;&bigstar;&bigstar;
 * 815 Bus Routes &bigstar;&bigstar;&bigstar;
 * 827 Making A Large Island &bigstar;&bigstar;&bigstar;
 * 839 Similar String Groups &bigstar;&bigstar;&bigstar;
@@ -539,6 +542,7 @@
 * 1155 Number of Dice Rolls With Target Sum &bigstar;&bigstar;
 * 1218 Longest Arithmetic Subsequence of Given Difference &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
+* 1824 Minimum Sideway Jumps &bigstar;&bigstar;
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
 * 44 Wildcard Matching &bigstar;&bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
