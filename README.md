@@ -25,6 +25,7 @@
 * 819 Most Common Word &bigstar;
 * 929 Unique Email Addresses &bigstar;
 * 1108 Defanging an IP Address &bigstar;
+* 1614 Maximum Nesting Depth of the Parentheses &bigstar;
 * 1704 Determine if String Halves Are Alike &bigstar;
 * 1736 Latest Time by Replacing Hidden Digits &bigstar;
 * 1758 Minimum Changes To Make Alternating Binary String &bigstar;
@@ -165,12 +166,14 @@
 * 487 Max Consecutive Ones II &bigstar;&bigstar;
 * 498 Diagonal Traverse &bigstar;&bigstar;
 * 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
+* 526 Beautiful Arrangement &bigstar;&bigstar;
 * 529 Minesweeper &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 562 Longest Line of Consecutive One in Matrix &bigstar;&bigstar;
 * 581 Shortest Unsorted Continuous Subarray &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
+* 667 Beautiful Arrangement II &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
 * 713 Subarray Product Less Than K &bigstar;&bigstar;
 * 723 Candy Crush &bigstar;&bigstar;
@@ -349,6 +352,7 @@
 * 222 Count Complete Tree Nodes &bigstar;&bigstar;
 * 230 Kth Smallest Element in a BST &bigstar;&bigstar;
 * 236 Lowest Common Ancestor of a Binary Tree &bigstar;&bigstar;
+* 250 Count Univalue Subtrees &bigstar;&bigstar;
 * 285 Inorder Successor in BST &bigstar;&bigstar;
 * 307 Range Sum Query - Mutable &bigstar;&bigstar;
 * 310 Minimum Height Trees &bigstar;&bigstar;
@@ -359,6 +363,7 @@
 * 437 Path Sum III &bigstar;&bigstar;
 * 449 Serialize and Deserialize BST &bigstar;&bigstar;
 * 450 Delete Node in a BST &bigstar;&bigstar;
+* 505 The Maze II &bigstar;&bigstar;
 * 508 Most Frequent Subtree Sum &bigstar;&bigstar;
 * 538 Convert BST to Greater Tree &bigstar;&bigstar;
 * 545 Boundary of Binary Tree &bigstar;&bigstar;
@@ -396,6 +401,7 @@
 * 1202 Smallest String With Swaps &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1325 Delete Leaves With a Given Value &bigstar;&bigstar;
+* 1485 Clone Binary Tree With Random Pointer &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
 * 269 Alien Dictionary &bigstar;&bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
