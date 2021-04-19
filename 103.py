@@ -7,6 +7,7 @@ class TreeNode:
         self.left = None
         self.right = None
 
+# BFS
 # runtime: faster than 97.93%
 class Solution:
     def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
@@ -40,3 +41,26 @@ class Solution:
             cur_level = next_level
         
         return res
+
+
+# DFS
+class Solution2:
+    def zigzagLevelOrder(self, root: TreeNode) -> List[List[int]]:
+        if not root:
+            return []
+        
+        res = []
+        self.dfs(root, res, 0)
+        for i,a in enumerate(res):
+            if i % 2:
+                res[i] = res[i][::-1]
+        return res
+    
+    def dfs(self, node, res, d):
+        if not node:
+            return
+        if d >= len(res):
+            res.append([])
+        res[d].append(node.val)
+        self.dfs(node.left, res, d+1)
+        self.dfs(node.right, res, d+1)

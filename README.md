@@ -97,6 +97,7 @@
 * 463 Island Perimeter &bigstar;
 * 485 Max Consecutive Ones &bigstar;
 * 561 Array Partition I &bigstar;
+* 628 Maximum Product of Three Numbers &bigstar;
 * 697 Degree of an Array &bigstar;
 * 704 Binary Search &bigstar;
 * 717 1-bit and 2-bit Characters &bigstar;
@@ -119,6 +120,7 @@
 * 1299 Replace Elements with Greatest Element on Right Side &bigstar;
 * 1346 Check If N and Its Double Exist &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
+* 1539 Kth Missing Positive Number &bigstar;
 * 1629 Slowest Key &bigstar;
 * 1636 Sort Array by Increasing Frequency &bigstar;
 * 1752 Check if Array Is Sorted and Rotated &bigstar;
@@ -196,6 +198,7 @@
 * 986 Interval List Intersections &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
 * 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
+* 1151 Minimum Swaps to Group All 1's Together &bigstar;&bigstar;
 * 1169 Invalid Transactions &bigstar;&bigstar;
 * 1219 Path with Maximum Gold &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
@@ -209,6 +212,7 @@
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
 * 1823 Find the Winner of the Circular Game &bigstar;&bigstar;
 * 41 First Missing Positive &bigstar;&bigstar;&bigstar;
+* 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
 * 1793 Maximum Score of a Good Subarray &bigstar;&bigstar;&bigstar;
 
 
@@ -290,6 +294,7 @@
 * 19 Remove Nth Node From End of List &bigstar;&bigstar;
 * 24 Swap Nodes in Pairs &bigstar;&bigstar;
 * 83 Remove Duplicates from Sorted List &bigstar;&bigstar;
+* 86 Partition List &bigstar;&bigstar;
 * 92 Reverse Linked List II &bigstar;&bigstar;
 * 138 Copy List with Random Pointer &bigstar;&bigstar;
 * 143 Reorder List &bigstar;&bigstar;
@@ -434,6 +439,7 @@
 * 441 Arranging Coins &bigstar;
 * 453 Minimum Moves to Equal Array Elements &bigstar;
 * 504 Base 7 &bigstar;
+* 628 Maximum Product of Three Numbers &bigstar;
 * 728 Self Dividing Numbers &bigstar;
 * 836 Rectangle Overlap &bigstar;
 * 1025 Divisor Game &bigstar;
@@ -561,6 +567,7 @@
 * 818 Race Car &bigstar;&bigstar;&bigstar;
 * 887 Super Egg Drop &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
+* 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
 * 1312 Minimum Insertion Steps to Make a String Palindrome &bigstar;&bigstar;&bigstar;
 * 1335 Minimum Difficulty of a Job Schedule &bigstar;&bigstar;&bigstar;
 
@@ -601,6 +608,7 @@
 * 852 Peak Index in a Mountain Array &bigstar;
 * 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
+* 1539 Kth Missing Positive Number &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
@@ -612,6 +620,7 @@
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
 * 1011 Capacity To Ship Packages Within D Days &bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
+* 1095 Find in Mountain Array &bigstar;&bigstar;&bigstar;
 
 ### Design（设计）
 * 232 Implement Queue using Stacks &bigstar;

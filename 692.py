@@ -9,9 +9,14 @@ class Solution1:
     def topKFrequent(self, words: List[str], k: int) -> List[str]:
         cnt = collections.Counter(words)
         candidates = list(cnt.keys())
-
         candidates.sort(key=lambda w: (-cnt[w], w))
         return candidates[:k]
+
+class Solution1:
+    def topKFrequent(self, words: List[str], k: int) -> List[str]:
+        cnt = collections.Counter(words)
+        a = sorted(cnt.items(), key=lambda x:(-x[1], x[0]))
+        return [a[i][0] for i in range(k)]
 
 
 # Heap
