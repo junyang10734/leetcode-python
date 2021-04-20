@@ -1,4 +1,4 @@
-# Min Stack
+# 155. Min Stack
 # note: retrieving the minimum element in constant time
 
 class MinStack:

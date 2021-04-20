@@ -14,6 +14,7 @@ class Node:
         self.child = child
 """
 
+# DFS + recursive
 class Solution:
     def flatten(self, head: 'Node') -> 'Node':
         if not head:
@@ -42,27 +43,26 @@ class Solution:
         return nextNode
         
 
-# DFS + stack
-# https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/discuss/154908/Python-easy-solution-using-stack
-# runtime: faster than 61.69%
+# DFS + Iteration
+# https://leetcode.com/problems/flatten-a-multilevel-doubly-linked-list/solution/
 class Solution2:
     def flatten(self, head: 'Node') -> 'Node':
         if not head:
             return
         
+        pHead = Node(0, None, head, None)
+        prev = pHead
         stack = [head]
-        prev = Node(0)
         while stack:
-            root = stack.pop()
-            root.prev = prev
-            prev.next = root
-            prev = root
-            
-            if root.next:
-                stack.append(root.next)
-            if root.child:
-                stack.append(root.child)
-                root.child = None
+            curr = stack.pop()
+            prev.next = curr
+            curr.prev = prev
+            if curr.next:
+                stack.append(curr.next)
+            if curr.child:
+                stack.append(curr.child)
+                curr.child = None
+            prev = curr
         
-        head.prev = None
-        return head
+        pHead.next.prev = None
+        return pHead.next

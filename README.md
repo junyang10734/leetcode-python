@@ -141,6 +141,7 @@
 * 81 Search in Rotated Sorted Array II &bigstar;&bigstar;
 * 127 Word Ladder &bigstar;&bigstar;
 * 130 Surrounded Regions &bigstar;&bigstar;
+* 131 Palindrome Partitioning &bigstar;&bigstar;
 * 134 Gas Station &bigstar;&bigstar;
 * 137 Single Number II &bigstar;&bigstar;
 * 152 Maximum Product Subarray &bigstar;&bigstar;
@@ -238,6 +239,7 @@
 * 1209 Remove All Adjacent Duplicates in String II &bigstar;&bigstar;
 * 32 Longest Valid Parentheses &bigstar;&bigstar;&bigstar;
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
+* 84 Largest Rectangle in Histogram &bigstar;&bigstar;&bigstar;
 
 ### Hash Table（哈希表）
 * 136 Single Number &bigstar;
@@ -375,6 +377,7 @@
 * 547 Number of Provinces &bigstar;&bigstar;
 * 652 Find Duplicate Subtrees &bigstar;&bigstar;
 * 654 Maximum Binary Tree &bigstar;&bigstar;
+* 662 Maximum Width of Binary Tree &bigstar;&bigstar;
 * 684 Redundant Connection &bigstar;&bigstar;
 * 701 Insert into a Binary Search Tree &bigstar;&bigstar;
 * 721 Accounts Merge &bigstar;&bigstar;
@@ -501,6 +504,7 @@
 * 951 Flip Equivalent Binary Trees &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
+* 84 Largest Rectangle in Histogram &bigstar;&bigstar;&bigstar;
 * 140 Word Break II &bigstar;&bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
@@ -531,6 +535,7 @@
 * 338 Counting Bits &bigstar;&bigstar;
 * 368 Largest Divisible Subset &bigstar;&bigstar;
 * 375 Guess Number Higher or Lower II &bigstar;&bigstar;
+* 377 Combination Sum IV &bigstar;&bigstar;
 * 416 Partition Equal Subset Sum &bigstar;&bigstar;
 * 474 Ones and Zeroes &bigstar;&bigstar;
 * 494 Target Sum &bigstar;&bigstar;

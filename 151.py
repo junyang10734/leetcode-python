@@ -1,15 +1,17 @@
 # Reverse Words in a String
 # String
 
-# runtime: faster than 92.93%
+# runtime: O(n)
 class Solution:
     def reverseWords(self, s: str) -> str:
-        sl = s.split(' ')
+        arr = s.split(' ')
+        res = []
+        for i in range(len(arr)-1, -1, -1):
+            if arr[i] != '':
+                res.append(arr[i])
+        return ' '.join(res)
 
-        res = ''
-        for i in range(len(sl)-1, -1, -1):
-            if sl[i]:
-                res += sl[i]
-                res += ' '
-        
-        return res.strip()
+# runtime: O(n)
+class Solution:
+    def reverseWords(self, s: str) -> str:
+        return ' '.join(reversed(s.split()))

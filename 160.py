@@ -10,25 +10,17 @@ class ListNode(object):
 # hash table, faster than 11.55% 
 class Solution1(object):
     def getIntersectionNode(self, headA, headB):
-        """
-        :type head1, head1: ListNode
-        :rtype: ListNode
-        """ 
-        if headA == None or headB == None:
-            return None
-        
-        dic = {}
+        nodes = set()
         while headA:
-            dic[headA] = headA.next
+            nodes.add(headA)
             headA = headA.next
-        
+            
         while headB:
-            if headB in dic and dic[headB] == headB.next:
+            if headB in nodes:
                 return headB
             else:
                 headB = headB.next
-        
-        return None
+        return
 
 
 # start from intersect node to the end node, two lists are same

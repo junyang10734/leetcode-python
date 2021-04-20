@@ -1,6 +1,4 @@
-# Path Sum II
-
-# https://blog.csdn.net/fuxuemingzhu/article/details/80779723
+# 113. Path Sum II
 
 # DFS / backtrack
 # faster than 84.56%
@@ -11,20 +9,20 @@
 #         self.left = left
 #         self.right = right
 class Solution:
-    def pathSum(self, root: TreeNode, sum: int) -> List[List[int]]:
+    def pathSum(self, root: TreeNode, targetSum: int) -> List[List[int]]:
         if not root:
             return []
+        
         res = []
-        self.dfs(root, res, sum, [root.val])
+        def dfs(node, s, path):
+            if not node.left and not node.right:
+                if node.val + s == targetSum:
+                    res.append(path + [node.val])
+            else:
+                if node.left:
+                    dfs(node.left, node.val + s, path + [node.val])
+                if node.right:
+                    dfs(node.right, node.val + s, path + [node.val])
+        
+        dfs(root, 0, [])
         return res
-    
-    def dfs(self, root, res, target, path):
-        if not root:
-            return 
-        if target == sum(path) and not root.left and not root.right:
-            res.append(path)
-            return
-        if root.left:
-            self.dfs(root.left, res, target, path + [root.left.val])
-        if root.right:
-            self.dfs(root.right, res, target, path + [root.right.val])
