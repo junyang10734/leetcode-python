@@ -258,6 +258,7 @@
 * 138 Copy List with Random Pointer &bigstar;&bigstar;
 * 244 Shortest Word Distance II &bigstar;&bigstar;
 * 260 Single Number III &bigstar;&bigstar;
+* 266 Palindrome Permutation &bigstar;&bigstar;
 * 299 Bulls and Cows &bigstar;&bigstar;
 * 398 Random Pick Index &bigstar;&bigstar;
 * 438 Find All Anagrams in a String &bigstar;&bigstar;
@@ -266,6 +267,7 @@
 * 567 Permutation in String &bigstar;&bigstar;
 * 525 Contiguous Array &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
+* 554 Brick Wall &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 676 Implement Magic Dictionary &bigstar;&bigstar;
 * 692 Top K Frequent Words &bigstar;&bigstar;
@@ -375,10 +377,12 @@
 * 538 Convert BST to Greater Tree &bigstar;&bigstar;
 * 545 Boundary of Binary Tree &bigstar;&bigstar;
 * 547 Number of Provinces &bigstar;&bigstar;
+* 582 Kill Process &bigstar;&bigstar;
 * 652 Find Duplicate Subtrees &bigstar;&bigstar;
 * 654 Maximum Binary Tree &bigstar;&bigstar;
 * 662 Maximum Width of Binary Tree &bigstar;&bigstar;
 * 684 Redundant Connection &bigstar;&bigstar;
+* 694 Number of Distinct Islands &bigstar;&bigstar;
 * 701 Insert into a Binary Search Tree &bigstar;&bigstar;
 * 721 Accounts Merge &bigstar;&bigstar;
 * 729 My Calendar I &bigstar;&bigstar;
@@ -446,6 +450,7 @@
 * 728 Self Dividing Numbers &bigstar;
 * 836 Rectangle Overlap &bigstar;
 * 1025 Divisor Game &bigstar;
+* 1228 Missing Number In Arithmetic Progression &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 1688 Count of Matches in Tournament &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
@@ -628,6 +633,7 @@
 * 1095 Find in Mountain Array &bigstar;&bigstar;&bigstar;
 
 ### Design（设计）
+* 225 Implement Stack using Queues &bigstar;
 * 232 Implement Queue using Stacks &bigstar;
 * 705 Design HashSet &bigstar;
 * 706 Design HashMap &bigstar;

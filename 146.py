@@ -9,20 +9,23 @@ class LRUCache1:
 
     def get(self, key: int) -> int:
         if key in self.d:
-            v = self.d.pop(key)
+            v = self.d[key]
+            del self.d[key]
             self.d[key] = v
             return v
         return -1
 
     def put(self, key: int, value: int) -> None:
         if key in self.d:
-            self.d.pop(key)
+            del self.d[key]
+            self.d[key] = value
         else:
             if self.capacity == 0:
                 self.d.popitem(last=False)
+                self.d[key] = value
             else:
+                self.d[key] = value
                 self.capacity -= 1
-        self.d[key] = value
 
 
 # https://leetcode.com/problems/lru-cache/solution/

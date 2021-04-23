@@ -32,6 +32,42 @@ class Solution1:
         return ans
 
 
+# Reverse
+# runtime: O(n1+n2)
+class Solution:
+    def addTwoNumbers(self, l1: ListNode, l2: ListNode) -> ListNode:
+        l1 = self.reverseList(l1)
+        l2 = self.reverseList(l2)
+        
+        head = None
+        carry = 0
+        while l1 or l2:
+            x1 = l1.val if l1 else 0
+            x2 = l2.val if l2 else 0
+            carry, val = divmod(x1+x2+carry, 10)
+            curr = ListNode(val)
+            curr.next = head
+            head = curr
+            
+            l1 = l1.next if l1 else None
+            l2 = l2.next if l2 else None
+        
+        if carry:
+            curr = ListNode(carry)
+            curr.next = head
+            head = curr
+        return head
+    
+    def reverseList(self, head):
+        prev = None
+        while head:
+            tmp = head.next
+            head.next = prev
+            prev = head
+            head = tmp
+        return prev
+
+
 # Stack
 # runtime: faster than 85.24% 
 class Solution2:
