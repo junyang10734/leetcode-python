@@ -28,25 +28,17 @@ class Solution1:
 # runtime: faster than 99.77%
 class Solution2:
     def productExceptSelf(self, nums: List[int]) -> List[int]:
-        prod = 1
-        zeroCount = 0
-        for i in nums:
-            if i != 0:
-                prod *= i
+        zero_count = 0
+        product = 1
+        for num in nums:
+            if num == 0:
+                zero_count += 1
             else:
-                zeroCount += 1
+                product *= num
         
-        res = []
-        if zeroCount > 1:
-            res = [0] * len(nums)
-        elif zeroCount == 1:
-            for i in nums:
-                if i != 0:
-                    res.append(0)
-                else:
-                    res.append(prod)
+        if zero_count > 1:
+            return [0]*len(nums)
+        elif zero_count == 1:
+            return [0 if num != 0 else product for num in nums]
         else:
-            for i in nums:
-                res.append(prod//i)
-        
-        return res
+            return [product//num for num in nums]

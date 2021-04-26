@@ -19,6 +19,7 @@
 * 551 Student Attendance Record I &bigstar;
 * 557 Reverse Words in a String III &bigstar;
 * 657 Robot Return to Origin &bigstar;
+* 696 Count Binary Substrings &bigstar;
 * 788 Rotated Digits &bigstar;
 * 796 Rotate String &bigstar;
 * 804 Unique Morse Code Words &bigstar;
@@ -208,6 +209,7 @@
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
 * 1424 Diagonal Traverse II &bigstar;&bigstar;
 * 1465 Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts &bigstar;&bigstar;
+* 1642 Furthest Building You Can Reach &bigstar;&bigstar;
 * 1726 Tuple with Same Product &bigstar;&bigstar;
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
@@ -240,6 +242,7 @@
 * 32 Longest Valid Parentheses &bigstar;&bigstar;&bigstar;
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 * 84 Largest Rectangle in Histogram &bigstar;&bigstar;&bigstar;
+* 224 Basic Calculator &bigstar;&bigstar;&bigstar;
 
 ### Hash Table（哈希表）
 * 136 Single Number &bigstar;
@@ -472,6 +475,7 @@
 * 1551 Minimum Operations to Make Array Equal &bigstar;&bigstar;
 * 1753 Maximum Score From Removing Stones &bigstar;&bigstar;
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
+* 829 Consecutive Numbers Sum &bigstar;&bigstar;&bigstar;
 
 ### Bit Manipulation（位操作）
 * 190 Reverse Bits &bigstar;
@@ -635,6 +639,7 @@
 ### Design（设计）
 * 225 Implement Stack using Queues &bigstar;
 * 232 Implement Queue using Stacks &bigstar;
+* 703 Kth Largest Element in a Stream &bigstar;
 * 705 Design HashSet &bigstar;
 * 706 Design HashMap &bigstar;
 * 146 LRU Cache &bigstar;&bigstar;
