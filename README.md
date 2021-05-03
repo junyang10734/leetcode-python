@@ -121,6 +121,7 @@
 * 1299 Replace Elements with Greatest Element on Right Side &bigstar;
 * 1346 Check If N and Its Double Exist &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
+* 1480 Running Sum of 1d Array &bigstar;
 * 1539 Kth Missing Positive Number &bigstar;
 * 1629 Slowest Key &bigstar;
 * 1636 Sort Array by Increasing Frequency &bigstar;
@@ -203,6 +204,7 @@
 * 1151 Minimum Swaps to Group All 1's Together &bigstar;&bigstar;
 * 1169 Invalid Transactions &bigstar;&bigstar;
 * 1219 Path with Maximum Gold &bigstar;&bigstar;
+* 1229 Meeting Scheduler &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
@@ -215,6 +217,7 @@
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
 * 1823 Find the Winner of the Circular Game &bigstar;&bigstar;
 * 41 First Missing Positive &bigstar;&bigstar;&bigstar;
+* 630 Course Schedule III &bigstar;&bigstar;&bigstar;
 * 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
 * 1793 Maximum Score of a Good Subarray &bigstar;&bigstar;&bigstar;
 
@@ -287,6 +290,7 @@
 * 1711 Count Good Meals &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 * 710 Random Pick with Blacklist &bigstar;&bigstar;&bigstar;
+* 745 Prefix and Suffix Search &bigstar;&bigstar;&bigstar;
 
 ### Linked List（链表）
 * 21 Merge Two Sorted Lists &bigstar;
@@ -368,6 +372,7 @@
 * 285 Inorder Successor in BST &bigstar;&bigstar;
 * 307 Range Sum Query - Mutable &bigstar;&bigstar;
 * 310 Minimum Height Trees &bigstar;&bigstar;
+* 323 Number of Connected Components in an Undirected Graph &bigstar;&bigstar;
 * 332 Reconstruct Itinerary &bigstar;&bigstar;
 * 337 House Robber III &bigstar;&bigstar;
 * 399 Evaluate Division &bigstar;&bigstar;
@@ -470,6 +475,7 @@
 * 775 Global and Local Inversions &bigstar;&bigstar;
 * 869 Reordered Power of 2 &bigstar;&bigstar;
 * 963 Minimum Area Rectangle II &bigstar;&bigstar;
+* 970 Powerful Integers &bigstar;&bigstar;
 * 1041 Robot Bounded In Circle &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 * 1551 Minimum Operations to Make Array Equal &bigstar;&bigstar;
@@ -584,6 +590,7 @@
 * 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
 * 1312 Minimum Insertion Steps to Make a String Palindrome &bigstar;&bigstar;&bigstar;
 * 1335 Minimum Difficulty of a Job Schedule &bigstar;&bigstar;&bigstar;
+* 1478 Allocate Mailboxes &bigstar;&bigstar;&bigstar;
 
 ### Greedy（贪心算法）
 * 122 Best Time to Buy and Sell Stock II &bigstar;
