@@ -55,4 +55,25 @@ class Solution2:
         while node.right:
             node = node.right
         node.right = right
-            
+
+
+# https://leetcode.com/problems/flatten-binary-tree-to-linked-list/solution/
+# runtime: O(n)
+class Solution3:
+    def flatten(self, root: TreeNode) -> None:
+        """
+        Do not return anything, modify root in-place instead.
+        """
+        if not root:
+            return
+        
+        node = root
+        while node:
+            if node.left:
+                rightmost = node.left
+                while rightmost.right:
+                    rightmost = rightmost.right
+                rightmost.right = node.right
+                node.right = node.left
+                node.left = None
+            node = node.right

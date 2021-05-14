@@ -55,6 +55,7 @@
 * 767 Reorganize String &bigstar;&bigstar;
 * 777 Swap Adjacent in LR String &bigstar;&bigstar;
 * 809 Expressive Words &bigstar;&bigstar;
+* 816 Ambiguous Coordinates &bigstar;&bigstar;
 * 833 Find And Replace in String &bigstar;&bigstar;
 * 916 Word Subsets &bigstar;&bigstar;
 * 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
@@ -178,6 +179,7 @@
 * 562 Longest Line of Consecutive One in Matrix &bigstar;&bigstar;
 * 581 Shortest Unsorted Continuous Subarray &bigstar;&bigstar;
 * 621 Task Scheduler &bigstar;&bigstar;
+* 665 Non-decreasing Array &bigstar;&bigstar;
 * 667 Beautiful Arrangement II &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
 * 713 Subarray Product Less Than K &bigstar;&bigstar;
@@ -209,6 +211,7 @@
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
+* 1423 Maximum Points You Can Obtain from Cards &bigstar;&bigstar;
 * 1424 Diagonal Traverse II &bigstar;&bigstar;
 * 1465 Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts &bigstar;&bigstar;
 * 1642 Furthest Building You Can Reach &bigstar;&bigstar;
@@ -279,6 +282,7 @@
 * 692 Top K Frequent Words &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
 * 939 Minimum Area Rectangle &bigstar;&bigstar;
+* 957 Prison Cells After N Days &bigstar;&bigstar;
 * 966 Vowel Spellchecker &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
 * 1010 Pairs of Songs With Total Durations Divisible by 60 &bigstar;&bigstar;
@@ -482,6 +486,7 @@
 * 1753 Maximum Score From Removing Stones &bigstar;&bigstar;
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 * 829 Consecutive Numbers Sum &bigstar;&bigstar;&bigstar;
+* 906 Super Palindromes &bigstar;&bigstar;&bigstar;
 
 ### Bit Manipulation（位操作）
 * 190 Reverse Bits &bigstar;
@@ -615,9 +620,11 @@
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 * 1353 Maximum Number of Events That Can Be Attended &bigstar;&bigstar;
 * 1405 Longest Happy String &bigstar;&bigstar;
+* 1564 Put Boxes Into the Warehouse I &bigstar;&bigstar;
 * 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
+* 1354 Construct Target Array With Multiple Sums &bigstar;&bigstar;&bigstar;
 
 ### Binary Search（二分查找）
 * 35 Search Insert Position &bigstar;
