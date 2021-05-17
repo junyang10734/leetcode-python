@@ -2,8 +2,8 @@
 # Graph / DFS
 
 
-# https://blog.csdn.net/fuxuemingzhu/article/details/83551204
-# runtime: faster than 97.95% 
+# https://leetcode.com/problems/reconstruct-itinerary/solution/
+# runtime: O(vlogv)
 class Solution:
     def findItinerary(self, tickets: List[List[str]]) -> List[str]:
         graph = collections.defaultdict(list)

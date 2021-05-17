@@ -3,28 +3,29 @@
 # same as 567
 
 # Sliding Window + Hash 计数
-# https://blog.csdn.net/fuxuemingzhu/article/details/79184109
-# runtime: faster than 39.11%
+# https://leetcode.com/problems/find-all-anagrams-in-a-string/solution/
+# runtime: O(ns + np)
 class Solution1:
     def findAnagrams(self, s: str, p: str) -> List[int]:
-        ans = []
-        m, n = len(s), len(p)
+        ns, np = len(s), len(p)
+        if ns < np:
+            return []
         
-        if m < n:
-            return ans
-        
-        pc = Counter(p)
-        ps = Counter(s[:n-1])
-        
-        for idx in range(n-1, m):
-            ps[s[idx]] += 1
-            if ps == pc:
-                ans.append(idx-n+1)
-            ps[s[idx-n+1]] -= 1
-            if ps[s[idx-n+1]] == 0:
-                del ps[s[idx-n+1]]
-        
-        return ans
+        p_count = collections.Counter(p)
+        s_count = collections.Counter()
+        res = []
+        for i in range(ns):
+            s_count[s[i]] += 1
+            if i >= np:
+                if s_count[s[i - np]] == 1:
+                    del s_count[s[i - np]]
+                else:
+                    s_count[s[i - np]] -= 1
+            
+            if p_count == s_count:
+                res.append(i - np + 1)
+                
+        return res
 
 
 # Sliding Window 模板

@@ -44,22 +44,22 @@
 # print(s.maxFrequency(nums, k))
 
 
-from typing import List
-class Solution:
-    def maxBuilding(self, n: int, restrictions: List[List[int]]) -> int:
-        dp = [i for i in range(n)]
-        for i,h in restrictions:
-            dp[i-1] = min(h, i-1)
+# from typing import List
+# class Solution:
+#     def maxBuilding(self, n: int, restrictions: List[List[int]]) -> int:
+#         dp = [i for i in range(n)]
+#         for i,h in restrictions:
+#             dp[i-1] = min(h, i-1)
         
-        for i in range(1, n):
-            if i == n-1:
-                dp[i] = min(dp[i], dp[i-1]+1)
-            else:
-                dp[i] = min(dp[i], dp[i-1]+1, dp[i+1]+1)
+#         for i in range(1, n):
+#             if i == n-1:
+#                 dp[i] = min(dp[i], dp[i-1]+1)
+#             else:
+#                 dp[i] = min(dp[i], dp[i-1]+1, dp[i+1]+1)
         
-        return max(dp)
+#         return max(dp)
 
-s = Solution()
-n = 5
-restrictions = [[2,1],[4,1]]
-print(s.maxBuilding(n, restrictions))
+# s = Solution()
+# n = 5
+# restrictions = [[2,1],[4,1]]
+# print(s.maxBuilding(n, restrictions))

@@ -13,16 +13,10 @@ class Solution:
         while i > 0 and nums[i] <= nums[i-1]:
             i -= 1
         
-        self.reverse(nums, i, n-1)
+        nums[i:] = nums[i:][::-1]
+
         if i > 0:
             for j in range(i, n):
                 if nums[j] > nums[i-1]:
-                    self.swap(nums, i-1, j)
+                    nums[i-1], nums[j] = nums[j], nums[i-1]
                     break
-    
-    def reverse(self, nums, i, j):
-        for k in range(i, (i+j)//2 + 1):
-            self.swap(nums, k, i+j-k)
-    
-    def swap(self, nums, i, j):
-        nums[i], nums[j] = nums[j], nums[i]

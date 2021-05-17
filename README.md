@@ -41,6 +41,7 @@
 * 43 Multiply Strings &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
 * 151 Reverse Words in a String &bigstar;&bigstar;
+* 161 One Edit Distance &bigstar;&bigstar;
 * 187 Repeated DNA Sequences &bigstar;&bigstar;
 * 306 Additive Number &bigstar;&bigstar;
 * 316 Remove Duplicate Letters &bigstar;&bigstar;
@@ -68,6 +69,7 @@
 * 1737 Change Minimum Characters to Satisfy One of Three Conditions &bigstar;&bigstar;
 * 1754 Largest Merge Of Two Strings &bigstar;&bigstar;
 * 32 Longest Valid Parentheses &bigstar;&bigstar;&bigstar;
+* 65 Valid Number &bigstar;&bigstar;&bigstar;
 * 68 Text Justification &bigstar;&bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
 * 158 Read N Characters Given Read4 II - Call multiple times &bigstar;&bigstar;&bigstar;
@@ -220,6 +222,7 @@
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
 * 1823 Find the Winner of the Circular Game &bigstar;&bigstar;
 * 41 First Missing Positive &bigstar;&bigstar;&bigstar;
+* 480 Sliding Window Median &bigstar;&bigstar;&bigstar;
 * 630 Course Schedule III &bigstar;&bigstar;&bigstar;
 * 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
 * 1793 Maximum Score of a Good Subarray &bigstar;&bigstar;&bigstar;
