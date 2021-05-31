@@ -50,6 +50,7 @@
 * 468 Validate IP Address &bigstar;&bigstar;
 * 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
+* 609 Find Duplicate File in System &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
 * 686 Repeated String Match &bigstar;&bigstar;
@@ -58,6 +59,7 @@
 * 809 Expressive Words &bigstar;&bigstar;
 * 816 Ambiguous Coordinates &bigstar;&bigstar;
 * 833 Find And Replace in String &bigstar;&bigstar;
+* 890 Find and Replace Pattern &bigstar;&bigstar;
 * 916 Word Subsets &bigstar;&bigstar;
 * 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
 * 1169 Invalid Transactions &bigstar;&bigstar;
@@ -222,6 +224,7 @@
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
 * 1823 Find the Winner of the Circular Game &bigstar;&bigstar;
 * 41 First Missing Positive &bigstar;&bigstar;&bigstar;
+* 239 Sliding Window Maximum &bigstar;&bigstar;&bigstar;
 * 480 Sliding Window Median &bigstar;&bigstar;&bigstar;
 * 630 Course Schedule III &bigstar;&bigstar;&bigstar;
 * 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
@@ -479,6 +482,7 @@
 * 319 Bulb Switcher &bigstar;&bigstar;
 * 386 Lexicographical Numbers &bigstar;&bigstar;
 * 423 Reconstruct Original Digits from English &bigstar;&bigstar;
+* 462 Minimum Moves to Equal Array Elements II &bigstar;&bigstar;
 * 775 Global and Local Inversions &bigstar;&bigstar;
 * 869 Reordered Power of 2 &bigstar;&bigstar;
 * 963 Minimum Area Rectangle II &bigstar;&bigstar;
@@ -590,6 +594,7 @@
 * 123 Best Time to Buy and Sell Stock III &bigstar;&bigstar;&bigstar;
 * 174 Dungeon Game &bigstar;&bigstar;&bigstar;
 * 188 Best Time to Buy and Sell Stock IV &bigstar;&bigstar;&bigstar;
+* 239 Sliding Window Maximum &bigstar;&bigstar;&bigstar;
 * 312 Burst Balloons &bigstar;&bigstar;&bigstar;
 * 354 Russian Doll Envelopes &bigstar;&bigstar;&bigstar;
 * 818 Race Car &bigstar;&bigstar;&bigstar;
@@ -681,6 +686,7 @@
 * 710 Random Pick with Blacklist &bigstar;&bigstar;&bigstar;
 
 ### Concurrency
+* 1114 Print in Order &bigstar;
 * 1188 Design Bounded Blocking Queue &bigstar;&bigstar;
 
 ### SQL (数据库)
