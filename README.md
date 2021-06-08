@@ -45,11 +45,14 @@
 * 187 Repeated DNA Sequences &bigstar;&bigstar;
 * 306 Additive Number &bigstar;&bigstar;
 * 316 Remove Duplicate Letters &bigstar;&bigstar;
+* 340 Longest Substring with At Most K Distinct Characters &bigstar;&bigstar;
 * 388 Longest Absolute File Path &bigstar;&bigstar;
+* 424 Longest Repeating Character Replacement &bigstar;&bigstar;
 * 433 Minimum Genetic Mutation &bigstar;&bigstar;
 * 468 Validate IP Address &bigstar;&bigstar;
 * 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
+* 567 Permutation in String &bigstar;&bigstar;
 * 609 Find Duplicate File in System &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 678 Valid Parenthesis String &bigstar;&bigstar;
@@ -224,8 +227,6 @@
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
 * 1823 Find the Winner of the Circular Game &bigstar;&bigstar;
 * 41 First Missing Positive &bigstar;&bigstar;&bigstar;
-* 239 Sliding Window Maximum &bigstar;&bigstar;&bigstar;
-* 480 Sliding Window Median &bigstar;&bigstar;&bigstar;
 * 630 Course Schedule III &bigstar;&bigstar;&bigstar;
 * 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
 * 1793 Maximum Score of a Good Subarray &bigstar;&bigstar;&bigstar;
@@ -251,6 +252,7 @@
 * 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
 * 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
 * 1209 Remove All Adjacent Duplicates in String II &bigstar;&bigstar;
+* 1249 Minimum Remove to Make Valid Parentheses &bigstar;&bigstar;
 * 32 Longest Valid Parentheses &bigstar;&bigstar;&bigstar;
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 * 84 Largest Rectangle in Histogram &bigstar;&bigstar;&bigstar;
@@ -270,16 +272,17 @@
 * 1791 Find Center of Star Graph &bigstar;
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 49 Group Anagrams &bigstar;&bigstar;
+* 128 Longest Consecutive Sequence &bigstar;&bigstar;
 * 138 Copy List with Random Pointer &bigstar;&bigstar;
 * 244 Shortest Word Distance II &bigstar;&bigstar;
 * 260 Single Number III &bigstar;&bigstar;
 * 266 Palindrome Permutation &bigstar;&bigstar;
 * 299 Bulls and Cows &bigstar;&bigstar;
+* 340 Longest Substring with At Most K Distinct Characters &bigstar;&bigstar;
 * 398 Random Pick Index &bigstar;&bigstar;
 * 438 Find All Anagrams in a String &bigstar;&bigstar;
 * 451 Sort Characters By Frequency &bigstar;&bigstar;
 * 454 4Sum II &bigstar;&bigstar;
-* 567 Permutation in String &bigstar;&bigstar;
 * 525 Contiguous Array &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 554 Brick Wall &bigstar;&bigstar;
@@ -330,6 +333,18 @@
 * 707 Design Linked List &bigstar;&bigstar;
 * 23 Merge k Sorted Lists &bigstar;&bigstar;&bigstar;
 * 25 Reverse Nodes in k-Group &bigstar;&bigstar;&bigstar;
+
+### Sliding Window
+* 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
+* 340 Longest Substring with At Most K Distinct Characters &bigstar;&bigstar;
+* 424 Longest Repeating Character Replacement &bigstar;&bigstar;
+* 567 Permutation in String &bigstar;&bigstar;
+* 1151 Minimum Swaps to Group All 1's Together &bigstar;&bigstar;
+* 1423 Maximum Points You Can Obtain from Cards &bigstar;&bigstar;
+* 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
+* 239 Sliding Window Maximum &bigstar;&bigstar;&bigstar;
+* 480 Sliding Window Median &bigstar;&bigstar;&bigstar;
+* 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
 
 ### Tree and Graph（树）
 * 100 Same Tree &bigstar;
@@ -445,6 +460,9 @@
 * 1192 Critical Connections in a Network &bigstar;&bigstar;&bigstar;
 * 1263 Minimum Moves to Move a Box to Their Target Location &bigstar;&bigstar;&bigstar;
 
+### DFS And BFS
+* 752 Open the Lock &bigstar;&bigstar;
+
 ### Math（数学）
 * 7 Reverse Integer &bigstar;
 * 9 Palindrome Number &bigstar;
@@ -536,6 +554,16 @@
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 
+### Backtrack (回溯)
+* 212 Word Search II &bigstar;&bigstar;&bigstar;
+
+### Trie
+* 212 Word Search II &bigstar;&bigstar;&bigstar;
+
+### Heap
+* 1383 Maximum Performance of a Team &bigstar;&bigstar;&bigstar;
+* 1499 Max Value of Equation &bigstar;&bigstar;&bigstar;
+
 ### DP（动态规划）
 * 53 Maximum Subarray &bigstar;
 * 70 Climbing Stairs &bigstar;
@@ -549,11 +577,13 @@
 * 64 Minimum Path Sum &bigstar;&bigstar;
 * 91 Decode Ways &bigstar;&bigstar;
 * 96 Unique Binary Search Trees &bigstar;&bigstar;
+* 97 Interleaving String &bigstar;&bigstar;
 * 120 Triangle &bigstar;&bigstar;
 * 139 Word Break &bigstar;&bigstar;
 * 198 House Robber &bigstar;&bigstar;
 * 213 House Robber II &bigstar;&bigstar;
 * 221 Maximal Square &bigstar;&bigstar;
+* 256 Paint House &bigstar;&bigstar;
 * 279 Perfect Squares &bigstar;&bigstar;
 * 300 Longest Increasing Subsequence &bigstar;&bigstar;
 * 304 Range Sum Query 2D - Immutable &bigstar;&bigstar;
@@ -633,6 +663,7 @@
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1354 Construct Target Array With Multiple Sums &bigstar;&bigstar;&bigstar;
+* 1383 Maximum Performance of a Team &bigstar;&bigstar;&bigstar;
 
 ### Binary Search（二分查找）
 * 35 Search Insert Position &bigstar;
@@ -677,6 +708,7 @@
 * 707 Design Linked List &bigstar;&bigstar;
 * 1146 Snapshot Array &bigstar;&bigstar;
 * 1244 Design A Leaderboard &bigstar;&bigstar;
+* 1348 Tweet Counts Per Frequency &bigstar;&bigstar;
 * 1396 Design Underground System &bigstar;&bigstar;
 * 1472 Design Browser History &bigstar;&bigstar;
 * 295 Find Median from Data Stream &bigstar;&bigstar;&bigstar;
