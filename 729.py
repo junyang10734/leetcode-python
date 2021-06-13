@@ -4,7 +4,7 @@
 # https://leetcode.com/problems/my-calendar-i/solution/
 
 # Array
-# running time: faster than 27.90%
+# runtime: O(N**2)
 class MyCalendar1:
 
     def __init__(self):
@@ -19,7 +19,7 @@ class MyCalendar1:
 
 
 # BTS 
-# running time: faster than 66.62%
+# runtime: O(N*logN)
 class Node:
     
     def __init__(self, start, end):

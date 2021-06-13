@@ -19,12 +19,14 @@
 * 551 Student Attendance Record I &bigstar;
 * 557 Reverse Words in a String III &bigstar;
 * 657 Robot Return to Origin &bigstar;
+* 680 Valid Palindrome II &bigstar;
 * 696 Count Binary Substrings &bigstar;
 * 788 Rotated Digits &bigstar;
 * 796 Rotate String &bigstar;
 * 804 Unique Morse Code Words &bigstar;
 * 819 Most Common Word &bigstar;
 * 929 Unique Email Addresses &bigstar;
+* 937 Reorder Data in Log Files &bigstar;
 * 1108 Defanging an IP Address &bigstar;
 * 1614 Maximum Nesting Depth of the Parentheses &bigstar;
 * 1704 Determine if String Halves Are Alike &bigstar;
@@ -49,6 +51,7 @@
 * 388 Longest Absolute File Path &bigstar;&bigstar;
 * 424 Longest Repeating Character Replacement &bigstar;&bigstar;
 * 433 Minimum Genetic Mutation &bigstar;&bigstar;
+* 443 String Compression &bigstar;&bigstar;
 * 468 Validate IP Address &bigstar;&bigstar;
 * 524 Longest Word in Dictionary through Deleting &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
@@ -258,6 +261,11 @@
 * 84 Largest Rectangle in Histogram &bigstar;&bigstar;&bigstar;
 * 224 Basic Calculator &bigstar;&bigstar;&bigstar;
 
+
+### Deque
+* 1696 Jump Game VI &bigstar;&bigstar;
+
+
 ### Hash Table（哈希表）
 * 136 Single Number &bigstar;
 * 202 Happy Number &bigstar;
@@ -266,6 +274,7 @@
 * 219 Contains Duplicate II &bigstar;
 * 242 Valid Anagram &bigstar;
 * 500 Keyboard Row &bigstar;
+* 811 Subdomain Visit Count &bigstar;
 * 997 Find the Town Judge &bigstar;
 * 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 1346 Check If N and Its Double Exist &bigstar;
@@ -297,6 +306,7 @@
 * 1010 Pairs of Songs With Total Durations Divisible by 60 &bigstar;&bigstar;
 * 1048 Longest String Chain &bigstar;&bigstar;
 * 1124 Longest Well-Performing Interval &bigstar;&bigstar;
+* 1152 Analyze User Website Visit Pattern &bigstar;&bigstar;
 * 1198 Find Smallest Common Element in All Rows &bigstar;&bigstar;
 * 1396 Design Underground System &bigstar;&bigstar;
 * 1487 Making File Names Unique &bigstar;&bigstar;
@@ -334,6 +344,7 @@
 * 23 Merge k Sorted Lists &bigstar;&bigstar;&bigstar;
 * 25 Reverse Nodes in k-Group &bigstar;&bigstar;&bigstar;
 
+
 ### Sliding Window
 * 3 Longest Substring Without Repeating Characters &bigstar;&bigstar;
 * 340 Longest Substring with At Most K Distinct Characters &bigstar;&bigstar;
@@ -345,6 +356,11 @@
 * 239 Sliding Window Maximum &bigstar;&bigstar;&bigstar;
 * 480 Sliding Window Median &bigstar;&bigstar;&bigstar;
 * 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
+
+
+### Two Pointers
+* 443 String Compression &bigstar;&bigstar;
+
 
 ### Tree and Graph（树）
 * 100 Same Tree &bigstar;
@@ -460,8 +476,11 @@
 * 1192 Critical Connections in a Network &bigstar;&bigstar;&bigstar;
 * 1263 Minimum Moves to Move a Box to Their Target Location &bigstar;&bigstar;&bigstar;
 
+
 ### DFS And BFS
 * 752 Open the Lock &bigstar;&bigstar;
+* 1448 Count Good Nodes in Binary Tree &bigstar;&bigstar;
+
 
 ### Math（数学）
 * 7 Reverse Integer &bigstar;
@@ -513,6 +532,7 @@
 * 829 Consecutive Numbers Sum &bigstar;&bigstar;&bigstar;
 * 906 Super Palindromes &bigstar;&bigstar;&bigstar;
 
+
 ### Bit Manipulation（位操作）
 * 190 Reverse Bits &bigstar;
 * 191 Number of 1 Bits &bigstar;
@@ -525,6 +545,7 @@
 * 260 Single Number III &bigstar;&bigstar;
 * 338 Counting Bits &bigstar;&bigstar;
 * 421 Maximum XOR of Two Numbers in an Array &bigstar;&bigstar;
+
 
 ### DaC and Recursive（分治，递归）
 * 53 Maximum Subarray &bigstar;
@@ -561,6 +582,7 @@
 * 212 Word Search II &bigstar;&bigstar;&bigstar;
 
 ### Heap
+* 871 Minimum Number of Refueling Stops &bigstar;&bigstar;&bigstar;
 * 1383 Maximum Performance of a Team &bigstar;&bigstar;&bigstar;
 * 1499 Max Value of Equation &bigstar;&bigstar;&bigstar;
 
@@ -616,6 +638,8 @@
 * 1155 Number of Dice Rolls With Target Sum &bigstar;&bigstar;
 * 1218 Longest Arithmetic Subsequence of Given Difference &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
+* 1690 Stone Game VII &bigstar;&bigstar;
+* 1696 Jump Game VI &bigstar;&bigstar;
 * 1824 Minimum Sideway Jumps &bigstar;&bigstar;
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
 * 44 Wildcard Matching &bigstar;&bigstar;&bigstar;
@@ -628,6 +652,7 @@
 * 312 Burst Balloons &bigstar;&bigstar;&bigstar;
 * 354 Russian Doll Envelopes &bigstar;&bigstar;&bigstar;
 * 818 Race Car &bigstar;&bigstar;&bigstar;
+* 871 Minimum Number of Refueling Stops &bigstar;&bigstar;&bigstar;
 * 887 Super Egg Drop &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
