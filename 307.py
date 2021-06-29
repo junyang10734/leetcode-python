@@ -1,6 +1,73 @@
 # 307. Range Sum Query - Mutable
 
 
+# Segment Tree
+# runtime: O(n)
+# https://leetcode.com/problems/range-sum-query-mutable/discuss/75784/Python%3A-Well-commented-solution-using-Segment-Trees
+class Node():
+    def __init__(self, start, end):
+        self.start, self.end = start, end
+        self.left, self.right = None, None
+        self.total = 0
+
+class NumArray:
+
+    def __init__(self, nums: List[int]):
+        
+        def createTree(nums, l, r):
+            if l > r:
+                return
+            elif l == r:
+                node = Node(l, r)
+                node.total = nums[l]
+                return node
+            else:
+                mid = (l + r) // 2
+                root = Node(l, r)
+                root.left = createTree(nums, l, mid)
+                root.right = createTree(nums, mid+1, r)
+                root.total = root.left.total + root.right.total
+                return root
+        
+        self.root = createTree(nums, 0, len(nums)-1)
+        
+        
+    def update(self, index: int, val: int) -> None:
+        
+        def updateVal(root, i, val):
+            if root.start == root.end:
+                root.total = val
+                return val
+            
+            mid = (root.start + root.end) // 2
+            if i <= mid:
+                updateVal(root.left, i, val)
+            else:
+                updateVal(root.right, i, val)
+            
+            root.total = root.left.total + root.right.total
+            return root.total
+        
+        updateVal(self.root, index, val)
+
+    def sumRange(self, left: int, right: int) -> int:
+        
+        def getSum(root, i, j):
+            if root.start == i and root.end == j:
+                return root.total
+            
+            mid = (root.start + root.end) // 2
+            if j <= mid:
+                return getSum(root.left, i, j)
+            elif i >= mid + 1:
+                return getSum(root.right, i, j)
+            else:
+                return getSum(root.left, i, mid) + getSum(root.right, mid+1, j)
+        
+        return getSum(self.root, left, right)
+
+
+
 # Naive
 # TLE
 class NumArray1:

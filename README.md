@@ -121,6 +121,7 @@
 * 977 Squares of a Sorted Array &bigstar;
 * 999 Available Captures for Rook &bigstar;
 * 1051 Height Checker &bigstar;
+* 1086 High Five &bigstar;
 * 1089 Duplicate Zeros &bigstar;
 * 1133 Largest Unique Number &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
@@ -198,6 +199,7 @@
 * 731 My Calendar II &bigstar;&bigstar;
 * 775 Global and Local Inversions &bigstar;&bigstar;
 * 792 Number of Matching Subsequences &bigstar;&bigstar;
+* 795 Number of Subarrays with Bounded Maximum &bigstar;&bigstar;
 * 846 Hand of Straights &bigstar;&bigstar;
 * 849 Maximize Distance to Closest Person &bigstar;&bigstar;
 * 853 Car Fleet &bigstar;&bigstar;
@@ -260,6 +262,7 @@
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 * 84 Largest Rectangle in Histogram &bigstar;&bigstar;&bigstar;
 * 224 Basic Calculator &bigstar;&bigstar;&bigstar;
+* 1776 Car Fleet II &bigstar;&bigstar;&bigstar;
 
 
 ### Deque
@@ -273,9 +276,12 @@
 * 205 Isomorphic Strings &bigstar;
 * 219 Contains Duplicate II &bigstar;
 * 242 Valid Anagram &bigstar;
+* 359 Logger Rate Limiter &bigstar;
 * 500 Keyboard Row &bigstar;
+* 690 Employee Importance &bigstar;
 * 811 Subdomain Visit Count &bigstar;
 * 997 Find the Town Judge &bigstar;
+* 1086 High Five &bigstar;
 * 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 1346 Check If N and Its Double Exist &bigstar;
 * 1791 Find Center of Star Graph &bigstar;
@@ -350,6 +356,7 @@
 * 340 Longest Substring with At Most K Distinct Characters &bigstar;&bigstar;
 * 424 Longest Repeating Character Replacement &bigstar;&bigstar;
 * 567 Permutation in String &bigstar;&bigstar;
+* 1004 Max Consecutive Ones III &bigstar;&bigstar;
 * 1151 Minimum Swaps to Group All 1's Together &bigstar;&bigstar;
 * 1423 Maximum Points You Can Obtain from Cards &bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
@@ -477,8 +484,14 @@
 * 1263 Minimum Moves to Move a Box to Their Target Location &bigstar;&bigstar;&bigstar;
 
 
+### Segment Tree
+* 307 Range Sum Query - Mutable &bigstar;&bigstar;
+
 ### DFS And BFS
+* 690 Employee Importance &bigstar;
+* 473 Matchsticks to Square &bigstar;&bigstar;
 * 752 Open the Lock &bigstar;&bigstar;
+* 1059 All Paths from Source Lead to Destination &bigstar;&bigstar;
 * 1448 Count Good Nodes in Binary Tree &bigstar;&bigstar;
 
 
@@ -507,6 +520,7 @@
 * 1025 Divisor Game &bigstar;
 * 1228 Missing Number In Arithmetic Progression &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
+* 1518 Water Bottles &bigstar;
 * 1688 Count of Matches in Tournament &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
@@ -547,7 +561,7 @@
 * 421 Maximum XOR of Two Numbers in an Array &bigstar;&bigstar;
 
 
-### DaC and Recursive（分治，递归）
+### DaC and Recursion（分治，递归）
 * 53 Maximum Subarray &bigstar;
 * 101 Symmetric Tree &bigstar;
 * 169 Majority Element &bigstar;
@@ -565,6 +579,7 @@
 * 241 Different Ways to Add Parentheses &bigstar;&bigstar;
 * 375 Guess Number Higher or Lower II &bigstar;&bigstar;
 * 390 Elimination Game &bigstar;&bigstar;
+* 576 Out of Boundary Paths &bigstar;&bigstar;
 * 889 Construct Binary Tree from Preorder and Postorder Traversal &bigstar;&bigstar;
 * 912 Sort an Array (all sort algorithms) &bigstar;&bigstar;
 * 951 Flip Equivalent Binary Trees &bigstar;&bigstar;
@@ -620,6 +635,7 @@
 * 494 Target Sum &bigstar;&bigstar;
 * 516 Longest Palindromic Subsequence &bigstar;&bigstar;
 * 518 Coin Change 2 &bigstar;&bigstar;
+* 576 Out of Boundary Paths &bigstar;&bigstar;
 * 583 Delete Operation for Two Strings &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
 * 673 Number of Longest Increasing Subsequence &bigstar;&bigstar;
@@ -683,12 +699,17 @@
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 * 1353 Maximum Number of Events That Can Be Attended &bigstar;&bigstar;
 * 1405 Longest Happy String &bigstar;&bigstar;
+* 1509 Minimum Difference Between Largest and Smallest Value in Three Moves &bigstar;&bigstar;
 * 1564 Put Boxes Into the Warehouse I &bigstar;&bigstar;
 * 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1354 Construct Target Array With Multiple Sums &bigstar;&bigstar;&bigstar;
 * 1383 Maximum Performance of a Team &bigstar;&bigstar;&bigstar;
+
+
+### Sorting
+* 1509 Minimum Difference Between Largest and Smallest Value in Three Moves &bigstar;&bigstar;
 
 ### Binary Search（二分查找）
 * 35 Search Insert Position &bigstar;
@@ -711,12 +732,14 @@
 * 875 Koko Eating Bananas &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
 * 1011 Capacity To Ship Packages Within D Days &bigstar;&bigstar;
+* 1182 Shortest Distance to Target Color &bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 * 1095 Find in Mountain Array &bigstar;&bigstar;&bigstar;
 
 ### Design（设计）
 * 225 Implement Stack using Queues &bigstar;
 * 232 Implement Queue using Stacks &bigstar;
+* 359 Logger Rate Limiter &bigstar;
 * 703 Kth Largest Element in a Stream &bigstar;
 * 705 Design HashSet &bigstar;
 * 706 Design HashMap &bigstar;

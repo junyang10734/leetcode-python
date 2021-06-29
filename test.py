@@ -191,22 +191,19 @@
 #     return all_files
 
 
-def solution(l):
-    res = 0
+# def solution(l):
+#     res = 0
 
-    def backtrack(path, start):
-        nonlocal res
-        for i in range(start, len(l)):
-            s = set(l[i])
-            if s & path:
-                continue
-            else:
-                # path |= s
-                res = max(res, len(path) + len(s))
-                backtrack(path | s, i + 1)
+#     def backtrack(path, start):
+#         nonlocal res
+#         for i in range(start, len(l)):
+#             s = set(l[i])
+#             if s & path:
+#                 continue
+#             else:
+#                 # path |= s
+#                 res = max(res, len(path) + len(s))
+#                 backtrack(path | s, i + 1)
 
-    backtrack(set([]), 0)
-    return res
-
-l = ['ab', 'cd', 'bc', 'efg', 'ahyjlo']
-print(solution(l))
+#     backtrack(set([]), 0)
+#     return res

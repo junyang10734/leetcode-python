@@ -4,8 +4,7 @@
 # running time: faster than 100.00%
 class Solution:
     def maximumUnits(self, boxTypes: List[List[int]], truckSize: int) -> int:
-        boxTypes.sort(key=lambda x: x[1])
-        boxTypes = boxTypes[::-1]
+        boxTypes.sort(key=lambda x: -x[1])
         res = 0
         i = 0
 

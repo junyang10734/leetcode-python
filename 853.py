@@ -1,24 +1,23 @@
 # 853. Car Fleet
 # Array
 
-# https://leetcode.com/problems/car-fleet/solution/
 # Sort
-# running time: faster than 24.10%
+# runtime: O(nlogn)
 class Solution1:
     def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
-        cars = sorted(zip(position, speed))
-        print(cars)
-        times = [(target-p)/s for p,s in cars]
-        ans = 0
-        
-        while len(times) > 1:
-            lead = times.pop()
-            if lead < times[-1]:
-                ans += 1
+        res = 0
+        arr = sorted(zip(position, speed), key=lambda x: x[0])
+        prev = -1
+        while arr:
+            p, s = arr.pop()
+            time = (target - p) / s
+            if time <= prev:
+                continue
             else:
-                times[-1] = lead
-            
-        return ans + bool(times)
+                prev = time
+                res += 1
+
+        return res       
 
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/81867361
