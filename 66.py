@@ -1,23 +1,23 @@
 # Plus One
+# Array
 
-# running time: faster than 67.55%
+# runtime: O(n)
+# sapce: O(1)
 class Solution1:
     def plusOne(self, digits: List[int]) -> List[int]:
-        if len(digits) == 0:
-            return 1
-        
-        for i in range(len(digits)):
-            digits[i] = str(digits[i])
-
-        s = ''.join(digits)
-        s = int(s)
-        s = s + 1
-        s = str(s)
-        s = list(s)
-        return s
+        n = len(digits)
+        tmp = 1
+        for i in range(n):
+            if digits[n-1-i] + tmp < 10:
+                digits[n-1-i] += tmp
+                return digits
+            else:
+                tmp, digits[n-1-i] = divmod(digits[n-1-i] + tmp, 10)
+        return [tmp] + digits if tmp > 0 else digits
 
 
-# running time: faster than 67.55%
+# runtime: O(n)
+# space: O(n)
 class Solution2:
     def plusOne(self, digits: List[int]) -> List[int]:
         res = []

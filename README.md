@@ -109,12 +109,15 @@
 * 463 Island Perimeter &bigstar;
 * 485 Max Consecutive Ones &bigstar;
 * 561 Array Partition I &bigstar;
+* 566 Reshape the Matrix &bigstar;
 * 628 Maximum Product of Three Numbers &bigstar;
 * 697 Degree of an Array &bigstar;
 * 704 Binary Search &bigstar;
 * 717 1-bit and 2-bit Characters &bigstar;
 * 720 Longest Word in Dictionary &bigstar;
+* 724 Find Pivot Index &bigstar;
 * 733 Flood Fill &bigstar;
+* 747 Largest Number At Least Twice of Others &bigstar;
 * 766 Toeplitz Matrix &bigstar;
 * 905 Sort Array By Parity &bigstar;
 * 941 Valid Mountain Array &bigstar;
@@ -232,6 +235,7 @@
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
 * 1823 Find the Winner of the Circular Game &bigstar;&bigstar;
 * 41 First Missing Positive &bigstar;&bigstar;&bigstar;
+* 363 Max Sum of Rectangle No Larger Than K &bigstar;&bigstar;&bigstar;
 * 630 Course Schedule III &bigstar;&bigstar;&bigstar;
 * 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
 * 1793 Maximum Score of a Good Subarray &bigstar;&bigstar;&bigstar;
@@ -294,6 +298,7 @@
 * 266 Palindrome Permutation &bigstar;&bigstar;
 * 299 Bulls and Cows &bigstar;&bigstar;
 * 340 Longest Substring with At Most K Distinct Characters &bigstar;&bigstar;
+* 364 Nested List Weight Sum II &bigstar;&bigstar;
 * 398 Random Pick Index &bigstar;&bigstar;
 * 438 Find All Anagrams in a String &bigstar;&bigstar;
 * 451 Sort Characters By Frequency &bigstar;&bigstar;
@@ -314,6 +319,7 @@
 * 1124 Longest Well-Performing Interval &bigstar;&bigstar;
 * 1152 Analyze User Website Visit Pattern &bigstar;&bigstar;
 * 1198 Find Smallest Common Element in All Rows &bigstar;&bigstar;
+* 1338 Reduce Array Size to The Half &bigstar;&bigstar;
 * 1396 Design Underground System &bigstar;&bigstar;
 * 1487 Making File Names Unique &bigstar;&bigstar;
 * 1711 Count Good Meals &bigstar;&bigstar;
@@ -356,6 +362,7 @@
 * 340 Longest Substring with At Most K Distinct Characters &bigstar;&bigstar;
 * 424 Longest Repeating Character Replacement &bigstar;&bigstar;
 * 567 Permutation in String &bigstar;&bigstar;
+* 658 Find K Closest Elements &bigstar;&bigstar;
 * 1004 Max Consecutive Ones III &bigstar;&bigstar;
 * 1151 Minimum Swaps to Group All 1's Together &bigstar;&bigstar;
 * 1423 Maximum Points You Can Obtain from Cards &bigstar;&bigstar;
@@ -366,6 +373,7 @@
 
 
 ### Two Pointers
+* 209 Minimum Size Subarray Sum &bigstar;&bigstar;
 * 443 String Compression &bigstar;&bigstar;
 
 
@@ -423,6 +431,7 @@
 * 323 Number of Connected Components in an Undirected Graph &bigstar;&bigstar;
 * 332 Reconstruct Itinerary &bigstar;&bigstar;
 * 337 House Robber III &bigstar;&bigstar;
+* 366 Find Leaves of Binary Tree &bigstar;&bigstar;
 * 399 Evaluate Division &bigstar;&bigstar;
 * 429 N-ary Tree Level Order Traversal &bigstar;&bigstar;
 * 437 Path Sum III &bigstar;&bigstar;
@@ -489,6 +498,10 @@
 
 ### DFS And BFS
 * 690 Employee Importance &bigstar;
+* 938 Range Sum of BST &bigstar;
+* 339 Nested List Weight Sum &bigstar;&bigstar;
+* 364 Nested List Weight Sum II &bigstar;&bigstar;
+* 366 Find Leaves of Binary Tree &bigstar;&bigstar;
 * 473 Matchsticks to Square &bigstar;&bigstar;
 * 752 Open the Lock &bigstar;&bigstar;
 * 1059 All Paths from Source Lead to Destination &bigstar;&bigstar;
@@ -597,6 +610,7 @@
 * 212 Word Search II &bigstar;&bigstar;&bigstar;
 
 ### Heap
+* 658 Find K Closest Elements &bigstar;&bigstar;
 * 871 Minimum Number of Refueling Stops &bigstar;&bigstar;&bigstar;
 * 1383 Maximum Performance of a Team &bigstar;&bigstar;&bigstar;
 * 1499 Max Value of Equation &bigstar;&bigstar;&bigstar;
@@ -671,7 +685,9 @@
 * 871 Minimum Number of Refueling Stops &bigstar;&bigstar;&bigstar;
 * 887 Super Egg Drop &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
+* 1000 Minimum Cost to Merge Stones &bigstar;&bigstar;&bigstar;
 * 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
+* 1220 Count Vowels Permutation &bigstar;&bigstar;&bigstar;
 * 1312 Minimum Insertion Steps to Make a String Palindrome &bigstar;&bigstar;&bigstar;
 * 1335 Minimum Difficulty of a Job Schedule &bigstar;&bigstar;&bigstar;
 * 1478 Allocate Mailboxes &bigstar;&bigstar;&bigstar;
@@ -709,6 +725,8 @@
 
 
 ### Sorting
+* 658 Find K Closest Elements &bigstar;&bigstar;
+* 1338 Reduce Array Size to The Half &bigstar;&bigstar;
 * 1509 Minimum Difference Between Largest and Smallest Value in Three Moves &bigstar;&bigstar;
 
 ### Binary Search（二分查找）
@@ -729,11 +747,13 @@
 * 378 Kth Smallest Element in a Sorted Matrix &bigstar;&bigstar;
 * 528 Random Pick with Weight &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
+* 658 Find K Closest Elements &bigstar;&bigstar;
 * 875 Koko Eating Bananas &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
 * 1011 Capacity To Ship Packages Within D Days &bigstar;&bigstar;
 * 1182 Shortest Distance to Target Color &bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
+* 715 Range Module &bigstar;&bigstar;&bigstar;
 * 1095 Find in Mountain Array &bigstar;&bigstar;&bigstar;
 
 ### Design（设计）
@@ -764,6 +784,7 @@
 * 588 Design In-Memory File System &bigstar;&bigstar;&bigstar;
 * 642 Design Search Autocomplete System &bigstar;&bigstar;&bigstar;
 * 710 Random Pick with Blacklist &bigstar;&bigstar;&bigstar;
+* 715 Range Module &bigstar;&bigstar;&bigstar;
 
 ### Concurrency
 * 1114 Print in Order &bigstar;

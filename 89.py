@@ -1,11 +1,20 @@
 # Gray Code
 # Math / Recursive
 
+# https://leetcode.com/problems/gray-code/discuss/29893/One-liner-Python-solution-(with-demo-in-comments)
+class Solution1:
+    def grayCode(self, n: int) -> List[int]:
+        res = [0]
+        for i in range(n):
+            res += [x + pow(2, i) for x in reversed(res)]
+        return res
+
+
 # https://blog.csdn.net/fuxuemingzhu/article/details/80664204
 
 # Math
 # runtime: faster than 69.15%
-class Solution1:
+class Solution2:
     def grayCode(self, n: int) -> List[int]:
         grays = dict()
         grays[0] = ['0']
@@ -24,7 +33,7 @@ class Solution1:
 
 # Recursive
 # runtime: faster than 69.15%
-class Solution2:
+class Solution3:
     def grayCode(self, n: int) -> List[int]:
         return map(lambda x:int(x,2), self.bit_gray(n))
 
