@@ -8,7 +8,6 @@
 * 38 Count and Say &bigstar;
 * 67 Add Binary &bigstar;
 * 125 Valid Palindrome &bigstar;
-* 344 Reverse String &bigstar;
 * 345 Reverse Vowels of a String &bigstar;
 * 383 Ransom Note &bigstar;
 * 387 First Unique Character in a String &bigstar;
@@ -373,6 +372,8 @@
 
 
 ### Two Pointers
+* 344 Reverse String &bigstar;
+* 186 Reverse Words in a String II &bigstar;&bigstar;
 * 209 Minimum Size Subarray Sum &bigstar;&bigstar;
 * 443 String Compression &bigstar;&bigstar;
 
@@ -580,7 +581,9 @@
 * 169 Majority Element &bigstar;
 * 108 Convert Sorted Array to Binary Search Tree &bigstar;
 * 226 Invert Binary Tree &bigstar;
+* 344 Reverse String &bigstar;
 * 509 Fibonacci Number &bigstar;
+* 24 Swap Nodes in Pairs &bigstar;&bigstar;
 * 39 Combination Sum &bigstar;&bigstar;
 * 46 Permutations &bigstar;&bigstar;
 * 77 Combinations &bigstar;&bigstar;
@@ -593,6 +596,7 @@
 * 375 Guess Number Higher or Lower II &bigstar;&bigstar;
 * 390 Elimination Game &bigstar;&bigstar;
 * 576 Out of Boundary Paths &bigstar;&bigstar;
+* 779 K-th Symbol in Grammar &bigstar;&bigstar;
 * 889 Construct Binary Tree from Preorder and Postorder Traversal &bigstar;&bigstar;
 * 912 Sort an Array (all sort algorithms) &bigstar;&bigstar;
 * 951 Flip Equivalent Binary Trees &bigstar;&bigstar;
@@ -655,6 +659,7 @@
 * 673 Number of Longest Increasing Subsequence &bigstar;&bigstar;
 * 712 Minimum ASCII Delete Sum for Two Strings &bigstar;&bigstar;
 * 714 Best Time to Buy and Sell Stock with Transaction Fee &bigstar;&bigstar;
+* 718 Maximum Length of Repeated Subarray &bigstar;&bigstar;
 * 801 Minimum Swaps To Make Sequences Increasing &bigstar;&bigstar;
 * 837 New 21 Game &bigstar;&bigstar;
 * 877 Stone Game &bigstar;&bigstar;
@@ -666,6 +671,7 @@
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1143 Longest Common Subsequence &bigstar;&bigstar;
 * 1155 Number of Dice Rolls With Target Sum &bigstar;&bigstar;
+* 1186 Maximum Subarray Sum with One Deletion &bigstar;&bigstar;
 * 1218 Longest Arithmetic Subsequence of Given Difference &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
 * 1690 Stone Game VII &bigstar;&bigstar;
@@ -681,6 +687,7 @@
 * 239 Sliding Window Maximum &bigstar;&bigstar;&bigstar;
 * 312 Burst Balloons &bigstar;&bigstar;&bigstar;
 * 354 Russian Doll Envelopes &bigstar;&bigstar;&bigstar;
+* 639 Decode Ways II &bigstar;&bigstar;&bigstar;
 * 818 Race Car &bigstar;&bigstar;&bigstar;
 * 871 Minimum Number of Refueling Stops &bigstar;&bigstar;&bigstar;
 * 887 Super Egg Drop &bigstar;&bigstar;&bigstar;

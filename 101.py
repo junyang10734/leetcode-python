@@ -7,8 +7,8 @@ class TreeNode:
         self.right = None
 
 
-#  DaC, recursions
-# faster than 63.86%
+# recursive
+# runtime: O(n)
 class Solution1:
     def isSymmetric(self, root: TreeNode) -> bool:
         if not root:
@@ -23,29 +23,21 @@ class Solution1:
         return left.val == right.val and self.isMirror(left.left, right.right) and self.isMirror(left.right, right.left)
 
 
-# BFS, run lower
+# iteration
+# runtime: O(n)
 class Solution2:
     def isSymmetric(self, root: TreeNode) -> bool:
         if not root:
             return True
-
-        l = [root]
-        length = 1
-        while len(l)>0:
-            for i in range(length):
-                if l[i]:
-                    l.append(l[i].left)
-                    l.append(l[i].right)
-                    if not l[length-i-1]:
-                        return False
-                    elif l[i].val != l[length-i-1].val:
-                        return False
-                else:
-                    if l[length-i-1]:
-                        return False
-                    
-            del l[:length]
-            length = len(l)
-            if length % 2 != 0:
+        q = collections.deque()
+        q.append((root.left, root.right))
+        while q:
+            node1, node2 = q.popleft()
+            if not node1 and not node2:
+                continue
+            elif (not node1 or not node2) or node1.val != node2.val:
                 return False
+            else:
+                q.append((node1.left, node2.right))
+                q.append((node1.right, node2.left))
         return True

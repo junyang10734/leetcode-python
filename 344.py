@@ -1,7 +1,8 @@
-# Reverse String
+# 344. Reverse String
+# Two Pointers / Recursion
 
-# two points: faster than 53.51% 
-# space: O(1)
+# two points
+# runtime: O(n)
 class Solution1(object):
     def reverseString(self, s):
         """
@@ -15,8 +16,23 @@ class Solution1(object):
             b -= 1
 
 
-# faster than 97.95%
-class Solution2(object):
+# Recursion
+# runtime: O(n)
+class Solution2:
+    def reverseString(self, s: List[str]) -> None:
+        """
+        Do not return anything, modify s in-place instead.
+        """
+        def helper(i, j):
+            if i < j:
+                s[i], s[j] = s[j], s[i]
+                helper(i+1, j-1)
+        
+        helper(0, len(s)-1)
+
+
+# built-in function
+class Solution3(object):
     def reverseString(self, s):
         """
         :type s: List[str]

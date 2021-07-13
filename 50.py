@@ -1,4 +1,4 @@
-# Pow(x, n)
+# 50. Pow(x, n)
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/82960833
 

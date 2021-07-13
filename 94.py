@@ -45,4 +45,3 @@ class Solution2:
             res.append(root.val)
             root = root.right
             
-        return res
