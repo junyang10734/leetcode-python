@@ -143,7 +143,6 @@
 * 1822 Sign of the Product of an Array &bigstar;
 * 15 3Sum &bigstar;&bigstar;
 * 16 3Sum Closest &bigstar;&bigstar;
-* 18 4Sum &bigstar;&bigstar;
 * 31 Next Permutation &bigstar;&bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
@@ -177,6 +176,7 @@
 * 307 Range Sum Query - Mutable &bigstar;&bigstar;
 * 334 Increasing Triplet Subsequence &bigstar;&bigstar;
 * 347 Top K Frequent Elements &bigstar;&bigstar;
+* 370 Range Addition &bigstar;&bigstar;
 * 384 Shuffle an Array &bigstar;&bigstar;
 * 417 Pacific Atlantic Water Flow &bigstar;&bigstar;
 * 419 Battleships in a Board &bigstar;&bigstar;
@@ -208,6 +208,7 @@
 * 855 Exam Room &bigstar;&bigstar;
 * 870 Advantage Shuffle &bigstar;&bigstar;
 * 904 Fruit Into Baskets &bigstar;&bigstar;
+* 915 Partition Array into Disjoint Intervals &bigstar;&bigstar;
 * 918 Maximum Sum Circular Subarray &bigstar;&bigstar;
 * 923 3Sum With Multiplicity &bigstar;&bigstar;
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
@@ -307,8 +308,10 @@
 * 554 Brick Wall &bigstar;&bigstar;
 * 560 Subarray Sum Equals K &bigstar;&bigstar;
 * 676 Implement Magic Dictionary &bigstar;&bigstar;
+* 677 Map Sum Pairs &bigstar;&bigstar;
 * 692 Top K Frequent Words &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
+* 791 Custom Sort String &bigstar;&bigstar;
 * 939 Minimum Area Rectangle &bigstar;&bigstar;
 * 957 Prison Cells After N Days &bigstar;&bigstar;
 * 966 Vowel Spellchecker &bigstar;&bigstar;
@@ -373,9 +376,11 @@
 
 ### Two Pointers
 * 344 Reverse String &bigstar;
+* 18 4Sum &bigstar;&bigstar;
 * 186 Reverse Words in a String II &bigstar;&bigstar;
 * 209 Minimum Size Subarray Sum &bigstar;&bigstar;
 * 443 String Compression &bigstar;&bigstar;
+* 838 Push Dominoes &bigstar;&bigstar;
 
 
 ### Tree and Graph（树）
@@ -390,6 +395,7 @@
 * 226 Invert Binary Tree &bigstar;
 * 235 Lowest Common Ancestor of a Binary Search Tree &bigstar;
 * 257 Binary Tree Paths &bigstar;
+* 270 Closest Binary Search Tree Value &bigstar;
 * 543 Diameter of Binary Tree &bigstar;
 * 572 Subtree of Another Tree &bigstar;
 * 589 N-ary Tree Preorder Traversal &bigstar;
@@ -504,9 +510,11 @@
 * 364 Nested List Weight Sum II &bigstar;&bigstar;
 * 366 Find Leaves of Binary Tree &bigstar;&bigstar;
 * 473 Matchsticks to Square &bigstar;&bigstar;
+* 549 Binary Tree Longest Consecutive Sequence II &bigstar;&bigstar;
 * 752 Open the Lock &bigstar;&bigstar;
 * 1059 All Paths from Source Lead to Destination &bigstar;&bigstar;
 * 1448 Count Good Nodes in Binary Tree &bigstar;&bigstar;
+* 126 Word Ladder II &bigstar;&bigstar;&bigstar;
 
 
 ### Math（数学）
@@ -559,6 +567,7 @@
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 * 829 Consecutive Numbers Sum &bigstar;&bigstar;&bigstar;
 * 906 Super Palindromes &bigstar;&bigstar;&bigstar;
+* 927 Three Equal Parts &bigstar;&bigstar;&bigstar;
 
 
 ### Bit Manipulation（位操作）
@@ -599,6 +608,7 @@
 * 779 K-th Symbol in Grammar &bigstar;&bigstar;
 * 889 Construct Binary Tree from Preorder and Postorder Traversal &bigstar;&bigstar;
 * 912 Sort an Array (all sort algorithms) &bigstar;&bigstar;
+* 932 Beautiful Array &bigstar;&bigstar;
 * 951 Flip Equivalent Binary Trees &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
@@ -608,6 +618,7 @@
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 
 ### Backtrack (回溯)
+* 126 Word Ladder II &bigstar;&bigstar;&bigstar;
 * 212 Word Search II &bigstar;&bigstar;&bigstar;
 
 ### Trie
@@ -653,6 +664,7 @@
 * 494 Target Sum &bigstar;&bigstar;
 * 516 Longest Palindromic Subsequence &bigstar;&bigstar;
 * 518 Coin Change 2 &bigstar;&bigstar;
+* 542 01 Matrix &bigstar;&bigstar;
 * 576 Out of Boundary Paths &bigstar;&bigstar;
 * 583 Delete Operation for Two Strings &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
@@ -687,6 +699,7 @@
 * 239 Sliding Window Maximum &bigstar;&bigstar;&bigstar;
 * 312 Burst Balloons &bigstar;&bigstar;&bigstar;
 * 354 Russian Doll Envelopes &bigstar;&bigstar;&bigstar;
+* 600 Non-negative Integers without Consecutive Ones &bigstar;&bigstar;&bigstar;
 * 639 Decode Ways II &bigstar;&bigstar;&bigstar;
 * 818 Race Car &bigstar;&bigstar;&bigstar;
 * 871 Minimum Number of Refueling Stops &bigstar;&bigstar;&bigstar;
@@ -739,10 +752,12 @@
 ### Binary Search（二分查找）
 * 35 Search Insert Position &bigstar;
 * 69 Sqrt(x) &bigstar;
+* 270 Closest Binary Search Tree Value &bigstar;
 * 278 First Bad Version &bigstar;
 * 367 Valid Perfect Square &bigstar;
 * 374 Guess Number Higher or Lower &bigstar;
 * 441 Arranging Coins &bigstar;
+* 744 Find Smallest Letter Greater Than Target &bigstar;
 * 852 Peak Index in a Mountain Array &bigstar;
 * 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
@@ -755,6 +770,7 @@
 * 528 Random Pick with Weight &bigstar;&bigstar;
 * 540 Single Element in a Sorted Array &bigstar;&bigstar;
 * 658 Find K Closest Elements &bigstar;&bigstar;
+* 702 Search in a Sorted Array of Unknown Size &bigstar;&bigstar;
 * 875 Koko Eating Bananas &bigstar;&bigstar;
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
 * 1011 Capacity To Ship Packages Within D Days &bigstar;&bigstar;
