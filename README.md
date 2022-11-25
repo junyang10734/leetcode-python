@@ -8,6 +8,7 @@
 * 38 Count and Say &bigstar;
 * 67 Add Binary &bigstar;
 * 125 Valid Palindrome &bigstar;
+* 246 Strobogrammatic Number &bigstar;
 * 345 Reverse Vowels of a String &bigstar;
 * 383 Ransom Note &bigstar;
 * 387 First Unique Character in a String &bigstar;
@@ -28,6 +29,7 @@
 * 937 Reorder Data in Log Files &bigstar;
 * 1108 Defanging an IP Address &bigstar;
 * 1614 Maximum Nesting Depth of the Parentheses &bigstar;
+* 1662 Check If Two String Arrays are Equivalent &bigstar;
 * 1704 Determine if String Halves Are Alike &bigstar;
 * 1736 Latest Time by Replacing Hidden Digits &bigstar;
 * 1758 Minimum Changes To Make Alternating Binary String &bigstar;
@@ -139,6 +141,7 @@
 * 1539 Kth Missing Positive Number &bigstar;
 * 1629 Slowest Key &bigstar;
 * 1636 Sort Array by Increasing Frequency &bigstar;
+* 1662 Check If Two String Arrays are Equivalent &bigstar;
 * 1752 Check if Array Is Sorted and Rotated &bigstar;
 * 1822 Sign of the Product of an Array &bigstar;
 * 15 3Sum &bigstar;&bigstar;
@@ -202,6 +205,7 @@
 * 775 Global and Local Inversions &bigstar;&bigstar;
 * 792 Number of Matching Subsequences &bigstar;&bigstar;
 * 795 Number of Subarrays with Bounded Maximum &bigstar;&bigstar;
+* 835 Image Overlap &bigstar;&bigstar;
 * 846 Hand of Straights &bigstar;&bigstar;
 * 849 Maximize Distance to Closest Person &bigstar;&bigstar;
 * 853 Car Fleet &bigstar;&bigstar;
@@ -218,6 +222,8 @@
 * 986 Interval List Intersections &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
 * 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
+* 1094 Car Pooling &bigstar;&bigstar;
+* 1109 Corporate Flight Bookings &bigstar;&bigstar;
 * 1151 Minimum Swaps to Group All 1's Together &bigstar;&bigstar;
 * 1169 Invalid Transactions &bigstar;&bigstar;
 * 1219 Path with Maximum Gold &bigstar;&bigstar;
@@ -226,10 +232,12 @@
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
+* 1314 Matrix Block Sum &bigstar;&bigstar;
 * 1423 Maximum Points You Can Obtain from Cards &bigstar;&bigstar;
 * 1424 Diagonal Traverse II &bigstar;&bigstar;
 * 1465 Maximum Area of a Piece of Cake After Horizontal and Vertical Cuts &bigstar;&bigstar;
 * 1642 Furthest Building You Can Reach &bigstar;&bigstar;
+* 1706 Where Will the Ball Fall &bigstar;&bigstar;
 * 1726 Tuple with Same Product &bigstar;&bigstar;
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
@@ -244,10 +252,12 @@
 ### Stack（栈）
 * 20 Valid Parentheses &bigstar;
 * 155 Min Stack &bigstar;
+* 496 Next Greater Element &bigstar; 单调栈
 * 716 Max Stack &bigstar;
 * 844 Backspace String Compare &bigstar;
 * 1046 Last Stone Weight &bigstar;
 * 1047 Remove All Adjacent Duplicates In String &bigstar;
+* 1544 Make The String Great &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
 * 316 Remove Duplicate Letters &bigstar;&bigstar;
@@ -268,6 +278,8 @@
 * 224 Basic Calculator &bigstar;&bigstar;&bigstar;
 * 1776 Car Fleet II &bigstar;&bigstar;&bigstar;
 
+### Set
+* 1239 Maximum Length of a Concatenated String with Unique Characters &bigstar;&bigstar;
 
 ### Deque
 * 1696 Jump Game VI &bigstar;&bigstar;
@@ -280,7 +292,9 @@
 * 205 Isomorphic Strings &bigstar;
 * 219 Contains Duplicate II &bigstar;
 * 242 Valid Anagram &bigstar;
+* 349 Intersection of Two Arrays &bigstar;
 * 359 Logger Rate Limiter &bigstar;
+* 409 Longest Palindrome &bigstar;
 * 500 Keyboard Row &bigstar;
 * 690 Employee Importance &bigstar;
 * 811 Subdomain Visit Count &bigstar;
@@ -303,6 +317,7 @@
 * 438 Find All Anagrams in a String &bigstar;&bigstar;
 * 451 Sort Characters By Frequency &bigstar;&bigstar;
 * 454 4Sum II &bigstar;&bigstar;
+* 523 Continuous Subarray Sum &bigstar;&bigstar;
 * 525 Contiguous Array &bigstar;&bigstar;
 * 535 Encode and Decode TinyURL &bigstar;&bigstar;
 * 554 Brick Wall &bigstar;&bigstar;
@@ -322,6 +337,7 @@
 * 1152 Analyze User Website Visit Pattern &bigstar;&bigstar;
 * 1198 Find Smallest Common Element in All Rows &bigstar;&bigstar;
 * 1338 Reduce Array Size to The Half &bigstar;&bigstar;
+* 1386 Cinema Seat Allocation &bigstar;&bigstar;
 * 1396 Design Underground System &bigstar;&bigstar;
 * 1487 Making File Names Unique &bigstar;&bigstar;
 * 1711 Count Good Meals &bigstar;&bigstar;
@@ -376,6 +392,7 @@
 
 ### Two Pointers
 * 344 Reverse String &bigstar;
+* 1099 Two Sum Less Than K &bigstar;
 * 18 4Sum &bigstar;&bigstar;
 * 186 Reverse Words in a String II &bigstar;&bigstar;
 * 209 Minimum Size Subarray Sum &bigstar;&bigstar;
@@ -450,6 +467,7 @@
 * 545 Boundary of Binary Tree &bigstar;&bigstar;
 * 547 Number of Provinces &bigstar;&bigstar;
 * 582 Kill Process &bigstar;&bigstar;
+* 623 Add One Row to Tree &bigstar;&bigstar;
 * 652 Find Duplicate Subtrees &bigstar;&bigstar;
 * 654 Maximum Binary Tree &bigstar;&bigstar;
 * 662 Maximum Width of Binary Tree &bigstar;&bigstar;
@@ -714,6 +732,8 @@
 
 ### Greedy（贪心算法）
 * 122 Best Time to Buy and Sell Stock II &bigstar;
+* 409 Longest Palindrome &bigstar;
+* 976 Largest Perimeter Triangle &bigstar;
 * 1029 Two City Scheduling &bigstar;
 * 1046 Last Stone Weight &bigstar;
 * 1710 Maximum Units on a Truck &bigstar;
@@ -745,6 +765,7 @@
 
 
 ### Sorting
+* 976 Largest Perimeter Triangle &bigstar;
 * 658 Find K Closest Elements &bigstar;&bigstar;
 * 1338 Reduce Array Size to The Half &bigstar;&bigstar;
 * 1509 Minimum Difference Between Largest and Smallest Value in Three Moves &bigstar;&bigstar;

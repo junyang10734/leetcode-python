@@ -1,5 +1,5 @@
 # Range Sum Query - Immutable
-# Array
+# Array / Prefix Sum
 
 
 # runtime: faster than 5.01% 

@@ -51,15 +51,16 @@ class Solution2:
 # DP
 # clearer than solution2
 # runtime: faster than 26.14%
-class Solution3:
+class Solution:
     def numSquares(self, n: int) -> int:
+        square_nums = [i**2 for i in range(0, int(math.sqrt(n))+1)]
         dp = [float('inf')] * (n+1)
         dp[0], dp[1] = 0, 1
-
+        
         for i in range(1, n+1):
-            j = 1
-            while j*j <= i:
-                dp[i] = min(dp[i], dp[i-j*j]+1)
-                j += 1
+            for square in square_nums:
+                if i < square:
+                    break
+                dp[i] = min(dp[i], dp[i-square] + 1)
 
-        return dp[n]
+        return dp[-1]

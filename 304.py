@@ -1,5 +1,5 @@
 # 304. Range Sum Query 2D - Immutable
-# DP
+# Array / Prefix Sum
 # https://blog.csdn.net/fuxuemingzhu/article/details/83537572
 
 # running time: faster than 56.02%

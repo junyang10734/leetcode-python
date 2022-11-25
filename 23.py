@@ -37,23 +37,18 @@ class Solution1:
 
 # Heap
 # runtime: faster than 76.42%
-# https://blog.csdn.net/fuxuemingzhu/article/details/83068632
-# Python3 不可以直接将node存入heap, python2可以
 class Solution2:
-    def mergeKLists(self, lists: List[ListNode]) -> ListNode:
-        head = p = ListNode(0)
+    def mergeKLists(self, lists: List[Optional[ListNode]]) -> Optional[ListNode]:
         heap = []
-        heapq.heapify(heap)
-        [heapq.heappush(heap, (l.val, i)) for i,l in enumerate(lists) if l]
-
-        while heap:
-            val, idx = heapq.heappop(heap)
-            curHead = lists[idx]
-            curNext = curHead.next
-            p.next = curHead
-            p = curHead
-            if curNext:
-                lists[idx] = curNext
-                heapq.heappush(heap, (curNext.val, idx))
+        for i,head in enumerate(lists):
+            if head:
+                heapq.heappush(heap, (head.val, i, head))
         
-        return head.next
+        dummy = current = ListNode(-1)
+        while heap:
+            val, i, node = heapq.heappop(heap)
+            current.next = node
+            current = node
+            if node.next:
+                heapq.heappush(heap, (node.next.val, i, node.next))
+        return dummy.next
