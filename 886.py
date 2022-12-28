@@ -1,25 +1,40 @@
 # Possible Bipartition
 # Graph / Graph Coloring
+# similar: 785
 
-# DFS
-# https://leetcode.com/problems/possible-bipartition/solution/
-# runtime: faster than 42.12% 
+# DFS - labuladong
 class Solution:
-    def possibleBipartition(self, N: int, dislikes: List[List[int]]) -> bool:
+    def possibleBipartition(self, n: int, dislikes: List[List[int]]) -> bool:
         graph = collections.defaultdict(list)
-        
         for u,v in dislikes:
             graph[u].append(v)
             graph[v].append(u)
+
+        self.res = True
+        self.visited = [False] * (n+1)
+        self.color = [False] * (n+1)
+
+        for v in range(1, n+1):
+            if not self.visited[v]:
+                self.dfs(graph, v)
+        return self.res
+
+    
+    def dfs(self, graph, node):
+        if not self.res:
+            return False
         
-        color = {}
-        def dfs(node, c = 0):
-            if node in color:
-                return color[node] == c
-            color[node] = c
-            return all(dfs(n, c^1) for n in graph[node])
-        
-        return all(dfs(node) for node in range(1, N+1) if node not in color)
+        self.visited[node] = True
+
+        for nx in graph[node]:
+            if self.visited[nx]:
+                if self.color[nx] == self.color[node]:
+                    self.res = False
+                    return
+            else:
+                self.color[nx] = not self.color[node]
+                self.dfs(graph, nx)
+
 
 
 # BFS

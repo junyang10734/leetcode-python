@@ -3,7 +3,9 @@
 # DFS
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/83302328
-# running time: faster than 84.44% 
+
+
+# DFS
 class Solution:
     def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
         graph = collections.defaultdict(list)
@@ -30,3 +32,31 @@ class Solution:
         visited[i] = 2
         path.append(i)
         return True
+
+
+# BFS - labuladong
+class Solution:
+    def findOrder(self, numCourses: int, prerequisites: List[List[int]]) -> List[int]:
+        graph = collections.defaultdict(list)
+        indegrees = collections.defaultdict(int)
+        for i,j in prerequisites:
+            graph[j].append(i)
+            indegrees[i] += 1
+
+        queue = collections.deque()
+        for i in range(numCourses):
+            if indegrees[i] == 0:
+                queue.append(i)
+        
+        res = [0] * numCourses
+        count = 0
+        while queue:
+            node = queue.popleft()
+            res[count] = node
+            count += 1
+            for nx in graph[node]:
+                indegrees[nx] -= 1
+                if indegrees[nx] == 0:
+                    queue.append(nx)
+        
+        return res if count == numCourses else []

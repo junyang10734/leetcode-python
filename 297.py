@@ -104,19 +104,20 @@ class Codec3:
         :type root: TreeNode
         :rtype: str
         """
-        self.s = ''
+        arr = []
+
         def preOrder(node):
-            self.s += ','
             if not node:
-                self.s += '#'
+                arr.append("#")
             else:
-                self.s += str(node.val)
+                arr.append(str(node.val))
                 preOrder(node.left)
                 preOrder(node.right)
-        
+
         preOrder(root)
+
+        return ' '.join(arr)
         
-        return self.s
 
     def deserialize(self, data):
         """Decodes your encoded data to tree.
@@ -124,21 +125,22 @@ class Codec3:
         :type data: str
         :rtype: TreeNode
         """
-        def flatten(nodes):
-            if len(nodes) == 0:
-                return None
-                
-            val = nodes.pop(0)
-            if val == '#':
-                return None
+        queue = collections.deque(val for val in data.split())
 
-            root = TreeNode(int(val))
-            root.left = flatten(nodes)
-            root.right = flatten(nodes)
+        def flatten():
+            if len(queue) == 0:
+                return
+            val = queue.popleft()
+            if val == '#':
+                return 
             
-            return root
+            node = TreeNode(int(val))
+            node.left = flatten()
+            node.right = flatten()
+
+            return node
         
-        return flatten(data.split(',')[1:])
+        return flatten()
 
 
 # https://mp.weixin.qq.com/s?__biz=MzAxODQxMDM0Mw==&mid=2247485871&idx=1&sn=bcb24ea8927995b585629a8b9caeed01&chksm=9bd7f7a7aca07eb1b4c330382a4e0b916ef5a82ca48db28908ab16563e28a376b5ca6805bec2&scene=21#wechat_redirect

@@ -1,3 +1,6 @@
+# Sorting
+# 92题 各种排序法
+
 # Union-Find
 class UF:
     def __init__(self, n):
@@ -112,3 +115,201 @@ def nextGreaterElement(nums):
         res[i] = stack[-1] if stack else -1
         stack.append(nums[i])
     return res
+
+
+# 计算器
+class Solution:
+    def calculate(self, s: str) -> int:
+        def helper(s):
+            stack = []
+            sign = '+'
+            num = 0
+            
+            while len(s) > 0:
+                c = s.popleft()
+                if c.isdigit():
+                    num = num * 10 + int(c)
+                if c == '(':
+                    num = helper(s)
+                         
+                if (not c.isdigit() and c != ' ') or len(s) == 0:
+                    if sign == '+':
+                        stack.append(num)
+                    elif sign == '-':
+                        stack.append(-num)
+                    elif sign == '*':
+                        stack[-1] *= num
+                    elif sign == '/':
+                        stack[-1] = int(stack[-1] / float(num))
+                    num = 0
+                    sign = c
+                
+                if c == ')':
+                    break
+            
+            return sum(stack)
+                
+        
+        return helper(collections.deque(s))
+
+
+
+# 前序遍历二叉树
+def preOrderTraverse(root):
+    if not root:
+        return
+
+    res = []
+    res.append(root.val)
+    res.addAll(preOrderTraverse(root.left))
+    res.addAll(preOrderTraverse(root.right))
+    return res
+
+
+# 层级遍历
+def levelTraverse(root):
+    if not root:
+        return
+    
+    queue = collections.deque([])
+    queue.append(root)
+
+    while queue:
+        size = len(queue)
+        for i in range(size):
+            node = queue.popleft()
+            res.append(node.val)
+            if node.left:
+                queue.append(node.left)
+            if node.right:
+                queue.append(node.right)
+    
+    return res
+
+
+# 回溯 backtrack
+result = []
+def backtrack(路径, 选择列表):
+    if 满足结束条件:
+        result.add(路径)
+        return
+    
+    for 选择 in 选择列表:
+        做选择
+        backtrack(路径, 选择列表)
+        撤销选择
+
+
+# backtrack 排列/组合/子集问题
+# 1. 元素无重不可复选
+# 组合/子集
+def backtrack(nums: List[int], start: int):
+    # 回溯算法标准框架
+    for i in range(start, len(nums)):
+        # 做选择
+        track.append(nums[i])
+        # 注意参数
+        backtrack(nums, i + 1)
+        # 撤销选择
+        track.pop()
+
+# 排列
+def backtrack(nums: List[int]):
+    for i in range(0, len(nums)):
+        # 剪枝逻辑
+        if used[i]:
+            continue
+
+        # 做选择
+        used[i] = True
+        track.append(nums[i])
+        # 注意参数
+        backtrack(nums)
+        # 撤销选择
+        used[i] = False
+        track.pop()
+
+
+# 2. 元素可重不可复选
+# 组合/子集
+nums.sort()
+def backtrack(nums: List[int], start: int):
+    # 回溯算法标准框架
+    for i in range(start, len(nums)):
+        # 剪枝逻辑，跳过值相同的相邻树枝
+        if i > start and nums[i] == nums[i-1]:
+            continue
+
+        # 做选择
+        track.append(nums[i])
+        # 注意参数
+        backtrack(nums, i + 1)
+        # 撤销选择
+        track.pop()
+
+# 排列
+nums.sort()
+def backtrack(nums: List[int]):
+    for i in range(0, len(nums)):
+        # 剪枝逻辑
+        if used[i]:
+            continue
+        # 剪枝逻辑，固定相同的元素在排列中的相对位置
+        if i > 0 and nums[i] == nums[i-1] and not used[i-1]:
+            continue
+
+        # 做选择
+        used[i] = True
+        track.append(nums[i])
+        # 注意参数
+        backtrack(nums)
+        # 撤销选择
+        used[i] = False
+        track.pop()
+
+
+# 3. 元素无重可复选
+# 组合/子集
+def backtrack(nums: List[int], start: int):
+    # 回溯算法标准框架
+    for i in range(start, len(nums)):
+        # 做选择
+        track.append(nums[i])
+        # 注意参数
+        backtrack(nums, i)
+        # 撤销选择
+        track.pop()
+
+# 排列
+def backtrack(nums: List[int]):
+    # 回溯算法标准框架
+    for i in range(len(nums)):
+        # 做选择
+        track.append(nums[i])
+        # 注意参数
+        backtrack(nums)
+        # 撤销选择
+        track.pop()
+
+
+# BFS
+# 计算从起点 start 到终点 target 的最近距离
+def BFS(start: Node, target: Node):
+    queue = collections.deque()
+    visited = set()
+
+    queue.append(start)
+    visited.add(start)
+    step = 0
+
+    while queue:
+        size = len(queue)
+        for i in range(size):
+            cur = queue.popleft()
+            if cur is target:
+                return step
+            for nx in cur.adj():
+                if nx not in visited:
+                    queue.append(nx)
+                    visited.add(nx)
+        step += 1

@@ -59,6 +59,7 @@ class Solution2:
         
 
 # https://leetcode.com/problems/convert-bst-to-greater-tree/discuss/100555/Python-Simple-with-Explanation
+# labuladong
 # runtime: faster than 96%
 class Solution3:
     def bstToGst(self, root: TreeNode) -> TreeNode:

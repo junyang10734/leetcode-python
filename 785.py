@@ -1,37 +1,33 @@
 # 785. Is Graph Bipartite?
+# similar: 886
 
 
-# DFS + 染色
-# http://bookshadow.com/weblog/2018/02/18/leetcode-is-graph-bipartite/
-# runtime: faster than 35.53%
-class Solution1:
+# DFS + 染色 - labuladong
+class Solution:
     def isBipartite(self, graph: List[List[int]]) -> bool:
-        d = collections.defaultdict(list)
-        for i,items in enumerate(graph):
-            for n in items:
-                d[i].append(n)
-        
-        colors = {}
-        
-        def dfs(k, c):
-            new_c = 1 - c
-            for p in d[k]:
-                if p not in colors:
-                    colors[p] = new_c
-                    if not dfs(p, new_c):
-                        return False
-                elif colors[p] != new_c:
-                    return False
-            return True
-            
-        for k in d:
-            if k in colors:
-                continue
-            colors[k] = 0
-            if not dfs(k,0):
-                return False
-        
-        return True
+        n = len(graph)
+        self.visited = [False] * n
+        self.color = [False] * n
+        self.res = True
+
+        for node in range(n):
+            if not self.visited[node]:
+                self.dfs(graph, node)
+        return self.res
+
+    def dfs(self, graph, node):
+        if not self.res:
+            return False
+        self.visited[node] = True
+        for nx in graph[node]:
+            if not self.visited[nx]:
+                self.color[nx] = not self.color[node]
+                self.dfs(graph, nx)
+            else:
+                if self.color[nx] == self.color[node]:
+                    self.res = False
+                    return
+
 
 
 

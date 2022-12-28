@@ -19,30 +19,34 @@ class Solution2:
 # runtime: O(n)
 class Solution3:
     def findKthLargest(self, nums: List[int], k: int) -> int:
-        
-        def partition(left, right, index):
-            pivot = nums[index]
-            
-            nums[index], nums[right] = nums[right], nums[index]
-            tmp = left
-            for i in range(left, right):
-                if nums[i] < pivot:
-                    nums[tmp], nums[i] = nums[i], nums[tmp]
-                    tmp += 1
-                    
-            nums[right], nums[tmp] = nums[tmp], nums[right]
-            return tmp
-        
-        def select(left, right, k):
-            if left == right:
-                return nums[left]
-            index = random.randint(left, right)
-            index = partition(left, right, index)
-            if k == index:
+        left, right = 0, len(nums)-1
+        k = len(nums) - k
+
+        while left <= right:
+            index = self.partition(nums, left, right)
+            if index == k:
                 return nums[index]
-            elif k < index:
-                return select(left, index-1, k)
+            elif index < k:
+                left = index + 1
             else:
-                return select(index+1, right, k)
+                right = index - 1
+
+        return -1
+    
+    def partition(self, nums, left, right):
+        pivot = nums[left]
+        i, j = left + 1, right
+
+        while i <= j:
+            while i < right and nums[i] <= pivot:
+                i += 1
+            while j > left and nums[j] >= pivot:
+                j -= 1
+            
+            if i >= j:
+                break
+            
+            nums[i], nums[j] = nums[j], nums[i]
         
-        return select(0, len(nums)-1, len(nums)-k)
+        nums[left], nums[j] = nums[j], nums[left]
+        return j

@@ -1,6 +1,30 @@
 # 77. Combinations
 # Array / Recursive / Backtracking
 
+
+# backtrack 模板
+class Solution:
+    def combine(self, n: int, k: int) -> List[List[int]]:
+        res = []
+        path = []
+
+        def backtrack(index):
+            nonlocal k
+            nonlocal n
+
+            if len(path) == k:
+                res.append(path.copy())
+                return
+            
+            for i in range(index, n+1):
+                path.append(i)
+                backtrack(i+1)
+                path.pop()
+        
+        backtrack(1)
+        return res
+
+
 # https://blog.csdn.net/fuxuemingzhu/article/details/79515180
 
 # recursive

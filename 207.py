@@ -4,32 +4,30 @@
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/82951771
 
-# BFS
-# runtime: faster than 20.27%
-class Solution1:
+# BFS - labuladong
+class Solution:
     def canFinish(self, numCourses: int, prerequisites: List[List[int]]) -> bool:
         graph = collections.defaultdict(list)
         indegrees = collections.defaultdict(int)
-        
         for i,j in prerequisites:
-            graph[j].append(i)
-            indegrees[i] += 1
+            graph[i].append(j)
+            indegrees[j] += 1
         
-        for m in range(numCourses):
-            zeroDegree = False
-            
-            for n in range(numCourses):
-                if indegrees[n] == 0:
-                    zeroDegree = True
-                    break
-            
-            if not zeroDegree:
-                return False
-            indegrees[n] = -1
-            for node in graph[n]:
-                indegrees[node] -= 1
+        queue = collections.deque()
+        for i in range(numCourses):
+            if indegrees[i] == 0:
+                queue.append(i)
         
-        return True
+        count = 0
+        while queue:
+            node = queue.popleft()
+            count += 1
+            for nx in graph[node]:
+                indegrees[nx] -= 1
+                if indegrees[nx] == 0:
+                    queue.append(nx)
+        
+        return count == numCourses
 
 
 # DFS

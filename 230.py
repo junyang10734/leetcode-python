@@ -33,3 +33,21 @@ class Solution2:
             if not k:
                 return root.val
             root = root.right
+
+
+class Solution3:
+    def kthSmallest(self, root: Optional[TreeNode], k: int) -> int:
+        self.res = 0
+        self.num = 0
+        def traverse(node, k):
+            if not node:
+                return
+            traverse(node.left, k)
+            self.num += 1
+            if self.num == k:
+                self.res = node.val
+                return
+            traverse(node.right, k)
+        
+        traverse(root, k)
+        return self.res

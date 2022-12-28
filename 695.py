@@ -1,5 +1,35 @@
 # Max Area of Island
-# Array / Graph
+# Array / Graph / 岛屿问题
+
+# DFS 模板
+class Solution:
+    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+        m, n = len(grid), len(grid[0])
+        res = 0
+        for i in range(m):
+            for j in range(n):
+                if grid[i][j] == 1:
+                    res = max(res, self.dfs(grid, i, j))
+
+        return res
+
+
+    def dfs(self, grid, i, j):
+        m, n = len(grid), len(grid[0])
+        if i < 0 or j < 0 or i >= m or j >= n:
+            return 0
+        
+        if grid[i][j] == 0:
+            return 0
+        
+        grid[i][j] = 0
+        dirs = [(-1, 0), (1, 0), (0, -1), (0, 1)]
+        
+        area = 1
+        for x,y in dirs:
+            area += self.dfs(grid, x+i, y+j)
+        return area
+
 
 # Depth-First Search (Recursive)
 # runtime: faster than 32.59% 

@@ -260,6 +260,7 @@
 * 1544 Make The String Great &bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
+* 227 Basic Calculator II &bigstar;&bigstar;
 * 316 Remove Duplicate Letters &bigstar;&bigstar;
 * 341 Flatten Nested List Iterator &bigstar;&bigstar;
 * 378 Kth Smallest Element in a Sorted Matrix &bigstar;&bigstar;
@@ -276,6 +277,7 @@
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 * 84 Largest Rectangle in Histogram &bigstar;&bigstar;&bigstar;
 * 224 Basic Calculator &bigstar;&bigstar;&bigstar;
+* 772 Basic Calculator III &bigstar;&bigstar;&bigstar;
 * 1776 Car Fleet II &bigstar;&bigstar;&bigstar;
 
 ### Set
@@ -340,8 +342,11 @@
 * 1386 Cinema Seat Allocation &bigstar;&bigstar;
 * 1396 Design Underground System &bigstar;&bigstar;
 * 1487 Making File Names Unique &bigstar;&bigstar;
+* 1657 Determine if Two Strings Are Close &bigstar;&bigstar;
 * 1711 Count Good Meals &bigstar;&bigstar;
+* 2225 Find Players With Zero or One Losses &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
+* 460 LFU Cache &bigstar;&bigstar;&bigstar;
 * 710 Random Pick with Blacklist &bigstar;&bigstar;&bigstar;
 * 745 Prefix and Suffix Search &bigstar;&bigstar;&bigstar;
 
@@ -373,6 +378,7 @@
 * 707 Design Linked List &bigstar;&bigstar;
 * 23 Merge k Sorted Lists &bigstar;&bigstar;&bigstar;
 * 25 Reverse Nodes in k-Group &bigstar;&bigstar;&bigstar;
+* 460 LFU Cache &bigstar;&bigstar;&bigstar;
 
 
 ### Sliding Window
@@ -493,9 +499,11 @@
 * 987 Vertical Order Traversal of a Binary Tree &bigstar;&bigstar;
 * 990 Satisfiability of Equality Equations &bigstar;&bigstar;
 * 1008 Construct Binary Search Tree from Preorder Traversal &bigstar;&bigstar;
+* 1026 Maximum Difference Between Node and Ancestor &bigstar;&bigstar;
 * 1042 Flower Planting With No Adjacent &bigstar;&bigstar;
 * 1110 Delete Nodes And Return Forest &bigstar;&bigstar;
 * 1129 Shortest Path with Alternating Colors &bigstar;&bigstar;
+* 1135 Connecting Cities With Minimum Cost &bigstar;&bigstar;
 * 1136 Parallel Courses &bigstar;&bigstar;
 * 1145 Binary Tree Coloring Game &bigstar;&bigstar;
 * 1162 As Far from Land as Possible &bigstar;&bigstar;
@@ -503,7 +511,11 @@
 * 1202 Smallest String With Swaps &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1325 Delete Leaves With a Given Value &bigstar;&bigstar;
+* 1339 Maximum Product of Splitted Binary Tree &bigstar;&bigstar;
 * 1485 Clone Binary Tree With Random Pointer &bigstar;&bigstar;
+* 1514 Path with Maximum Probability &bigstar;&bigstar;
+* 1584 Min Cost to Connect All Points &bigstar;&bigstar;
+* 1631 Path With Minimum Effort &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
 * 269 Alien Dictionary &bigstar;&bigstar;&bigstar;
 * 297 Serialize and Deserialize Binary Tree &bigstar;&bigstar;&bigstar;
@@ -511,11 +523,13 @@
 * 329 Longest Increasing Path in a Matrix &bigstar;&bigstar;&bigstar;
 * 815 Bus Routes &bigstar;&bigstar;&bigstar;
 * 827 Making A Large Island &bigstar;&bigstar;&bigstar;
+* 834 Sum of Distances in Tree  &bigstar;&bigstar;&bigstar;
 * 839 Similar String Groups &bigstar;&bigstar;&bigstar;
 * 952 Largest Component Size by Common Factor &bigstar;&bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1192 Critical Connections in a Network &bigstar;&bigstar;&bigstar;
 * 1263 Minimum Moves to Move a Box to Their Target Location &bigstar;&bigstar;&bigstar;
+* 1373 Maximum Sum BST in Binary Tree &bigstar;&bigstar;&bigstar;
 
 
 ### Segment Tree
@@ -529,9 +543,13 @@
 * 366 Find Leaves of Binary Tree &bigstar;&bigstar;
 * 473 Matchsticks to Square &bigstar;&bigstar;
 * 549 Binary Tree Longest Consecutive Sequence II &bigstar;&bigstar;
+* 695 Max Area of Island &bigstar;&bigstar;
 * 752 Open the Lock &bigstar;&bigstar;
+* 1020 Number of Enclaves &bigstar;&bigstar;
 * 1059 All Paths from Source Lead to Destination &bigstar;&bigstar;
 * 1448 Count Good Nodes in Binary Tree &bigstar;&bigstar;
+* 1254 Number of Closed Islands &bigstar;&bigstar;
+* 1905 Count Sub Islands &bigstar;&bigstar;
 * 126 Word Ladder II &bigstar;&bigstar;&bigstar;
 
 
@@ -600,6 +618,7 @@
 * 260 Single Number III &bigstar;&bigstar;
 * 338 Counting Bits &bigstar;&bigstar;
 * 421 Maximum XOR of Two Numbers in an Array &bigstar;&bigstar;
+* 1066 Campus Bikes II &bigstar;&bigstar;
 
 
 ### DaC and Recursion（分治，递归）
@@ -636,6 +655,15 @@
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 
 ### Backtrack (回溯)
+* 40 Combination Sum II &bigstar;&bigstar;
+* 46 Permutations &bigstar;&bigstar;
+* 47 Permutations II &bigstar;&bigstar;
+* 77 Combinations &bigstar;&bigstar;
+* 78 Subsets &bigstar;&bigstar;
+* 90 Subsets II &bigstar;&bigstar;
+* 698 Partition to K Equal Sum Subsets &bigstar;&bigstar;
+* 37 Sudoku Solver &bigstar;&bigstar;&bigstar;
+* 51 N-Queens &bigstar;&bigstar;&bigstar;
 * 126 Word Ladder II &bigstar;&bigstar;&bigstar;
 * 212 Word Search II &bigstar;&bigstar;&bigstar;
 
@@ -644,6 +672,7 @@
 
 ### Heap
 * 658 Find K Closest Elements &bigstar;&bigstar;
+* 1167 Minimum Cost to Connect Sticks &bigstar;&bigstar;
 * 871 Minimum Number of Refueling Stops &bigstar;&bigstar;&bigstar;
 * 1383 Maximum Performance of a Team &bigstar;&bigstar;&bigstar;
 * 1499 Max Value of Equation &bigstar;&bigstar;&bigstar;
@@ -690,6 +719,7 @@
 * 712 Minimum ASCII Delete Sum for Two Strings &bigstar;&bigstar;
 * 714 Best Time to Buy and Sell Stock with Transaction Fee &bigstar;&bigstar;
 * 718 Maximum Length of Repeated Subarray &bigstar;&bigstar;
+* 790 Domino and Tromino Tiling &bigstar;&bigstar;
 * 801 Minimum Swaps To Make Sequences Increasing &bigstar;&bigstar;
 * 837 New 21 Game &bigstar;&bigstar;
 * 877 Stone Game &bigstar;&bigstar;
@@ -707,6 +737,7 @@
 * 1690 Stone Game VII &bigstar;&bigstar;
 * 1696 Jump Game VI &bigstar;&bigstar;
 * 1824 Minimum Sideway Jumps &bigstar;&bigstar;
+* 1962 Remove Stones to Minimize the Total &bigstar;&bigstar;
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
 * 44 Wildcard Matching &bigstar;&bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
@@ -751,6 +782,7 @@
 * 870 Advantage Shuffle &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
+* 1167 Minimum Cost to Connect Sticks &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 * 1353 Maximum Number of Events That Can Be Attended &bigstar;&bigstar;
@@ -759,6 +791,7 @@
 * 1564 Put Boxes Into the Warehouse I &bigstar;&bigstar;
 * 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
+* 2279 Maximum Bags With Full Capacity of Rocks &bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1354 Construct Target Array With Multiple Sums &bigstar;&bigstar;&bigstar;
 * 1383 Maximum Performance of a Team &bigstar;&bigstar;&bigstar;
@@ -783,6 +816,7 @@
 * 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
 * 1539 Kth Missing Positive Number &bigstar;
+* 2389 Longest Subsequence With Limited Sum &bigstar;
 * 33 Search in Rotated Sorted Array &bigstar;&bigstar;
 * 34 Find First and Last Position of Element in Sorted Array &bigstar;&bigstar;
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;

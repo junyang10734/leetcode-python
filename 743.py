@@ -1,4 +1,7 @@
 # 743. Network Delay Time
+# Dijkstra's alg
+
+
 # https://leetcode.com/problems/network-delay-time/solution/
 
 # DFS

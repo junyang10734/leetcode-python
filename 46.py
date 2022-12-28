@@ -18,7 +18,7 @@ class Solution1:
                 self.recur(nums[:i] + nums[i+1:], res, path + [nums[i]])
 
 
-# backtrack
+# backtrack 模板
 # runtime: faster than 94.29%
 class Solution2:
     def permute(self, nums: List[int]) -> List[List[int]]:

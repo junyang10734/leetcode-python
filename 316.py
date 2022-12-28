@@ -8,11 +8,7 @@ class Solution:
     def removeDuplicateLetters(self, s: str) -> str:
         stack = []
         inStack = {}
-        cnt = collections.defaultdict(int)
-        
-        # 统计各字符字数
-        for i in s:
-            cnt[i] += 1
+        cnt = collections.Counter(s)
         
         # 重新遍历s, 字符数-1, 若该字符不在stack中，往前查看栈中元素是否大于该字符
         # 若栈中字符大于该字符，并且后面还有此栈中字符，则pop栈中字符
@@ -29,7 +25,4 @@ class Solution:
             stack.append(i)
             inStack[i] = True
         
-        res = ''
-        for i in stack:
-            res += i
-        return res        
+        return ''.join(stack)       

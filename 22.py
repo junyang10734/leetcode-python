@@ -1,38 +1,30 @@
 # Generate Parentheses
+# backtrack
 
-# Brute Force
-# runtime: faster than 5.20%
-class Solution1:
+# Backtracking 模板
+class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
-        def generate(A = []):
-            if len(A) == 2*n:
-                if valid(A):
-                    res.append(''.join(A))
-            else:
-                A.append('(')
-                generate(A)
-                A.pop()
-                A.append(')')
-                generate(A)
-                A.pop()
-                
-        def valid(A):
-            bal = 0
-            for c in A:
-                if c == '(': 
-                    bal += 1
-                else:
-                    bal -= 1
-                if bal < 0:
-                    return False
-            return bal == 0
-        
         res = []
-        generate()
+        path = ''
+        self.backtrack(n, n, path, res)
         return res
+    
+    def backtrack(self, left, right, path, res):
+        if left > right or left < 0 or right < 0:
+            return
+        if left == 0 and right == 0:
+            res.append(path)
+            return
+        
+        path += '('
+        self.backtrack(left-1, right, path, res)
+        path = path[:-1]
 
+        path += ')'
+        self.backtrack(left, right-1, path, res)
+        path = path[:-1]
+        
 
-# Backtracking
 # runtime: faster than 99.97%
 class Solution2:
     def generateParenthesis(self, n: int) -> List[str]:

@@ -13,7 +13,7 @@
 class Solution:
     def deleteNode(self, root: TreeNode, key: int) -> TreeNode:
         if not root:
-            return
+            return 
         
         if key == root.val:
             if not root.left:
@@ -21,20 +21,19 @@ class Solution:
             elif not root.right:
                 return root.left
             else:
-            
-                minVal = self.getMin(root.right)
-                root.val = minVal
-                root.right = self.deleteNode(root.right, minVal)
-            
+                minNode = self.getMin(root.right)
+                root.right = self.deleteNode(root.right, minNode.val)
+                minNode.left = root.left
+                minNode.right = root.right
+                root = minNode
         elif key < root.val:
             root.left = self.deleteNode(root.left, key)
-        else:
+        elif key > root.val:
             root.right = self.deleteNode(root.right, key)
         
         return root
     
-    
     def getMin(self, node):
         while node.left:
             node = node.left
-        return node.val
+        return node

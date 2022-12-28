@@ -9,6 +9,32 @@
 #         self.left = left
 #         self.right = right
 
+
+# BFS
+class Solution:
+    def minDepth(self, root: Optional[TreeNode]) -> int:
+        if not root:
+            return 0
+            
+        queue = collections.deque()
+        queue.append(root)
+        level = 1
+
+        while queue:
+            size = len(queue)
+            for i in range(size):
+                node = queue.popleft()
+                if not node.left and not node.right:
+                    return level
+                if node.left:
+                    queue.append(node.left)
+                if node.right:
+                    queue.append(node.right)
+            level += 1
+        
+        return level
+
+
 # runtime: faster than 37.45%
 class Solution1:
     def minDepth(self, root: TreeNode) -> int:
