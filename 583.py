@@ -1,5 +1,5 @@
 # 583. Delete Operation for Two Strings
-# Compare with 516, 1143
+# Compare with 516, 712, 1143 题意即删除最常公共子序列
 # DP
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/79821305

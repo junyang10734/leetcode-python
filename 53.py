@@ -1,4 +1,5 @@
 # 53. Maximum Subarray
+# DP
 
 
 # 分治
@@ -42,15 +43,31 @@ class Solution1:
 # 动态规划
 # dp[i]表示包含nums[i]的最大子数组和
 # 迭代公式： dp[i] = max(nums[i], nums[i]+dp[i-1])
-class Solution2:
+class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
-        sum = nums[0]
-        if len(nums) == 1:
-            return sum
-        else:
-            dp = [0]*len(nums)
-            dp[0] = nums[0]
-            for i in range(1,len(nums)):
-                dp[i] = max(nums[i], nums[i]+dp[i-1])
+        dp = [0] * len(nums)
+        dp[0] = nums[0]
 
-            return max(dp)
+        for i in range(1, len(nums)):
+            dp[i] = max(nums[i], dp[i-1] + nums[i])
+            
+        return max(dp)
+
+
+# sliding window
+class Solution:
+    def maxSubArray(self, nums: List[int]) -> int:
+        left, right = 0, 0
+        windowSum, maxSum = 0, -math.inf
+
+        while right < len(nums):
+            windowSum += nums[right]
+            right += 1
+
+            maxSum = max(windowSum, maxSum)
+
+            while windowSum < 0:
+                windowSum -= nums[left]
+                left += 1
+
+        return maxSum

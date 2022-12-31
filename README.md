@@ -666,6 +666,7 @@
 * 51 N-Queens &bigstar;&bigstar;&bigstar;
 * 126 Word Ladder II &bigstar;&bigstar;&bigstar;
 * 212 Word Search II &bigstar;&bigstar;&bigstar;
+* 980 Unique Paths III &bigstar;&bigstar;&bigstar;
 
 ### Trie
 * 212 Word Search II &bigstar;&bigstar;&bigstar;
@@ -673,6 +674,7 @@
 ### Heap
 * 658 Find K Closest Elements &bigstar;&bigstar;
 * 1167 Minimum Cost to Connect Sticks &bigstar;&bigstar;
+* 1834 Single-Threaded CPU &bigstar;&bigstar;
 * 871 Minimum Number of Refueling Stops &bigstar;&bigstar;&bigstar;
 * 1383 Maximum Performance of a Team &bigstar;&bigstar;&bigstar;
 * 1499 Max Value of Equation &bigstar;&bigstar;&bigstar;
@@ -830,6 +832,7 @@
 * 981 Time Based Key-Value Store &bigstar;&bigstar;
 * 1011 Capacity To Ship Packages Within D Days &bigstar;&bigstar;
 * 1182 Shortest Distance to Target Color &bigstar;&bigstar;
+* 1428 Leftmost Column with at Least a One &bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 * 715 Range Module &bigstar;&bigstar;&bigstar;
 * 1095 Find in Mountain Array &bigstar;&bigstar;&bigstar;
