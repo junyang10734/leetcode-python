@@ -16,6 +16,7 @@
 * 415 Add Strings &bigstar;
 * 459 Repeated Substring Pattern &bigstar;
 * 482 License Key Formatting &bigstar;
+* 520 Detect Capital &bigstar;
 * 551 Student Attendance Record I &bigstar;
 * 557 Reverse Words in a String III &bigstar;
 * 657 Robot Return to Origin &bigstar;
@@ -27,6 +28,7 @@
 * 819 Most Common Word &bigstar;
 * 929 Unique Email Addresses &bigstar;
 * 937 Reorder Data in Log Files &bigstar;
+* 944 Delete Columns to Make Sorted &bigstar;
 * 1108 Defanging an IP Address &bigstar;
 * 1614 Maximum Nesting Depth of the Parentheses &bigstar;
 * 1662 Check If Two String Arrays are Equivalent &bigstar;
@@ -294,6 +296,7 @@
 * 205 Isomorphic Strings &bigstar;
 * 219 Contains Duplicate II &bigstar;
 * 242 Valid Anagram &bigstar;
+* 290 Word Pattern &bigstar;
 * 349 Intersection of Two Arrays &bigstar;
 * 359 Logger Rate Limiter &bigstar;
 * 409 Longest Palindrome &bigstar;
@@ -301,6 +304,7 @@
 * 690 Employee Importance &bigstar;
 * 811 Subdomain Visit Count &bigstar;
 * 997 Find the Town Judge &bigstar;
+* 1056 Confusing Number &bigstar;
 * 1086 High Five &bigstar;
 * 1170 Compare Strings by Frequency of the Smallest Character &bigstar;
 * 1346 Check If N and Its Double Exist &bigstar;
