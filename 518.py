@@ -19,6 +19,7 @@ class Solution1:
 # dp数组不考虑空间压缩
 class Solution2:
     def change(self, amount: int, coins: List[int]) -> int:
+        # dp[i][j]: 若只使用 coins 中的前 i 个（i 从 1 开始计数）硬币的面值，若想凑出金额 j，有 dp[i][j] 种凑法
         dp = [[0] * (amount+1) for _ in range(len(coins)+1)]
         for i in range(len(coins)+1):
             dp[i][0] = 1

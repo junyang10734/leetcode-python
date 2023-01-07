@@ -797,6 +797,7 @@
 * 1564 Put Boxes Into the Warehouse I &bigstar;&bigstar;
 * 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
+* 2244 Minimum Rounds to Complete All Tasks &bigstar;&bigstar;
 * 2279 Maximum Bags With Full Capacity of Rocks &bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1354 Construct Target Array With Multiple Sums &bigstar;&bigstar;&bigstar;

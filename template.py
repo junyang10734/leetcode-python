@@ -332,3 +332,23 @@ for 状态1 in 状态1的所有取值：
     for 状态2 in 状态2的所有取值：
         for ...
             dp[状态1][状态2][...] = 求最值(选择1，选择2...)
+
+
+# 0-1 背包问题
+# W: int 背包最大承重
+# N: int 物品数量
+# wt: [] 每个物品重量
+# val: [] 每个物品价值
+def knapsack(W: int, N: int, wt, val):
+    # dp[i][w]：对于前 i 个物品（从 1 开始计数），当前背包的容量为 w 时，这种情况下可以装下的最大价值是 dp[i][w]
+    dp = [[0] * (W+1) for _ in range(N+1)]
+    for n in range(1, N+1):
+        for w in range(1, W+1):
+            if w - wt[n] < 0:
+                # 无法装入背包
+                dp[n][w] = dp[n-1][w]
+            else:
+                # 装入或者不装入背包，择优
+                dp[n][w] = max(dp[n-1][w - wt[n-1]] + val[n-1], dp[n-1][w])
+    return dp[N][W]
+

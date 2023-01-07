@@ -78,3 +78,30 @@ class Solution3:
                 for j in f[i]:
                     heapq.heappush(heap, (p + f[i][j], j, k - 1))
         return -1
+
+# DP
+# https://labuladong.github.io/algo/di-er-zhan-a01c6/yong-dong--63ceb/lv-you-she-2b4f3/
+class Solution:
+    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, k: int) -> int:
+        indegree = collections.defaultdict(list)
+        for s,t,p in flights:
+            indegree[t].append((s, p))
+
+        # 从 src 出发，k 步之内到达 s 的最短路径权重
+        def dp(s, step):
+            if s == src:
+                return 0
+            if step == 0:
+                return -1
+            
+            res = math.inf
+            if len(indegree[s]) > 0:
+                for source, cost in indegree[s]:
+                    # print(source)
+                    subPath = dp(source, step-1)
+                    if subPath != -1:
+                        res = min(res, subPath + cost)
+
+            return -1 if res == math.inf else res
+
+        return dp(dst, k+1)
