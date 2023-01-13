@@ -8,6 +8,19 @@
 #         self.right = right
 
 
+# Recursive
+class Solution:
+    def preorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        if not root:
+            return []
+        
+        res = []
+        res.append(root.val)
+        res += self.preorderTraversal(root.left)
+        res += self.preorderTraversal(root.right)
+        return res
+
+
 # DFS
 # recursive
 # runtime: faster than 35.68%

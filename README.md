@@ -516,8 +516,10 @@
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1325 Delete Leaves With a Given Value &bigstar;&bigstar;
 * 1339 Maximum Product of Splitted Binary Tree &bigstar;&bigstar;
+* 1443 Minimum Time to Collect All Apples in a Tree &bigstar;&bigstar;
 * 1485 Clone Binary Tree With Random Pointer &bigstar;&bigstar;
 * 1514 Path with Maximum Probability &bigstar;&bigstar;
+* 1519 Number of Nodes in the Sub-Tree With the Same Label &bigstar;&bigstar;
 * 1584 Min Cost to Connect All Points &bigstar;&bigstar;
 * 1631 Path With Minimum Effort &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
@@ -555,6 +557,7 @@
 * 1254 Number of Closed Islands &bigstar;&bigstar;
 * 1905 Count Sub Islands &bigstar;&bigstar;
 * 126 Word Ladder II &bigstar;&bigstar;&bigstar;
+* 2246 Longest Path With Different Adjacent Characters &bigstar;&bigstar;&bigstar;
 
 
 ### Math（数学）
@@ -605,6 +608,7 @@
 * 1551 Minimum Operations to Make Array Equal &bigstar;&bigstar;
 * 1753 Maximum Score From Removing Stones &bigstar;&bigstar;
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
+* 149 Max Points on a Line &bigstar;&bigstar;&bigstar;
 * 829 Consecutive Numbers Sum &bigstar;&bigstar;&bigstar;
 * 906 Super Palindromes &bigstar;&bigstar;&bigstar;
 * 927 Three Equal Parts &bigstar;&bigstar;&bigstar;
@@ -714,6 +718,7 @@
 * 377 Combination Sum IV &bigstar;&bigstar;
 * 416 Partition Equal Subset Sum &bigstar;&bigstar;
 * 474 Ones and Zeroes &bigstar;&bigstar;
+* 486 Predict the Winner &bigstar;&bigstar;
 * 494 Target Sum &bigstar;&bigstar;
 * 516 Longest Palindromic Subsequence &bigstar;&bigstar;
 * 518 Coin Change 2 &bigstar;&bigstar;
@@ -797,6 +802,7 @@
 * 1564 Put Boxes Into the Warehouse I &bigstar;&bigstar;
 * 1717 Maximum Score From Removing Substrings &bigstar;&bigstar;
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
+* 2214 Minimum Health to Beat Game &bigstar;&bigstar;
 * 2244 Minimum Rounds to Complete All Tasks &bigstar;&bigstar;
 * 2279 Maximum Bags With Full Capacity of Rocks &bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
