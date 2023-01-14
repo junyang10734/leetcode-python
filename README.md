@@ -848,6 +848,21 @@
 * 715 Range Module &bigstar;&bigstar;&bigstar;
 * 1095 Find in Mountain Array &bigstar;&bigstar;&bigstar;
 
+### Union Find
+* 323 Number of Connected Components in an Undirected Graph &bigstar;&bigstar;
+* 399 Evaluate Division &bigstar;&bigstar;
+* 547 Number of Provinces &bigstar;&bigstar;
+* 684 Redundant Connection &bigstar;&bigstar;
+* 721 Accounts Merge &bigstar;&bigstar;
+* 947 Most Stones Removed with Same Row or Column &bigstar;&bigstar;
+* 990 Satisfiability of Equality Equations &bigstar;&bigstar;
+* 1061 Lexicographically Smallest Equivalent String &bigstar;&bigstar;
+* 1135 Connecting Cities With Minimum Cost &bigstar;&bigstar;
+* 1202 Smallest String With Swaps &bigstar;&bigstar;
+* 1584 Min Cost to Connect All Points &bigstar;&bigstar;
+* 839 Similar String Groups &bigstar;&bigstar;&bigstar;
+* 952 Largest Component Size by Common Factor &bigstar;&bigstar;&bigstar;
+
 ### Design（设计）
 * 225 Implement Stack using Queues &bigstar;
 * 232 Implement Queue using Stacks &bigstar;

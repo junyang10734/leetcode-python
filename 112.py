@@ -10,7 +10,7 @@
 #         self.right = right
 
 
-# DFS
+# recursive
 # faster than 15.28% 
 class Solution1:
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
@@ -47,21 +47,22 @@ class Solution3:
     def hasPathSum(self, root: TreeNode, sum: int) -> bool:
         if not root:
             return False
-        return self.dfs(root, sum, [root.val])
-    
-    def dfs(self, root, target, path):
-        if not root:
-            return False
-        if sum(path) == target and not root.left and not root.right:
-            return True
+
+        def dfs(node, total):
+            nonlocal targetSum
+
+            total += node.val
+            if total == targetSum and not node.left and not node.right:
+                return True
+            
+            left, right = False, False
+            if node.left:
+                left = dfs(node.left, total)
+            if node.right:
+                right = dfs(node.right, total)
+            return left or right
         
-        left_flag, right_flag = False, False
-        if root.left:
-            left_flag = self.dfs(root.left, target, path + [root.left.val])
-        if root.right:
-            right_flag = self.dfs(root.right, target, path + [root.right.val])
-        
-        return left_flag or right_flag
+        return dfs(root, 0)
 
 
 # stack
