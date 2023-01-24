@@ -28,3 +28,18 @@ class Solution2:
                 zero += 1
         
         return min(one, zero)
+
+
+# DP
+# https://leetcode.com/problems/flip-string-to-monotone-increasing/solutions/2912351/flip-string-to-monotone-increasing/
+class Solution:
+    def minFlipsMonoIncr(self, s: str) -> int:
+        dp = [0] * (len(s)+1)
+        num = 0
+        for i in range(1, len(s)+1):
+            if s[i-1] == '1':
+                dp[i] = dp[i-1]
+                num += 1
+            else:
+                dp[i] = min(num, dp[i-1]+1)
+        return dp[-1]

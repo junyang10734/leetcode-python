@@ -156,6 +156,7 @@
 * 48 Rotate Image &bigstar;&bigstar;
 * 54 Spiral Matrix &bigstar;&bigstar;
 * 56 Merge Intervals &bigstar;&bigstar;
+* 57 Insert Interval &bigstar;&bigstar;
 * 73 Set Matrix Zeroes &bigstar;&bigstar;
 * 75 Sort Colors &bigstar;&bigstar;
 * 81 Search in Rotated Sorted Array II &bigstar;&bigstar;
@@ -221,6 +222,7 @@
 * 934 Shortest Bridge &bigstar;&bigstar;
 * 950 Reveal Cards In Increasing Order &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
+* 974 Subarray Sums Divisible by K &bigstar;&bigstar;
 * 986 Interval List Intersections &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
 * 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
@@ -428,6 +430,7 @@
 * 589 N-ary Tree Preorder Traversal &bigstar;
 * 590 N-ary Tree Postorder Traversal &bigstar;
 * 617 Merge Two Binary Trees &bigstar;
+* 653 Two Sum IV - Input is a BST &bigstar;
 * 669 Trim a Binary Search Tree &bigstar;
 * 687 Longest Univalue Path &bigstar;
 * 700 Search in a Binary Search Tree &bigstar;
@@ -551,6 +554,7 @@
 * 549 Binary Tree Longest Consecutive Sequence II &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
 * 752 Open the Lock &bigstar;&bigstar;
+* 909 Snakes and Ladders &bigstar;&bigstar;
 * 1020 Number of Enclaves &bigstar;&bigstar;
 * 1059 All Paths from Source Lead to Destination &bigstar;&bigstar;
 * 1448 Count Good Nodes in Binary Tree &bigstar;&bigstar;
@@ -669,12 +673,15 @@
 * 77 Combinations &bigstar;&bigstar;
 * 78 Subsets &bigstar;&bigstar;
 * 90 Subsets II &bigstar;&bigstar;
+* 93 Restore IP Addresses &bigstar;&bigstar;
+* 491 Non-decreasing Subsequences &bigstar;&bigstar;
 * 698 Partition to K Equal Sum Subsets &bigstar;&bigstar;
 * 37 Sudoku Solver &bigstar;&bigstar;&bigstar;
 * 51 N-Queens &bigstar;&bigstar;&bigstar;
 * 126 Word Ladder II &bigstar;&bigstar;&bigstar;
 * 212 Word Search II &bigstar;&bigstar;&bigstar;
 * 980 Unique Paths III &bigstar;&bigstar;&bigstar;
+* 1088 Confusing Number II &bigstar;&bigstar;&bigstar;
 
 ### Trie
 * 212 Word Search II &bigstar;&bigstar;&bigstar;
@@ -726,6 +733,7 @@
 * 576 Out of Boundary Paths &bigstar;&bigstar;
 * 583 Delete Operation for Two Strings &bigstar;&bigstar;
 * 647 Palindromic Substrings &bigstar;&bigstar;
+* 651 4 Keys Keyboard &bigstar;&bigstar;
 * 673 Number of Longest Increasing Subsequence &bigstar;&bigstar;
 * 712 Minimum ASCII Delete Sum for Two Strings &bigstar;&bigstar;
 * 714 Best Time to Buy and Sell Stock with Transaction Fee &bigstar;&bigstar;
@@ -844,6 +852,7 @@
 * 1011 Capacity To Ship Packages Within D Days &bigstar;&bigstar;
 * 1182 Shortest Distance to Target Color &bigstar;&bigstar;
 * 1428 Leftmost Column with at Least a One &bigstar;&bigstar;
+* 1533 Find the Index of the Large Integer &bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 * 715 Range Module &bigstar;&bigstar;&bigstar;
 * 1095 Find in Mountain Array &bigstar;&bigstar;&bigstar;
@@ -862,6 +871,7 @@
 * 1584 Min Cost to Connect All Points &bigstar;&bigstar;
 * 839 Similar String Groups &bigstar;&bigstar;&bigstar;
 * 952 Largest Component Size by Common Factor &bigstar;&bigstar;&bigstar;
+* 2421 Number of Good Paths &bigstar;&bigstar;&bigstar;
 
 ### Design（设计）
 * 225 Implement Stack using Queues &bigstar;
