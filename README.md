@@ -560,7 +560,9 @@
 * 1448 Count Good Nodes in Binary Tree &bigstar;&bigstar;
 * 1254 Number of Closed Islands &bigstar;&bigstar;
 * 1905 Count Sub Islands &bigstar;&bigstar;
+* 2359 Find Closest Node to Given Two Nodes &bigstar;&bigstar;
 * 126 Word Ladder II &bigstar;&bigstar;&bigstar;
+* 472 Concatenated Words &bigstar;&bigstar;&bigstar;
 * 2246 Longest Path With Different Adjacent Characters &bigstar;&bigstar;&bigstar;
 
 
