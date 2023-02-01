@@ -29,6 +29,7 @@
 * 929 Unique Email Addresses &bigstar;
 * 937 Reorder Data in Log Files &bigstar;
 * 944 Delete Columns to Make Sorted &bigstar;
+* 1071 Greatest Common Divisor of Strings &bigstar;
 * 1108 Defanging an IP Address &bigstar;
 * 1614 Maximum Nesting Depth of the Parentheses &bigstar;
 * 1662 Check If Two String Arrays are Equivalent &bigstar;
@@ -304,6 +305,7 @@
 * 409 Longest Palindrome &bigstar;
 * 500 Keyboard Row &bigstar;
 * 690 Employee Importance &bigstar;
+* 734 Sentence Similarity &bigstar;
 * 811 Subdomain Visit Count &bigstar;
 * 997 Find the Town Judge &bigstar;
 * 1056 Confusing Number &bigstar;
@@ -755,6 +757,7 @@
 * 1186 Maximum Subarray Sum with One Deletion &bigstar;&bigstar;
 * 1218 Longest Arithmetic Subsequence of Given Difference &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
+* 1626 Best Team With No Conflicts &bigstar;&bigstar;
 * 1690 Stone Game VII &bigstar;&bigstar;
 * 1696 Jump Game VI &bigstar;&bigstar;
 * 1824 Minimum Sideway Jumps &bigstar;&bigstar;
@@ -871,6 +874,7 @@
 * 1135 Connecting Cities With Minimum Cost &bigstar;&bigstar;
 * 1202 Smallest String With Swaps &bigstar;&bigstar;
 * 1584 Min Cost to Connect All Points &bigstar;&bigstar;
+* 352 Data Stream as Disjoint Intervals &bigstar;&bigstar;&bigstar;
 * 839 Similar String Groups &bigstar;&bigstar;&bigstar;
 * 952 Largest Component Size by Common Factor &bigstar;&bigstar;&bigstar;
 * 2421 Number of Good Paths &bigstar;&bigstar;&bigstar;
