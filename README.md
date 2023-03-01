@@ -109,6 +109,7 @@
 * 350 Intersection of Two Arrays II &bigstar;
 * 412 Fizz Buzz &bigstar;
 * 414 Third Maximum Number &bigstar;
+* 422 Valid Word Square &bigstar;
 * 448 Find All Numbers Disappeared in an Array &bigstar;
 * 463 Island Perimeter &bigstar;
 * 485 Max Consecutive Ones &bigstar;
@@ -126,6 +127,7 @@
 * 905 Sort Array By Parity &bigstar;
 * 941 Valid Mountain Array &bigstar;
 * 977 Squares of a Sorted Array &bigstar;
+* 989 Add to Array-Form of Integer &bigstar;
 * 999 Available Captures for Rook &bigstar;
 * 1051 Height Checker &bigstar;
 * 1086 High Five &bigstar;
@@ -140,6 +142,7 @@
 * 1299 Replace Elements with Greatest Element on Right Side &bigstar;
 * 1346 Check If N and Its Double Exist &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
+* 1470 Shuffle the Array &bigstar;
 * 1480 Running Sum of 1d Array &bigstar;
 * 1539 Kth Missing Positive Number &bigstar;
 * 1629 Slowest Key &bigstar;
@@ -436,6 +439,7 @@
 * 669 Trim a Binary Search Tree &bigstar;
 * 687 Longest Univalue Path &bigstar;
 * 700 Search in a Binary Search Tree &bigstar;
+* 783 Minimum Distance Between BST Nodes &bigstar;
 * 872 Leaf-Similar Trees &bigstar;
 * 965 Univalued Binary Tree &bigstar;
 * 993 Cousins in Binary Tree &bigstar;
@@ -590,10 +594,12 @@
 * 628 Maximum Product of Three Numbers &bigstar;
 * 728 Self Dividing Numbers &bigstar;
 * 836 Rectangle Overlap &bigstar;
+* 989 Add to Array-Form of Integer &bigstar;
 * 1025 Divisor Game &bigstar;
 * 1228 Missing Number In Arithmetic Progression &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 1518 Water Bottles &bigstar;
+* 1523 Count Odd Numbers in an Interval Range &bigstar;
 * 1688 Count of Matches in Tournament &bigstar;
 * 29 Divide Two Integers &bigstar;&bigstar;
 * 50 Pow(x, n) &bigstar;&bigstar;
@@ -796,6 +802,7 @@
 * 45 Jump Game II &bigstar;&bigstar;
 * 55 Jump Game &bigstar;&bigstar;
 * 253 Meeting Rooms II &bigstar;&bigstar;
+* 280 Wiggle Sort &bigstar;&bigstar;
 * 406 Queue Reconstruction by Height &bigstar;&bigstar;
 * 435 Non-overlapping Intervals &bigstar;&bigstar;
 * 452 Minimum Number of Arrows to Burst Balloons &bigstar;&bigstar;
@@ -825,6 +832,7 @@
 
 ### Sorting
 * 976 Largest Perimeter Triangle &bigstar;
+* 280 Wiggle Sort &bigstar;&bigstar;
 * 658 Find K Closest Elements &bigstar;&bigstar;
 * 1338 Reduce Array Size to The Half &bigstar;&bigstar;
 * 1509 Minimum Difference Between Largest and Smallest Value in Three Moves &bigstar;&bigstar;
