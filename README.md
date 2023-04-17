@@ -142,6 +142,7 @@
 * 1299 Replace Elements with Greatest Element on Right Side &bigstar;
 * 1346 Check If N and Its Double Exist &bigstar;
 * 1351 Count Negative Numbers in a Sorted Matrix &bigstar;
+* 1431 Kids With the Greatest Number of Candies &bigstar;
 * 1470 Shuffle the Array &bigstar;
 * 1480 Running Sum of 1d Array &bigstar;
 * 1539 Kth Missing Positive Number &bigstar;
@@ -179,6 +180,7 @@
 * 229 Majority Element II &bigstar;&bigstar;
 * 238 Product of Array Except Self &bigstar;&bigstar;
 * 240 Search a 2D Matrix II &bigstar;&bigstar;
+* 245 Shortest Word Distance III &bigstar;&bigstar;
 * 275 H-Index II &bigstar;&bigstar;
 * 277 Find the Celebrity &bigstar;&bigstar;
 * 287 Find the Duplicate Number &bigstar;&bigstar;
@@ -250,6 +252,9 @@
 * 1727 Largest Submatrix With Rearrangements &bigstar;&bigstar;
 * 1792 Maximum Average Pass Ratio &bigstar;&bigstar;
 * 1823 Find the Winner of the Circular Game &bigstar;&bigstar;
+* 1861 Rotating the Box &bigstar;&bigstar;
+* 2348 Number of Zero-Filled Subarrays &bigstar;&bigstar;
+* 2439 Minimize Maximum of Array &bigstar;&bigstar;
 * 41 First Missing Positive &bigstar;&bigstar;&bigstar;
 * 363 Max Sum of Rectangle No Larger Than K &bigstar;&bigstar;&bigstar;
 * 630 Course Schedule III &bigstar;&bigstar;&bigstar;
@@ -266,6 +271,7 @@
 * 1046 Last Stone Weight &bigstar;
 * 1047 Remove All Adjacent Duplicates In String &bigstar;
 * 1544 Make The String Great &bigstar;
+* 71 Simplify Path &bigstar;&bigstar;
 * 94 Binary Tree Inorder Traversal &bigstar;&bigstar;
 * 150 Evaluate Reverse Polish Notation &bigstar;&bigstar;
 * 227 Basic Calculator II &bigstar;&bigstar;
@@ -277,6 +283,7 @@
 * 503 Next Greater Element II &bigstar;&bigstar;
 * 739 Daily Temperatures &bigstar;&bigstar;
 * 901 Online Stock Span &bigstar;&bigstar;
+* 946 Validate Stack Sequences &bigstar;&bigstar;
 * 1081 Smallest Subsequence of Distinct Characters &bigstar;&bigstar;
 * 1091 Shortest Path in Binary Matrix &bigstar;&bigstar;
 * 1209 Remove All Adjacent Duplicates in String II &bigstar;&bigstar;
@@ -309,6 +316,7 @@
 * 500 Keyboard Row &bigstar;
 * 690 Employee Importance &bigstar;
 * 734 Sentence Similarity &bigstar;
+* 760 Find Anagram Mappings &bigstar;
 * 811 Subdomain Visit Count &bigstar;
 * 997 Find the Town Judge &bigstar;
 * 1056 Confusing Number &bigstar;
@@ -565,6 +573,7 @@
 * 1059 All Paths from Source Lead to Destination &bigstar;&bigstar;
 * 1448 Count Good Nodes in Binary Tree &bigstar;&bigstar;
 * 1254 Number of Closed Islands &bigstar;&bigstar;
+* 1485 Clone Binary Tree With Random Pointer &bigstar;&bigstar;
 * 1905 Count Sub Islands &bigstar;&bigstar;
 * 2359 Find Closest Node to Given Two Nodes &bigstar;&bigstar;
 * 126 Word Ladder II &bigstar;&bigstar;&bigstar;
@@ -621,6 +630,7 @@
 * 1276 Number of Burgers with No Waste of Ingredients &bigstar;&bigstar;
 * 1551 Minimum Operations to Make Array Equal &bigstar;&bigstar;
 * 1753 Maximum Score From Removing Stones &bigstar;&bigstar;
+* 2348 Number of Zero-Filled Subarrays &bigstar;&bigstar;
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 * 149 Max Points on a Line &bigstar;&bigstar;&bigstar;
 * 829 Consecutive Numbers Sum &bigstar;&bigstar;&bigstar;
