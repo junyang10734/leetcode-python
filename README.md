@@ -418,6 +418,7 @@
 ### Two Pointers
 * 344 Reverse String &bigstar;
 * 1099 Two Sum Less Than K &bigstar;
+* 1768 Merge Strings Alternately &bigstar;
 * 18 4Sum &bigstar;&bigstar;
 * 186 Reverse Words in a String II &bigstar;&bigstar;
 * 209 Minimum Size Subarray Sum &bigstar;&bigstar;
@@ -575,6 +576,7 @@
 * 1254 Number of Closed Islands &bigstar;&bigstar;
 * 1485 Clone Binary Tree With Random Pointer &bigstar;&bigstar;
 * 1905 Count Sub Islands &bigstar;&bigstar;
+* 2101 Detonate the Maximum Bombs &bigstar;&bigstar;
 * 2359 Find Closest Node to Given Two Nodes &bigstar;&bigstar;
 * 126 Word Ladder II &bigstar;&bigstar;&bigstar;
 * 472 Concatenated Words &bigstar;&bigstar;&bigstar;
@@ -772,6 +774,7 @@
 * 1155 Number of Dice Rolls With Target Sum &bigstar;&bigstar;
 * 1186 Maximum Subarray Sum with One Deletion &bigstar;&bigstar;
 * 1218 Longest Arithmetic Subsequence of Given Difference &bigstar;&bigstar;
+* 1230 Toss Strange Coins &bigstar;&bigstar;
 * 1277 Count Square Submatrices with All Ones &bigstar;&bigstar;
 * 1626 Best Team With No Conflicts &bigstar;&bigstar;
 * 1690 Stone Game VII &bigstar;&bigstar;
