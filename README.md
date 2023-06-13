@@ -133,6 +133,7 @@
 * 1086 High Five &bigstar;
 * 1089 Duplicate Zeros &bigstar;
 * 1133 Largest Unique Number &bigstar;
+* 1150 Check If a Number Is Majority Element in a Sorted Array &bigstar;
 * 1232 Check If It Is a Straight Line &bigstar;
 * 1252 Cells with Odd Values in a Matrix &bigstar;
 * 1260 Shift 2D Grid &bigstar;
@@ -145,6 +146,7 @@
 * 1431 Kids With the Greatest Number of Candies &bigstar;
 * 1470 Shuffle the Array &bigstar;
 * 1480 Running Sum of 1d Array &bigstar;
+* 1502 Can Make Arithmetic Progression From Sequence &bigstar;
 * 1539 Kth Missing Positive Number &bigstar;
 * 1629 Slowest Key &bigstar;
 * 1636 Sort Array by Increasing Frequency &bigstar;
@@ -364,6 +366,7 @@
 * 1657 Determine if Two Strings Are Close &bigstar;&bigstar;
 * 1711 Count Good Meals &bigstar;&bigstar;
 * 2225 Find Players With Zero or One Losses &bigstar;&bigstar;
+* 2352 Equal Row and Column Pairs &bigstar;&bigstar;
 * 154 Find Minimum in Rotated Sorted Array II &bigstar;&bigstar;&bigstar;
 * 460 LFU Cache &bigstar;&bigstar;&bigstar;
 * 710 Random Pick with Blacklist &bigstar;&bigstar;&bigstar;

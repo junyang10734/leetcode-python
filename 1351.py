@@ -2,15 +2,29 @@
 # array, binary search
 
 
-# runtime: faster than 93.15%
 class Solution:
     def countNegatives(self, grid: List[List[int]]) -> int:
         m, n = len(grid), len(grid[0])
         res = 0
-        for i in grid:
-            for index,j in enumerate(i):
-                if j<0:
-                    res += (n-index)
+        for line in grid:
+            for i,num in enumerate(line):
+                if num < 0:
+                    res += (n - i)
                     break
-                    
         return res
+    
+
+class Solution:
+    def countNegatives(self, grid: List[List[int]]) -> int:
+        cnt = 0
+        m, n = len(grid)-1, len(grid[0])-1
+        col = 0
+        while m >= 0:
+            for j in range(n, col-1, -1):
+                if grid[m][j] < 0:
+                    cnt += 1
+                else:
+                    col = j
+                    break
+            m -= 1
+        return cnt
