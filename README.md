@@ -99,6 +99,7 @@
 * 118 Pascal's Triangle &bigstar;
 * 119 Pascal's Triangle II &bigstar;
 * 167 Two Sum II - Input array is sorted &bigstar;
+* 163 Missing Ranges &bigstar;
 * 189 Rotate Array &bigstar;
 * 219 Contains Duplicate II &bigstar;
 * 217 Contains Duplicate &bigstar;
@@ -320,6 +321,7 @@
 * 734 Sentence Similarity &bigstar;
 * 760 Find Anagram Mappings &bigstar;
 * 811 Subdomain Visit Count &bigstar;
+* 859 Buddy Strings &bigstar;
 * 997 Find the Town Judge &bigstar;
 * 1056 Confusing Number &bigstar;
 * 1086 High Five &bigstar;
@@ -412,6 +414,9 @@
 * 1004 Max Consecutive Ones III &bigstar;&bigstar;
 * 1151 Minimum Swaps to Group All 1's Together &bigstar;&bigstar;
 * 1423 Maximum Points You Can Obtain from Cards &bigstar;&bigstar;
+* 1493 Longest Subarray of 1's After Deleting One Element &bigstar;&bigstar;
+* 2090 K Radius Subarray Averages &bigstar;&bigstar;
+* 2024 Maximize the Confusion of an Exam &bigstar;&bigstar;
 * 76 Minimum Window Substring &bigstar;&bigstar;&bigstar;
 * 239 Sliding Window Maximum &bigstar;&bigstar;&bigstar;
 * 480 Sliding Window Median &bigstar;&bigstar;&bigstar;
@@ -442,6 +447,7 @@
 * 235 Lowest Common Ancestor of a Binary Search Tree &bigstar;
 * 257 Binary Tree Paths &bigstar;
 * 270 Closest Binary Search Tree Value &bigstar;
+* 530 Minimum Absolute Difference in BST &bigstar;
 * 543 Diameter of Binary Tree &bigstar;
 * 572 Subtree of Another Tree &bigstar;
 * 589 N-ary Tree Preorder Traversal &bigstar;
@@ -531,9 +537,11 @@
 * 1135 Connecting Cities With Minimum Cost &bigstar;&bigstar;
 * 1136 Parallel Courses &bigstar;&bigstar;
 * 1145 Binary Tree Coloring Game &bigstar;&bigstar;
+* 1161 Maximum Level Sum of a Binary Tree &bigstar;&bigstar;
 * 1162 As Far from Land as Possible &bigstar;&bigstar;
 * 1197 Minimum Knight Moves &bigstar;&bigstar;
 * 1202 Smallest String With Swaps &bigstar;&bigstar;
+* 1214 Two Sum BSTs &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1325 Delete Leaves With a Given Value &bigstar;&bigstar;
 * 1339 Maximum Product of Splitted Binary Tree &bigstar;&bigstar;
@@ -715,6 +723,7 @@
 * 658 Find K Closest Elements &bigstar;&bigstar;
 * 1167 Minimum Cost to Connect Sticks &bigstar;&bigstar;
 * 1834 Single-Threaded CPU &bigstar;&bigstar;
+* 2462 Total Cost to Hire K Workers &bigstar;&bigstar;
 * 871 Minimum Number of Refueling Stops &bigstar;&bigstar;&bigstar;
 * 1383 Maximum Performance of a Team &bigstar;&bigstar;&bigstar;
 * 1499 Max Value of Equation &bigstar;&bigstar;&bigstar;
