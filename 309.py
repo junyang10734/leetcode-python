@@ -45,6 +45,22 @@ class Solution2:
 # dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
 # dp[i][1] = max(dp[i-1][1], dp[i-2][0] - prices[i])
 # 解释：第 i 天选择 buy 的时候，要从 i-2 的状态转移，而不是 i-1 
+class Solution:
+    def maxProfit(self, prices: List[int]) -> int:
+        n = len(prices)
+        dp = [[0] * 2 for _ in range(n)]
+        dp[0][0] = 0
+        dp[0][1] = -prices[0]
+
+        for i in range(1, n):
+            if i == 1:
+                dp[1][0] = max(dp[0][0], dp[0][1] + prices[i])
+                dp[1][1] = max(dp[0][1], -prices[1])
+            else:
+                dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i])
+                dp[i][1] = max(dp[i-1][1], dp[i-2][0] - prices[i])
+        return dp[-1][0]
+# 空间压缩
 class Solution3:
     def maxProfit(self, prices: List[int]) -> int:
         dp_i0, dp_i1 = 0, float('-inf')

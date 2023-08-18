@@ -20,6 +20,18 @@ class Solution1:
 # dp[i][1] = max(dp[i-1][1], dp[i-1][0] - prices[i] - fee)
 # 解释：相当于买入股票的价格升高了。
 # 在第一个式子里减也是一样的，相当于卖出股票的价格减小了。
+class Solution:
+    def maxProfit(self, prices: List[int], fee: int) -> int:
+        n = len(prices)
+        dp = [[0] * 2 for _ in range(n)]
+        dp[0][0], dp[0][1] = 0, -prices[0]
+
+        for i in range(1, n):
+            dp[i][0] = max(dp[i-1][0], dp[i-1][1] + prices[i] - fee)
+            dp[i][1] = max(dp[i-1][1], dp[i-1][0] - prices[i])
+        
+        return dp[-1][0]
+# 空间压缩
 class Solution2:
     def maxProfit(self, prices: List[int], fee: int) -> int:
         dp_0, dp_1 = 0, float('-inf')

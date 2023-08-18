@@ -550,6 +550,7 @@
 * 1514 Path with Maximum Probability &bigstar;&bigstar;
 * 1519 Number of Nodes in the Sub-Tree With the Same Label &bigstar;&bigstar;
 * 1584 Min Cost to Connect All Points &bigstar;&bigstar;
+* 1615 Maximal Network Rank &bigstar;&bigstar;
 * 1631 Path With Minimum Effort &bigstar;&bigstar;
 * 124 Binary Tree Maximum Path Sum &bigstar;&bigstar;&bigstar;
 * 269 Alien Dictionary &bigstar;&bigstar;&bigstar;
@@ -577,6 +578,7 @@
 * 364 Nested List Weight Sum II &bigstar;&bigstar;
 * 366 Find Leaves of Binary Tree &bigstar;&bigstar;
 * 473 Matchsticks to Square &bigstar;&bigstar;
+* 490 The Maze &bigstar;&bigstar;
 * 549 Binary Tree Longest Consecutive Sequence II &bigstar;&bigstar;
 * 695 Max Area of Island &bigstar;&bigstar;
 * 752 Open the Lock &bigstar;&bigstar;
@@ -586,6 +588,7 @@
 * 1448 Count Good Nodes in Binary Tree &bigstar;&bigstar;
 * 1254 Number of Closed Islands &bigstar;&bigstar;
 * 1485 Clone Binary Tree With Random Pointer &bigstar;&bigstar;
+* 1644 Lowest Common Ancestor of a Binary Tree II &bigstar;&bigstar;
 * 1905 Count Sub Islands &bigstar;&bigstar;
 * 2101 Detonate the Maximum Bombs &bigstar;&bigstar;
 * 2359 Find Closest Node to Given Two Nodes &bigstar;&bigstar;
@@ -793,6 +796,7 @@
 * 1696 Jump Game VI &bigstar;&bigstar;
 * 1824 Minimum Sideway Jumps &bigstar;&bigstar;
 * 1962 Remove Stones to Minimize the Total &bigstar;&bigstar;
+* 2369 Check if There is a Valid Partition For The Array &bigstar;&bigstar;
 * 10 Regular Expression Matching &bigstar;&bigstar;&bigstar;
 * 44 Wildcard Matching &bigstar;&bigstar;&bigstar;
 * 72 Edit Distance &bigstar;&bigstar;&bigstar;
@@ -850,6 +854,7 @@
 * 2214 Minimum Health to Beat Game &bigstar;&bigstar;
 * 2244 Minimum Rounds to Complete All Tasks &bigstar;&bigstar;
 * 2279 Maximum Bags With Full Capacity of Rocks &bigstar;&bigstar;
+* 2616 Minimize the Maximum Difference of Pairs &bigstar;&bigstar;
 * 968 Binary Tree Cameras &bigstar;&bigstar;&bigstar;
 * 1354 Construct Target Array With Multiple Sums &bigstar;&bigstar;&bigstar;
 * 1383 Maximum Performance of a Team &bigstar;&bigstar;&bigstar;
@@ -891,6 +896,7 @@
 * 1182 Shortest Distance to Target Color &bigstar;&bigstar;
 * 1428 Leftmost Column with at Least a One &bigstar;&bigstar;
 * 1533 Find the Index of the Large Integer &bigstar;&bigstar;
+* 2616 Minimize the Maximum Difference of Pairs &bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 * 715 Range Module &bigstar;&bigstar;&bigstar;
 * 1095 Find in Mountain Array &bigstar;&bigstar;&bigstar;
@@ -922,6 +928,7 @@
 * 146 LRU Cache &bigstar;&bigstar;
 * 208 Implement Trie (Prefix Tree) &bigstar;&bigstar;
 * 244 Shortest Word Distance II &bigstar;&bigstar;
+* 271 Encode and Decode Strings &bigstar;&bigstar;
 * 341 Flatten Nested List Iterator &bigstar;&bigstar;
 * 348 Design Tic-Tac-Toe &bigstar;&bigstar;
 * 362 Design Hit Counter &bigstar;&bigstar;
