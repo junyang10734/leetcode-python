@@ -3,8 +3,8 @@
 # Compare with 55
 
 # labuladong
-# runtime: faster than 98.66%
-# Easier to understand
+# runtime: O(n)
+# https://labuladong.github.io/algo/di-er-zhan-a01c6/tan-xin-le-9bedf/ru-he-yun--48a7c/
 class Solution1:
     def jump(self, nums: List[int]) -> int:
         N = len(nums)

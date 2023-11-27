@@ -243,6 +243,7 @@
 * 1229 Meeting Scheduler &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
+* 1282 Group the People Given the Group Size They Belong To &bigstar;&bigstar;
 * 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
 * 1314 Matrix Block Sum &bigstar;&bigstar;
@@ -361,6 +362,7 @@
 * 1124 Longest Well-Performing Interval &bigstar;&bigstar;
 * 1152 Analyze User Website Visit Pattern &bigstar;&bigstar;
 * 1198 Find Smallest Common Element in All Rows &bigstar;&bigstar;
+* 1282 Group the People Given the Group Size They Belong To &bigstar;&bigstar;
 * 1338 Reduce Array Size to The Half &bigstar;&bigstar;
 * 1386 Cinema Seat Allocation &bigstar;&bigstar;
 * 1396 Design Underground System &bigstar;&bigstar;
@@ -400,6 +402,7 @@
 * 430 Flatten a Multilevel Doubly Linked List &bigstar;&bigstar;
 * 445 Add Two Numbers II &bigstar;&bigstar;
 * 707 Design Linked List &bigstar;&bigstar;
+* 725 Split Linked List in Parts &bigstar;&bigstar;
 * 23 Merge k Sorted Lists &bigstar;&bigstar;&bigstar;
 * 25 Reverse Nodes in k-Group &bigstar;&bigstar;&bigstar;
 * 460 LFU Cache &bigstar;&bigstar;&bigstar;
@@ -841,6 +844,7 @@
 * 767 Reorganize String &bigstar;&bigstar;
 * 870 Advantage Shuffle &bigstar;&bigstar;
 * 1007 Minimum Domino Rotations For Equal Row &bigstar;&bigstar;
+* 1024 Video Stitching &bigstar;&bigstar;
 * 1130 Minimum Cost Tree From Leaf Values &bigstar;&bigstar;
 * 1167 Minimum Cost to Connect Sticks &bigstar;&bigstar;
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
