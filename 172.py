@@ -10,6 +10,15 @@ class Solution1:
             num += n
         return num
 
+class Solution:
+    def trailingZeroes(self, n: int) -> int:
+        res = 0
+        divisor = 5
+        while divisor <= n:
+            res += n // divisor
+            divisor *= divisor
+        return res
+
 
 # run time: 24 ms, faster than 98.28%
 class Solution2:

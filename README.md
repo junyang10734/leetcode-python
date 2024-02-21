@@ -117,6 +117,7 @@
 * 561 Array Partition I &bigstar;
 * 566 Reshape the Matrix &bigstar;
 * 628 Maximum Product of Three Numbers &bigstar;
+* 645 Set Mismatch &bigstar;
 * 697 Degree of an Array &bigstar;
 * 704 Binary Search &bigstar;
 * 717 1-bit and 2-bit Characters &bigstar;
@@ -318,6 +319,7 @@
 * 359 Logger Rate Limiter &bigstar;
 * 409 Longest Palindrome &bigstar;
 * 500 Keyboard Row &bigstar;
+* 645 Set Mismatch &bigstar;
 * 690 Employee Importance &bigstar;
 * 734 Sentence Similarity &bigstar;
 * 760 Find Anagram Mappings &bigstar;
@@ -639,6 +641,7 @@
 * 304 Range Sum Query 2D - Immutable &bigstar;&bigstar;
 * 319 Bulb Switcher &bigstar;&bigstar;
 * 386 Lexicographical Numbers &bigstar;&bigstar;
+* 372 Super Pow &bigstar;&bigstar;
 * 423 Reconstruct Original Digits from English &bigstar;&bigstar;
 * 462 Minimum Moves to Equal Array Elements II &bigstar;&bigstar;
 * 775 Global and Local Inversions &bigstar;&bigstar;
@@ -652,6 +655,7 @@
 * 2348 Number of Zero-Filled Subarrays &bigstar;&bigstar;
 * 42 Trapping Rain Water &bigstar;&bigstar;&bigstar;
 * 149 Max Points on a Line &bigstar;&bigstar;&bigstar;
+* 793 Preimage Size of Factorial Zeroes Function &bigstar;&bigstar;&bigstar;
 * 829 Consecutive Numbers Sum &bigstar;&bigstar;&bigstar;
 * 906 Super Palindromes &bigstar;&bigstar;&bigstar;
 * 927 Three Equal Parts &bigstar;&bigstar;&bigstar;
@@ -690,6 +694,7 @@
 * 95 Unique Binary Search Trees II &bigstar;&bigstar;
 * 153 Find Minimum in Rotated Sorted Array &bigstar;&bigstar;
 * 241 Different Ways to Add Parentheses &bigstar;&bigstar;
+* 372 Super Pow &bigstar;&bigstar;
 * 375 Guess Number Higher or Lower II &bigstar;&bigstar;
 * 390 Elimination Game &bigstar;&bigstar;
 * 576 Out of Boundary Paths &bigstar;&bigstar;
@@ -903,6 +908,7 @@
 * 2616 Minimize the Maximum Difference of Pairs &bigstar;&bigstar;
 * 315 Count of Smaller Numbers After Self &bigstar;&bigstar;&bigstar;
 * 715 Range Module &bigstar;&bigstar;&bigstar;
+* 793 Preimage Size of Factorial Zeroes Function &bigstar;&bigstar;&bigstar;
 * 1095 Find in Mountain Array &bigstar;&bigstar;&bigstar;
 
 ### Union Find

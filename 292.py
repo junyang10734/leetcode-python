@@ -1,5 +1,5 @@
 # Nim Game
-# Math
+# Math / Game Theory
 
 # runtime: faster than 99.82%
 class Solution:

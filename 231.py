@@ -21,6 +21,7 @@ class Solution2:
         return (n & (n-1)) == 0
 
 
+# https://labuladong.github.io/algo/di-san-zha-24031/shu-xue-yu-659f1/chang-yong-13a76/#%E4%BA%8C%E3%80%81n-n-1-%E7%9A%84%E8%BF%90%E7%94%A8
 # runtime: faster than 31.27% 
 class Solution3:
     def isPowerOfTwo(self, n: int) -> bool:

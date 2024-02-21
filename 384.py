@@ -50,3 +50,27 @@ class Solution2:
             shuffle_nums[i], shuffle_nums[rand] = shuffle_nums[rand], shuffle_nums[i]
         
         return shuffle_nums
+
+# https://labuladong.github.io/algo/di-san-zha-24031/shu-xue-yu-659f1/tan-tan-yo-b4bb5/#%E6%B4%97%E7%89%8C%E7%AE%97%E6%B3%95
+# Fisher–Yates Algorithm
+class Solution:
+
+    def __init__(self, nums: List[int]):
+        self.nums = nums
+        
+    def reset(self) -> List[int]:
+        return self.nums
+        
+    def shuffle(self) -> List[int]:
+        n = len(self.nums)
+        copy = self.nums.copy()
+        for i in range(n):
+            r = i + random.randint(0, n-i-1)
+            copy[i], copy[r] = copy[r], copy[i]
+        return copy
+
+
+# Your Solution object will be instantiated and called as such:
+# obj = Solution(nums)
+# param_1 = obj.reset()
+# param_2 = obj.shuffle()
