@@ -1,23 +1,5 @@
 # 3Sum
 
-# brute, time limit exceeded
-class Solution1:
-    def threeSum(self, nums: List[int]) -> List[List[int]]:
-        d = {}
-        res = []
-        for i in range(len(nums)-1):
-            for j in range(i+1, len(nums)):
-                sum = nums[i] + nums[j]                    
-                if (-sum) in nums[j+1:]:
-                    l = [nums[i], nums[j], -sum]
-                    l.sort()
-                    if l not in res:
-                        res.append(l)
-
-        return res
-
-
-
 # two points
 # faster than 87.44%
 # detail: https://www.youtube.com/watch?v=CW6G30xQCbw
@@ -52,4 +34,21 @@ class Solution2:
                         r -= 1           
                     r -= 1
                     
+        return res
+
+
+# https://leetcode.com/problems/3sum/editorial/
+class Solution:
+    def threeSum(self, nums: List[int]) -> List[List[int]]:
+        res, dups = set(), set()
+        seen = {}
+
+        for i,v1 in enumerate(nums):
+            if v1 not in dups:
+                dups.add(v1)
+                for j,v2 in enumerate(nums[i+1:]):
+                    v3 = -v1-v2
+                    if v3 in seen and seen[v3] == i:
+                        res.add(tuple(sorted((v1, v2, v3))))
+                    seen[v2] = i
         return res

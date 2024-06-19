@@ -387,3 +387,45 @@ dp[-1][...][1] = dp[...][0][1] = -infinity
 dp[i][k][0] = max(dp[i-1][k][0], dp[i-1][k][1] + prices[i])
 dp[i][k][1] = max(dp[i-1][k][1], dp[i-1][k-1][0] - prices[i])
 
+
+
+
+
+nSum:
+def nSumTarget(nums: List[int], n: int, start: int, target: int) -> List[List[int]]:
+    nums.sort()
+    sz = len(nums)
+    res = []
+    # 至少是 2Sum，且数组大小不应该小于 n
+    if n < 2 or sz < n:
+        return res
+    # 2Sum 是 base case
+    if n == 2:
+        # 双指针那一套操作
+        lo, hi = start, sz - 1
+        while lo < hi:
+            sum = nums[lo] + nums[hi]
+            left, right = nums[lo], nums[hi]
+            if sum < target:
+                while lo < hi and nums[lo] == left:
+                    lo += 1
+            elif sum > target:
+                while lo < hi and nums[hi] == right:
+                    hi -= 1
+            else:
+                res.append([left, right])
+                while lo < hi and nums[lo] == left:
+                    lo += 1
+                while lo < hi and nums[hi] == right:
+                    hi -= 1
+    else:
+        # n > 2 时，递归计算 (n-1)Sum 的结果
+        for i in range(start, sz):
+            sub = nSumTarget(nums, n - 1, i + 1, target - nums[i])
+            for arr in sub:
+                # (n-1)Sum 加上 nums[i] 就是 nSum
+                arr.append(nums[i])
+                res.append(arr)
+            while i < sz - 1 and nums[i] == nums[i + 1]:
+                i += 1
+    return res

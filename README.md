@@ -231,6 +231,7 @@
 * 926 Flip String to Monotone Increasing &bigstar;&bigstar;
 * 934 Shortest Bridge &bigstar;&bigstar;
 * 950 Reveal Cards In Increasing Order &bigstar;&bigstar;
+* 969 Pancake Sorting &bigstar;&bigstar;
 * 973 K Closest Points to Origin &bigstar;&bigstar;
 * 974 Subarray Sums Divisible by K &bigstar;&bigstar;
 * 986 Interval List Intersections &bigstar;&bigstar;
@@ -245,6 +246,7 @@
 * 1253 Reconstruct a 2-Row Binary Matrix &bigstar;&bigstar;
 * 1267 Count Servers that Communicate &bigstar;&bigstar;
 * 1282 Group the People Given the Group Size They Belong To &bigstar;&bigstar;
+* 1288 Remove Covered Intervals &bigstar;&bigstar;
 * 1296 Divide Array in Sets of K Consecutive Numbers &bigstar;&bigstar;
 * 1302 Deepest Leaves Sum &bigstar;&bigstar;
 * 1314 Matrix Block Sum &bigstar;&bigstar;
@@ -838,6 +840,7 @@
 * 1725 Number Of Rectangles That Can Form The Largest Square &bigstar;
 * 45 Jump Game II &bigstar;&bigstar;
 * 55 Jump Game &bigstar;&bigstar;
+* 134 Gas Station &bigstar;&bigstar;
 * 253 Meeting Rooms II &bigstar;&bigstar;
 * 280 Wiggle Sort &bigstar;&bigstar;
 * 406 Queue Reconstruction by Height &bigstar;&bigstar;
@@ -873,6 +876,7 @@
 * 976 Largest Perimeter Triangle &bigstar;
 * 280 Wiggle Sort &bigstar;&bigstar;
 * 658 Find K Closest Elements &bigstar;&bigstar;
+* 1288 Remove Covered Intervals &bigstar;&bigstar;
 * 1338 Reduce Array Size to The Half &bigstar;&bigstar;
 * 1509 Minimum Difference Between Largest and Smallest Value in Three Moves &bigstar;&bigstar;
 

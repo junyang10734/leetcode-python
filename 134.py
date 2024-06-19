@@ -1,5 +1,5 @@
 # Gas Station
-# Array
+# Array / Greedy
 
 # runtime: faster than 94.43%
 class Solution:

@@ -16,6 +16,23 @@ class Solution1:
         return res                
 
 
+class Solution:
+    def merge(self, intervals: List[List[int]]) -> List[List[int]]:
+        if not intervals:
+            return []
+        
+        intervals.sort(key=lambda x:x[0])
+        res = [intervals[0]]
+
+        for invt in intervals[1:]:
+            last = res[-1]
+            if invt[0] <= last[1]:
+                last[1] = max(last[1], invt[1])
+            else:
+                res.append(invt)
+        
+        return res
+
 
 # https://blog.csdn.net/fuxuemingzhu/article/details/69078468
 # running time: faster than 99.24% 
