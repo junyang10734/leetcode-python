@@ -264,6 +264,7 @@
 * 2439 Minimize Maximum of Array &bigstar;&bigstar;
 * 41 First Missing Positive &bigstar;&bigstar;&bigstar;
 * 363 Max Sum of Rectangle No Larger Than K &bigstar;&bigstar;&bigstar;
+* 391 Perfect Rectangle &bigstar;&bigstar;&bigstar;
 * 630 Course Schedule III &bigstar;&bigstar;&bigstar;
 * 1074 Number of Submatrices That Sum to Target &bigstar;&bigstar;&bigstar;
 * 1793 Maximum Score of a Good Subarray &bigstar;&bigstar;&bigstar;
